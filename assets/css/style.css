@@ -7,12 +7,19 @@ body {
 }
 
 header {
-    background: #1a1a1a;
+    background: #f0dfcd;
+    border-bottom: 4px solid #a89681;
     padding: 1rem;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav a {
-    color: white;
+    color: #333d4a;
     text-decoration: none;
     margin-right: 1rem;
 }
