@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/">Home</a>
+        </nav>
+    </header>
 
+    <main>
+        {{ content }}
+    </main>
 </body>
 </html>
