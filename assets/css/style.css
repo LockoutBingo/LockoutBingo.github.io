@@ -18,10 +18,9 @@ nav {
     align-items: center;
 }
 
-nav a {
-    color: #333d4a;
-    text-decoration: none;
-    margin-right: 1rem;
+.site-title {
+    height: 50px;
+    display: block;
 }
 
 main {
