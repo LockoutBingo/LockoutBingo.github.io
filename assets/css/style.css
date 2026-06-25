@@ -7,19 +7,43 @@ body {
 }
 
 header {
-    background: #f0dfcd;
-    border-bottom: 4px solid #a89681;
-    padding: 1rem;
-}
-
-nav {
+    background: #9c8c79;
     display: flex;
     justify-content: center;
-    align-items: center;
+    border-bottom: 4px solid #6a6055;
+    padding: 0.6rem;
+    transition: background 0.5s;
 }
 
-.site-title {
-    height: 50px;
+header:has(.nav-title:hover) {
+    background: #a8998b;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.nav-left a, .nav-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-separator {
+    height: 1.5rem;
+    width: 1px;
+    background: #fff;
+}
+
+.nav-title img {
+    height: 36px;
     display: block;
 }
 
