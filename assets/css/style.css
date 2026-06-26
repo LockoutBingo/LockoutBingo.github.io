@@ -1,23 +1,25 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #111;
+    background: linear-gradient(to bottom, #282c35 72px, #9c8c79);
+    background-repeat: no-repeat;
+    background-color: #9c8c79;
     color: #eee;
     line-height: 1.6;
 }
 
 header {
     position: relative;
-    background: #9c8c79;
+    background: #1b1f28;
     display: flex;
     justify-content: center;
-    border-bottom: 4px solid #6a6055;
+    border-bottom: 4px solid #0e1117;
     padding: 0.6rem;
     transition: background 0.5s;
 }
 
 header:has(.nav-title:hover) {
-    background: #a8998b;
+    background: #20242e;
 }
 
 .header-content {
