@@ -45,11 +45,14 @@ header:has(.nav-title:hover) {
 .nav-button {
     position: relative;
     display: inline-block;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 .nav-button img {
     display: block;
-    max-width: 100%;
     height: 24px;
     image-rendering: pixelated;
 }
@@ -60,7 +63,6 @@ header:has(.nav-title:hover) {
     left: 4px;
     width: 100%;
     height: 100%;
-    display: block;
     pointer-events: none;
     z-index: 0;
 }
@@ -76,16 +78,39 @@ header:has(.nav-title:hover) {
     transform: translate(2px, 2px);
 }
 
-.nav-menu {
+.nav-menu-container {
+    display: none;
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-menu-container {
+    height: 24px;
+}
+
+.nav-menu-dropdown {
     display: none;
 }
 
-@media (max-width: 877px) {
-    .nav-menu {
+.nav-menu-dropdown a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu-dropdown.show {
+    display: block;
+    position: absolute;
+    background: #9c8c79;
+    border: 4px solid #6a6055;
+    padding: 0.5rem;
+    z-index: 10;
+}
+
+@media (max-width: 1000px) {
+    .nav-menu-container {
         display: block;
-        position: absolute;
-        align-self: center;
-        left: 0.5rem;
     }
 
     .nav-left, .nav-right {

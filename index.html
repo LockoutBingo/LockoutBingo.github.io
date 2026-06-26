@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lockout Bingo</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="scripts/menu.js" defer></script>
 </head>
 <body>
     <header>
-        <a class="nav-button nav-menu">
-            <img src="assets/images/menu_button_shadow.png" class="button-shadow" alt="" aria-hidden="true">
-            <img src="assets/images/menu_button.png" class="button-image" alt="Menu">
-        </a>
+        <div class="nav-menu-container">
+            <a class="nav-button nav-menu" id="menu-button">
+                <img src="assets/images/menu_button_shadow.png" class="button-shadow" alt="" aria-hidden="true">
+                <img src="assets/images/menu_button.png" class="button-image" alt="Menu">
+            </a>
+            <div class="nav-menu-dropdown" id="menu-dropdown">
+                <a href="/gameplay">Gameplay</a>
+                <a href="/goals">Goals</a>
+                <a href="/download">Download</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
         <div class="header-content">
             <nav class="nav-left">
                 <a class="nav-button" href="/gameplay">
