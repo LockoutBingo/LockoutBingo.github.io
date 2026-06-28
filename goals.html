@@ -51,41 +51,97 @@
     </header>
 
     <main>
-        <h1>Goals</h1>
+        <div class="main-content">
+            <div class="goals-page">
+                <aside class="goals-sidebar">
+                    <div class="goal-search">
+                        <input type="text" id="goal-search" placeholder="Search goals...">
+                    </div>
 
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
-        The goals<br>
+                    <div class="goal-counts">
+                        <div>
+                            Total Goals:
+                            <span id="total-count">0</span>
+                        </div>
+
+                        <div>
+                            Showing:
+                            <span id="filtered-count">0</span>
+                        </div>
+                    </div>
+
+                    <section class="goal-filter">
+                        <h3>Difficulty</h3>
+
+                        <div class="difficulty-range">
+                            <input type="range" id="difficulty-min" min="0" max="25" value="0">
+                            <input type="range" id="difficulty-max" min="0" max="25" value="25">
+                        </div>
+
+                        <div>
+                            <span id="difficulty-label">
+                                0 - 25
+                            </span>
+                        </div>
+                    </section>
+
+                    <section class="goal-filter">
+                        <h3>Categories</h3>
+                        <div id="category-filter"></div>
+                    </section>
+
+
+                    <section class="goal-filter">
+                        <h3>Tags</h3>
+                        <div id="tag-filter"></div>
+                    </section>
+                </aside>
+
+                <section class="goals-content">
+                    <div class="goals-toolbar">
+                        <div>
+                            <span id="goal-result-count">
+                                0
+                            </span>
+                            Goals
+                        </div>
+
+                        <select id="sort-select">
+                            <option value="name">
+                                Alphabetical
+                            </option>
+
+                            <option value="difficulty-asc">
+                                Difficulty ↑
+                            </option>
+
+                            <option value="difficulty-desc">
+                                Difficulty ↓
+                            </option>
+                        </select>
+
+                        <div class="view-buttons">
+                            <button data-view="list">
+                                List
+                            </button>
+
+                            <button data-view="grid3">
+                                Grid 3
+                            </button>
+
+                            <button data-view="grid5">
+                                Grid 5
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="goal-list" class="goal-grid3">
+                    </div>
+                </section>
+            </div>
+            
+            <script src="scripts/goals.js" defer></script>
+        </div>
     </main>
 </body>
 </html>

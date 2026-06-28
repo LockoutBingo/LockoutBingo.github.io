@@ -1,0 +1,5402 @@
+{
+  "attack_a_creaking": {
+    "category": "miscellaneous",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:attack_creaking"
+    ],
+    "name": "Attack a Creaking",
+    "tags": {
+      "or": [
+        "locate_pale_garden"
+      ]
+    }
+  },
+  "break_a_hoe": {
+    "category": "destroy",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:broken_wooden_hoe",
+      "lockoutbingo:broken_stone_hoe",
+      "lockoutbingo:broken_copper_hoe",
+      "lockoutbingo:broken_iron_hoe",
+      "lockoutbingo:broken_golden_hoe",
+      "lockoutbingo:broken_diamond_hoe",
+      "lockoutbingo:broken_netherite_hoe"
+    ],
+    "name": "Break a Hoe"
+  },
+  "break_a_shield": {
+    "category": "destroy",
+    "difficulty": 7,
+    "icons": [
+      "lockoutbingo:broken_shield"
+    ],
+    "name": "Break a Shield"
+  },
+  "break_a_stone_sword": {
+    "category": "destroy",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:broken_stone_sword"
+    ],
+    "name": "Break a Stone Sword"
+  },
+  "break_an_iron_pickaxe": {
+    "category": "destroy",
+    "difficulty": 7,
+    "icons": [
+      "lockoutbingo:broken_iron_pickaxe"
+    ],
+    "name": "Break an Iron Pickaxe"
+  },
+  "breed_4_unique_animals": {
+    "category": "breed",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:breed_animals"
+    ],
+    "name": "Breed 4 Unique Animals",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "breed_6_unique_animals": {
+    "category": "breed",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:breed_animals"
+    ],
+    "name": "Breed 6 Unique Animals",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "breed_8_unique_animals": {
+    "category": "breed",
+    "difficulty": 13,
+    "icons": [
+      "lockoutbingo:breed_animals"
+    ],
+    "name": "Breed 8 Unique Animals",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "breed_bees": {
+    "category": "breed",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:breed_bee"
+    ],
+    "name": "Breed Bees"
+  },
+  "breed_camels": {
+    "category": "breed",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:breed_camel"
+    ],
+    "name": "Breed Camels",
+    "tags": {
+      "or": [
+        "locate_desert",
+        "locate_village_desert"
+      ]
+    }
+  },
+  "breed_cats": {
+    "category": "breed",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:breed_cat"
+    ],
+    "name": "Breed Cats",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "breed_chickens": {
+    "category": "breed",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:breed_chicken"
+    ],
+    "name": "Breed Chickens"
+  },
+  "breed_cows": {
+    "category": "breed",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:breed_cow"
+    ],
+    "name": "Breed Cows"
+  },
+  "breed_foxes": {
+    "category": "breed",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:breed_fox"
+    ],
+    "name": "Breed Foxes",
+    "tags": {
+      "or": [
+        "locate_fox"
+      ]
+    }
+  },
+  "breed_goats": {
+    "category": "breed",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:breed_goat"
+    ],
+    "name": "Breed Goats",
+    "tags": {
+      "or": [
+        "locate_goat"
+      ]
+    }
+  },
+  "breed_hoglins": {
+    "category": "breed",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:breed_hoglin"
+    ],
+    "name": "Breed Hoglins",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "breed_horses": {
+    "category": "breed",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:breed_horse"
+    ],
+    "name": "Breed Horses"
+  },
+  "breed_nautilus": {
+    "category": "breed",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:breed_nautilus"
+    ],
+    "name": "Breed Nautilus",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "breed_pandas": {
+    "category": "breed",
+    "difficulty": 22,
+    "icons": [
+      "lockoutbingo:breed_panda"
+    ],
+    "name": "Breed Pandas",
+    "tags": {
+      "or": [
+        "locate_bamboo_jungle"
+      ]
+    }
+  },
+  "breed_pigs": {
+    "category": "breed",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:breed_pig"
+    ],
+    "name": "Breed Pigs"
+  },
+  "breed_rabbits": {
+    "category": "breed",
+    "difficulty": 13,
+    "icons": [
+      "lockoutbingo:breed_rabbit"
+    ],
+    "name": "Breed Rabbits",
+    "tags": {
+      "or": [
+        "locate_rabbit"
+      ]
+    }
+  },
+  "breed_sheep": {
+    "category": "breed",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:breed_sheep"
+    ],
+    "name": "Breed Sheep"
+  },
+  "breed_wolves": {
+    "category": "breed",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:breed_wolf"
+    ],
+    "name": "Breed Wolves"
+  },
+  "brew_instant_damage": {
+    "category": "brew",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:potion"
+    ],
+    "name": "Brew Instant Damage",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "brew_instant_health": {
+    "category": "brew",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:potion"
+    ],
+    "name": "Brew Instant Health",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "brew_invisibility": {
+    "category": "brew",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:potion"
+    ],
+    "name": "Brew Invisibility",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "brew_slow_falling": {
+    "category": "brew",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:potion"
+    ],
+    "name": "Brew Slow Falling",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "brew_slowness": {
+    "category": "brew",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:potion"
+    ],
+    "name": "Brew Slowness",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "catch_10_fish": {
+    "category": "statistic",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:fishing_rod"
+    ],
+    "name": "Catch 10 Fish"
+  },
+  "catch_a_fish": {
+    "category": "statistic",
+    "difficulty": 4,
+    "icons": [
+      "minecraft:fishing_rod"
+    ],
+    "name": "Catch a Fish"
+  },
+  "cook_food_on_a_campfire": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:campfire"
+    ],
+    "name": "Cook Food on a Campfire"
+  },
+  "deal_100_damage": {
+    "category": "statistic",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:deal_damage"
+    ],
+    "name": "Deal 100 Damage"
+  },
+  "deal_200_damage": {
+    "category": "statistic",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:deal_damage"
+    ],
+    "name": "Deal 200 Damage"
+  },
+  "deal_400_damage": {
+    "category": "statistic",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:deal_damage"
+    ],
+    "name": "Deal 400 Damage"
+  },
+  "die_by_drowning": {
+    "category": "die",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:death_drown"
+    ],
+    "name": "Die by Drowning"
+  },
+  "die_by_withering_away": {
+    "category": "die",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:death_wither"
+    ],
+    "name": "Die by Withering Away",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "die_from_a_bee_sting": {
+    "category": "die",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:death_bee_sting"
+    ],
+    "name": "Die from a Bee Sting"
+  },
+  "die_from_a_sonic_boom": {
+    "category": "die",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:death_sonic_boom"
+    ],
+    "name": "Die from a Sonic Boom",
+    "tags": {
+      "or": [
+        "locate_deep_dark"
+      ]
+    }
+  },
+  "die_to_a_berry_bush": {
+    "category": "die",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:death_berry_bush"
+    ],
+    "name": "Die to a Berry Bush",
+    "tags": {
+      "or": [
+        "locate_berry_bush"
+      ]
+    }
+  },
+  "die_to_a_cactus": {
+    "category": "die",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:death_cactus"
+    ],
+    "name": "Die to a Cactus",
+    "tags": {
+      "or": [
+        "locate_desert"
+      ]
+    }
+  },
+  "die_to_a_falling_anvil": {
+    "category": "die",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:death_anvil"
+    ],
+    "name": "Die to a Falling Anvil"
+  },
+  "die_to_a_firework_rocket": {
+    "category": "die",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:death_firework_rocket"
+    ],
+    "name": "Die to a Firework Rocket"
+  },
+  "die_to_a_stalagmite": {
+    "category": "die",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:death_stalagmite"
+    ],
+    "name": "Die to a Stalagmite",
+    "tags": {
+      "or": [
+        "locate_dripstone_cave"
+      ]
+    }
+  },
+  "die_to_intentional_game_design": {
+    "category": "die",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:death_bed",
+      "lockoutbingo:death_respawn_anchor"
+    ],
+    "name": "Die to [Intentional Game Design]"
+  },
+  "drink_honey": {
+    "category": "eat",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:honey_bottle"
+    ],
+    "name": "Drink Honey"
+  },
+  "drop_a_bucket_into_water": {
+    "category": "miscellaneous",
+    "difficulty": 3,
+    "icons": [
+      "lockoutbingo:bucket_in_water"
+    ],
+    "name": "Drop a Bucket Into Water"
+  },
+  "eat_16_unique_foods": {
+    "category": "eat",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:eat_food"
+    ],
+    "name": "Eat 16 Unique Foods",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "eat_24_unique_foods": {
+    "category": "eat",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:eat_food"
+    ],
+    "name": "Eat 24 Unique Foods",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "eat_3_unique_foods": {
+    "category": "eat",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:eat_food"
+    ],
+    "name": "Eat 3 Unique Foods",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "eat_8_unique_foods": {
+    "category": "eat",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:eat_food"
+    ],
+    "name": "Eat 8 Unique Foods",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "eat_a_cookie": {
+    "category": "eat",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:cookie"
+    ],
+    "name": "Eat a Cookie",
+    "tags": {
+      "or": [
+        "locate_bamboo_jungle",
+        "locate_jungle"
+      ]
+    }
+  },
+  "eat_a_poisonous_potato": {
+    "category": "eat",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:poisonous_potato"
+    ],
+    "name": "Eat a Poisonous Potato",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "eat_a_pufferfish": {
+    "category": "eat",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:pufferfish"
+    ],
+    "name": "Eat a Pufferfish",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_ocean_ruin_warm_biomes"
+      ]
+    }
+  },
+  "eat_a_spider_eye": {
+    "category": "eat",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:spider_eye"
+    ],
+    "name": "Eat a Spider Eye"
+  },
+  "eat_a_tropical_fish": {
+    "category": "eat",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:tropical_fish"
+    ],
+    "name": "Eat a Tropical Fish",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_lush_cave",
+        "locate_mangrove_swamp",
+        "locate_ocean_ruin_warm_biomes"
+      ]
+    }
+  },
+  "eat_an_apple": {
+    "category": "eat",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:apple"
+    ],
+    "name": "Eat an Apple"
+  },
+  "eat_an_enchanted_golden_apple": {
+    "category": "eat",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:enchanted_golden_apple"
+    ],
+    "name": "Eat an Enchanted Golden Apple"
+  },
+  "eat_beetroot_soup": {
+    "category": "eat",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:beetroot_soup"
+    ],
+    "name": "Eat Beetroot Soup"
+  },
+  "eat_chorus_fruit": {
+    "category": "eat",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:chorus_fruit"
+    ],
+    "name": "Eat Chorus Fruit"
+  },
+  "eat_cooked_rabbit": {
+    "category": "eat",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:cooked_rabbit"
+    ],
+    "name": "Eat Cooked Rabbit",
+    "tags": {
+      "or": [
+        "locate_rabbit"
+      ]
+    }
+  },
+  "eat_dried_kelp": {
+    "category": "eat",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:dried_kelp"
+    ],
+    "name": "Eat Dried Kelp",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "eat_pumpkin_pie": {
+    "category": "eat",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:pumpkin_pie"
+    ],
+    "name": "Eat Pumpkin Pie"
+  },
+  "eat_rabbit_stew": {
+    "category": "eat",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:rabbit_stew"
+    ],
+    "name": "Eat Rabbit Stew",
+    "tags": {
+      "or": [
+        "locate_rabbit"
+      ]
+    }
+  },
+  "eat_raw_chicken": {
+    "category": "eat",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:chicken"
+    ],
+    "name": "Eat Raw Chicken"
+  },
+  "empty_hunger_bar": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:starve"
+    ],
+    "name": "Empty Hunger Bar"
+  },
+  "enchant_an_item": {
+    "category": "advancement",
+    "difficulty": 18,
+    "icons": [
+      "minecraft:enchanting_table"
+    ],
+    "name": "Enchant an Item"
+  },
+  "enrage_a_zombified_piglin": {
+    "category": "miscellaneous",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:enrage_piglin"
+    ],
+    "name": "Enrage a Zombified Piglin",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "enter_the_end": {
+    "category": "advancement",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:end_portal_frame"
+    ],
+    "name": "Enter the End",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "enter_the_nether": {
+    "category": "advancement",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:enter_nether"
+    ],
+    "name": "Enter the Nether",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "equip_armor_on_a_wolf": {
+    "category": "miscellaneous",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:wolf_armor"
+    ],
+    "name": "Equip Armor on a Wolf",
+    "tags": {
+      "or": [
+        "locate_armadillo"
+      ]
+    }
+  },
+  "fill_an_armor_stand_with_armor": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:armor_stand"
+    ],
+    "name": "Fill an Armor Stand with Armor"
+  },
+  "fill_inventory_with_unique_items": {
+    "category": "miscellaneous",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:chest"
+    ],
+    "name": "Fill Inventory with Unique Items"
+  },
+  "flatten_dirt": {
+    "category": "interact",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:dirt_path"
+    ],
+    "name": "Flatten Dirt"
+  },
+  "freeze_to_death": {
+    "category": "die",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:death_freeze"
+    ],
+    "name": "Freeze to Death",
+    "tags": {
+      "or": [
+        "locate_powdered_snow"
+      ]
+    }
+  },
+  "fully_charge_a_respawn_anchor": {
+    "category": "advancement",
+    "difficulty": 17,
+    "icons": [
+      "lockoutbingo:charged_respawn_anchor"
+    ],
+    "name": "Fully Charge a Respawn Anchor"
+  },
+  "get_10_advancements": {
+    "category": "advancement",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:advancements_10"
+    ],
+    "name": "Get 10 Advancements",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "get_20_advancements": {
+    "category": "advancement",
+    "difficulty": 17,
+    "icons": [
+      "lockoutbingo:advancements_20"
+    ],
+    "name": "Get 20 Advancements",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "get_30_advancements": {
+    "category": "advancement",
+    "difficulty": 24,
+    "icons": [
+      "lockoutbingo:advancements_30"
+    ],
+    "name": "Get 30 Advancements",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "get_40_advancements": {
+    "category": "advancement",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:advancements_40"
+    ],
+    "name": "Get 40 Advancements",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "get_a_spyglass_advancement": {
+    "category": "advancement",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:spyglass_advancement"
+    ],
+    "name": "Get a Spyglass Advancement"
+  },
+  "get_bad_omen": {
+    "category": "effect",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:bad_omen"
+    ],
+    "name": "Get Bad Omen",
+    "tags": {
+      "or": [
+        "locate_pillager_outpost",
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "get_blindness_from_eating_suspicious_stew": {
+    "category": "miscellaneous",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:blindness_stew"
+    ],
+    "name": "Get Blindness From Eating Suspicious Stew"
+  },
+  "get_blowback_advancement": {
+    "category": "advancement",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:wind_charge"
+    ],
+    "name": "Get \"Blowback\" Advancement",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "get_breath_of_the_nautilus": {
+    "category": "effect",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:breath_of_the_nautilus"
+    ],
+    "name": "Get Breath of the Nautilus"
+  },
+  "get_bullseye_advancement": {
+    "category": "advancement",
+    "difficulty": 4,
+    "icons": [
+      "minecraft:target"
+    ],
+    "name": "Get \"Bullseye\" Advancement"
+  },
+  "get_careful_restoration_advancement": {
+    "category": "advancement",
+    "difficulty": 15,
+    "icons": [
+      "lockoutbingo:careful_restoration"
+    ],
+    "name": "Get \"Careful Restoration\" Advancement"
+  },
+  "get_caves_&_cliffs_advancement": {
+    "category": "advancement",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:water_bucket"
+    ],
+    "name": "Get \"Caves & Cliffs\" Advancement"
+  },
+  "get_cover_me_with_diamonds_advancement": {
+    "category": "advancement",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    "name": "Get \"Cover Me with Diamonds\" Advancement"
+  },
+  "get_crafters_crafting_crafters_advancement": {
+    "category": "advancement",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:crafter_crafting_crafter"
+    ],
+    "name": "Get \"Crafters Crafting Crafters\" Advancement"
+  },
+  "get_darkness": {
+    "category": "effect",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:darkness"
+    ],
+    "name": "Get Darkness",
+    "tags": {
+      "or": [
+        "locate_deep_dark"
+      ]
+    }
+  },
+  "get_glow_and_behold!_advancement": {
+    "category": "advancement",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:glow_ink_sac"
+    ],
+    "name": "Get \"Glow And Behold!\" Advancement"
+  },
+  "get_glowing": {
+    "category": "effect",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:glowing"
+    ],
+    "name": "Get Glowing"
+  },
+  "get_great_view_from_up_here_advancement": {
+    "category": "advancement",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:shulker_shell"
+    ],
+    "name": "Get \"Great View From Up Here\" Advancement",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "get_hunger": {
+    "category": "effect",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:hunger"
+    ],
+    "name": "Get Hunger"
+  },
+  "get_infested": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:infested"
+    ],
+    "name": "Get Infested"
+  },
+  "get_killed_by_a_guardian": {
+    "category": "killedBy",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:death_guardian"
+    ],
+    "name": "Get Killed by a Guardian",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "get_killed_by_a_llama": {
+    "category": "killedBy",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:death_llama"
+    ],
+    "name": "Get Killed by a Llama",
+    "tags": {
+      "or": [
+        "locate_llama"
+      ]
+    }
+  },
+  "get_killed_by_a_wolf": {
+    "category": "killedBy",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:death_wolf"
+    ],
+    "name": "Get Killed by a Wolf"
+  },
+  "get_killed_by_an_iron_golem": {
+    "category": "killedBy",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:death_iron_golem"
+    ],
+    "name": "Get Killed by an Iron Golem"
+  },
+  "get_levitation": {
+    "category": "effect",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:levitation"
+    ],
+    "name": "Get Levitation",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "get_night_vision_from_eating_suspicious_stew": {
+    "category": "miscellaneous",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:night_vision_stew"
+    ],
+    "name": "Get Night Vision From Eating Suspicious Stew"
+  },
+  "get_oozing": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:oozing"
+    ],
+    "name": "Get Oozing"
+  },
+  "get_over-overkill_advancement": {
+    "category": "advancement",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:mace"
+    ],
+    "name": "Get \"Over-Overkill\" Advancement",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "get_raid_omen": {
+    "category": "effect",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:raid_omen"
+    ],
+    "name": "Get Raid Omen",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "get_remote_getaway_advancement": {
+    "category": "advancement",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:ender_pearl"
+    ],
+    "name": "Get \"Remote Getaway\" Advancement",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "get_sticky_situation_advancement": {
+    "category": "advancement",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:honey_block"
+    ],
+    "name": "Get \"Sticky Situation\" Advancement"
+  },
+  "get_strength": {
+    "category": "effect",
+    "difficulty": 22,
+    "icons": [
+      "lockoutbingo:strength"
+    ],
+    "name": "Get Strength"
+  },
+  "get_subspace_bubble_advancement": {
+    "category": "advancement",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:map"
+    ],
+    "name": "Get \"Subspace Bubble\" Advancement",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "get_sweet_dreams_advancement": {
+    "category": "advancement",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:red_bed"
+    ],
+    "name": "Get \"Sweet Dreams\" Advancement"
+  },
+  "get_this_boat_has_legs_advancement": {
+    "category": "advancement",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    "name": "Get \"This Boat Has Legs\" Advancement"
+  },
+  "get_trial_omen": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:trial_omen"
+    ],
+    "name": "Get Trial Omen",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "get_weaving": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:weaving"
+    ],
+    "name": "Get Weaving"
+  },
+  "get_wind_charged": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:wind_charged"
+    ],
+    "name": "Get Wind Charged"
+  },
+  "get_wither": {
+    "category": "effect",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:wither"
+    ],
+    "name": "Get Wither",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "give_soul_soil_to_a_sulfur_cube": {
+    "category": "miscellaneous",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:soul_soil_sulfur_cube"
+    ],
+    "name": "Give Soul Soil to a Sulfur Cube",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "give_tnt_to_a_sulfur_cube": {
+    "category": "miscellaneous",
+    "difficulty": 15,
+    "icons": [
+      "lockoutbingo:tnt_sulfur_cube"
+    ],
+    "name": "Give TNT to a Sulfur Cube",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "have_3_active_effects": {
+    "category": "effect",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:effects_3"
+    ],
+    "name": "Have 3 Active Effects",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "have_6_active_effects": {
+    "category": "effect",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:effects_6"
+    ],
+    "name": "Have 6 Active Effects",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "have_9_active_effects": {
+    "category": "effect",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:effects_9"
+    ],
+    "name": "Have 9 Active Effects",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "have_more_experience_than_opponent": {
+    "category": "miscellaneous",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:more_experience"
+    ],
+    "name": "Have More Experience Than Opponent",
+    "tags": {
+      "limit": [
+        "more_than_opponent",
+        "xp"
+      ]
+    }
+  },
+  "hit_a_block_absorbed_sulfur_cube": {
+    "category": "miscellaneous",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:absorbed_sulfur_cube"
+    ],
+    "name": "Hit a Block Absorbed Sulfur Cube",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "jump_200_times": {
+    "category": "statistic",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:jump"
+    ],
+    "name": "Jump 200 Times"
+  },
+  "kill_10_undead_mobs": {
+    "category": "kill",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:kill_undead"
+    ],
+    "name": "Kill 10 Undead Mobs"
+  },
+  "kill_10_unique_hostile_mobs": {
+    "category": "kill",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:kill_unique_hostile"
+    ],
+    "name": "Kill 10 Unique Hostile Mobs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "kill_10_unique_mobs": {
+    "category": "kill",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:kill_unique"
+    ],
+    "name": "Kill 10 Unique Mobs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "kill_15_arthropods": {
+    "category": "kill",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:kill_arthropod"
+    ],
+    "name": "Kill 15 Arthropods"
+  },
+  "kill_15_unique_hostile_mobs": {
+    "category": "kill",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:kill_unique_hostile"
+    ],
+    "name": "Kill 15 Unique Hostile Mobs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "kill_25_undead_mobs": {
+    "category": "kill",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:kill_undead"
+    ],
+    "name": "Kill 25 Undead Mobs"
+  },
+  "kill_25_unique_mobs": {
+    "category": "kill",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:kill_unique"
+    ],
+    "name": "Kill 25 Unique Mobs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "kill_30_mobs": {
+    "category": "statistic",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:kill_any"
+    ],
+    "name": "Kill 30 Mobs"
+  },
+  "kill_50_mobs": {
+    "category": "statistic",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:kill_any"
+    ],
+    "name": "Kill 50 Mobs"
+  },
+  "kill_5_unique_hostile_mobs": {
+    "category": "kill",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:kill_unique_hostile"
+    ],
+    "name": "Kill 5 Unique Hostile Mobs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "kill_bogged": {
+    "category": "kill",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:kill_bogged"
+    ],
+    "name": "Kill Bogged",
+    "tags": {
+      "or": [
+        "locate_swamp"
+      ]
+    }
+  },
+  "kill_breeze": {
+    "category": "kill",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:kill_breeze"
+    ],
+    "name": "Kill Breeze",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "kill_cave_spider": {
+    "category": "kill",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:kill_cave_spider"
+    ],
+    "name": "Kill Cave Spider"
+  },
+  "kill_elder_guardian": {
+    "category": "kill",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:kill_elder_guardian"
+    ],
+    "name": "Kill Elder Guardian",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "kill_endermite": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_endermite"
+    ],
+    "name": "Kill Endermite",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "kill_evoker": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_evoker"
+    ],
+    "name": "Kill Evoker",
+    "tags": {
+      "or": [
+        "locate_mansion",
+        "locate_pillager_outpost"
+      ]
+    }
+  },
+  "kill_ghast": {
+    "category": "kill",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:kill_ghast"
+    ],
+    "name": "Kill Ghast",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "kill_piglin_brute": {
+    "category": "kill",
+    "difficulty": 17,
+    "icons": [
+      "lockoutbingo:kill_piglin_brute"
+    ],
+    "name": "Kill Piglin Brute",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "kill_ravager": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_ravager"
+    ],
+    "name": "Kill Ravager",
+    "tags": {
+      "or": [
+        "locate_pillager_outpost"
+      ]
+    }
+  },
+  "kill_silverfish": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_silverfish"
+    ],
+    "name": "Kill Silverfish"
+  },
+  "kill_snow_golem": {
+    "category": "kill",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:kill_snow_golem"
+    ],
+    "name": "Kill Snow Golem",
+    "tags": {
+      "or": [
+        "locate_snowy_biome"
+      ]
+    }
+  },
+  "kill_stray": {
+    "category": "kill",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:kill_stray"
+    ],
+    "name": "Kill Stray",
+    "tags": {
+      "or": [
+        "locate_snowy_biome"
+      ]
+    }
+  },
+  "kill_the_ender_dragon": {
+    "category": "kill",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:dragon_head"
+    ],
+    "name": "Kill the Ender Dragon",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "kill_vex": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_vex"
+    ],
+    "name": "Kill Vex",
+    "tags": {
+      "or": [
+        "locate_mansion"
+      ]
+    }
+  },
+  "kill_witch": {
+    "category": "kill",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:kill_witch"
+    ],
+    "name": "Kill Witch",
+    "tags": {
+      "or": [
+        "locate_swamp_hut"
+      ]
+    }
+  },
+  "kill_zoglin": {
+    "category": "kill",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:kill_zoglin"
+    ],
+    "name": "Kill Zoglin",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "kill_zombie_villager": {
+    "category": "kill",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:kill_zombie_villager"
+    ],
+    "name": "Kill Zombie Villager"
+  },
+  "light_a_campfire": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:light_campfire"
+    ],
+    "name": "Light a Campfire"
+  },
+  "light_a_candle": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:light_candle"
+    ],
+    "name": "Light a Candle"
+  },
+  "locate_a_badlands_biome": {
+    "category": "biome",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:badlands"
+    ],
+    "name": "Locate a Badlands Biome"
+  },
+  "locate_a_bastion": {
+    "category": "structure",
+    "difficulty": 17,
+    "icons": [
+      "lockoutbingo:bastion"
+    ],
+    "name": "Locate a Bastion",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "locate_a_cherry_grove_biome": {
+    "category": "biome",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:cherry_grove"
+    ],
+    "name": "Locate a Cherry Grove Biome"
+  },
+  "locate_a_desert_biome": {
+    "category": "biome",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:desert"
+    ],
+    "name": "Locate a Desert Biome"
+  },
+  "locate_a_desert_pyramid": {
+    "category": "structure",
+    "difficulty": 15,
+    "icons": [
+      "lockoutbingo:desert_pyramid"
+    ],
+    "name": "Locate a Desert Pyramid"
+  },
+  "locate_a_dripstone_cave": {
+    "category": "biome",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:dripstone_caves"
+    ],
+    "name": "Locate a Dripstone Cave"
+  },
+  "locate_a_flower_forest": {
+    "category": "biome",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:flower_forest"
+    ],
+    "name": "Locate a Flower Forest"
+  },
+  "locate_a_fortress": {
+    "category": "structure",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:fortress"
+    ],
+    "name": "Locate a Fortress",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "locate_a_grove_biome": {
+    "category": "biome",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:grove"
+    ],
+    "name": "Locate a Grove Biome"
+  },
+  "locate_a_jungle_biome": {
+    "category": "biome",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:jungle"
+    ],
+    "name": "Locate a Jungle Biome"
+  },
+  "locate_a_jungle_temple": {
+    "category": "structure",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:jungle_temple"
+    ],
+    "name": "Locate a Jungle Temple"
+  },
+  "locate_a_lush_cave": {
+    "category": "biome",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:lush_caves"
+    ],
+    "name": "Locate a Lush Cave"
+  },
+  "locate_a_stronghold": {
+    "category": "structure",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:stronghold"
+    ],
+    "name": "Locate a Stronghold",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "locate_a_sulfur_cave": {
+    "category": "biome",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:sulfur_caves"
+    ],
+    "name": "Locate a Sulfur Cave"
+  },
+  "locate_a_sunflower_plains": {
+    "category": "biome",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:sunflower_plains"
+    ],
+    "name": "Locate a Sunflower Plains"
+  },
+  "locate_an_ancient_city": {
+    "category": "structure",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:ancient_city"
+    ],
+    "name": "Locate an Ancient City"
+  },
+  "locate_an_end_city": {
+    "category": "structure",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:end_city"
+    ],
+    "name": "Locate an End City",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "locate_an_ice_spikes_biome": {
+    "category": "biome",
+    "difficulty": 22,
+    "icons": [
+      "lockoutbingo:ice_spikes"
+    ],
+    "name": "Locate an Ice Spikes Biome"
+  },
+  "locate_an_igloo": {
+    "category": "structure",
+    "difficulty": 22,
+    "icons": [
+      "lockoutbingo:igloo"
+    ],
+    "name": "Locate an Igloo"
+  },
+  "locate_an_ocean_monument": {
+    "category": "structure",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:ocean_monument"
+    ],
+    "name": "Locate an Ocean Monument"
+  },
+  "locate_the_deep_dark": {
+    "category": "biome",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:deep_dark"
+    ],
+    "name": "Locate the Deep Dark"
+  },
+  "locate_trial_chambers": {
+    "category": "structure",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:trial_chambers"
+    ],
+    "name": "Locate Trial Chambers"
+  },
+  "mine_amethyst_cluster": {
+    "category": "mine",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:mine_amethyst_cluster"
+    ],
+    "name": "Mine Amethyst Cluster"
+  },
+  "mine_brown_mushroom_block": {
+    "category": "mine",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:mine_brown_mushroom_block"
+    ],
+    "name": "Mine Brown Mushroom Block",
+    "tags": {
+      "or": [
+        "locate_dark_forest"
+      ]
+    }
+  },
+  "mine_budding_amethyst": {
+    "category": "mine",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:mine_budding_amethyst"
+    ],
+    "name": "Mine Budding Amethyst"
+  },
+  "mine_crying_obsidian": {
+    "category": "mine",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:mine_crying_obsidian"
+    ],
+    "name": "Mine Crying Obsidian"
+  },
+  "mine_deepslate_diamond_ore": {
+    "category": "mine",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:mine_deepslate_diamond_ore"
+    ],
+    "name": "Mine Deepslate Diamond Ore"
+  },
+  "mine_ice": {
+    "category": "mine",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:mine_ice"
+    ],
+    "name": "Mine Ice",
+    "tags": {
+      "or": [
+        "locate_icy_biome"
+      ]
+    }
+  },
+  "mine_large_amethyst_bud": {
+    "category": "mine",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:mine_large_amethyst_bud"
+    ],
+    "name": "Mine Large Amethyst Bud"
+  },
+  "mine_lily_pad": {
+    "category": "mine",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:mine_lily_pad"
+    ],
+    "name": "Mine Lily Pad",
+    "tags": {
+      "or": [
+        "locate_mangrove_swamp",
+        "locate_swamp"
+      ]
+    }
+  },
+  "mine_muddy_mangrove_roots": {
+    "category": "mine",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:mine_muddy_mangrove_roots"
+    ],
+    "name": "Mine Muddy Mangrove Roots",
+    "tags": {
+      "or": [
+        "locate_mangrove_swamp"
+      ]
+    }
+  },
+  "mine_nether_brick_fence": {
+    "category": "mine",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:mine_nether_brick_fence"
+    ],
+    "name": "Mine Nether Brick Fence",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "mine_nether_gold_ore": {
+    "category": "mine",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:mine_nether_gold_ore"
+    ],
+    "name": "Mine Nether Gold Ore",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "mine_obsidian": {
+    "category": "mine",
+    "difficulty": 15,
+    "icons": [
+      "lockoutbingo:mine_obsidian"
+    ],
+    "name": "Mine Obsidian"
+  },
+  "mine_red_mushroom_block": {
+    "category": "mine",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:mine_red_mushroom_block"
+    ],
+    "name": "Mine Red Mushroom Block",
+    "tags": {
+      "or": [
+        "locate_dark_forest"
+      ]
+    }
+  },
+  "mine_sculk_sensor": {
+    "category": "mine",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:mine_sculk_sensor"
+    ],
+    "name": "Mine Sculk Sensor",
+    "tags": {
+      "or": [
+        "locate_deep_dark"
+      ]
+    }
+  },
+  "mine_spawner": {
+    "category": "mine",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:mine_spawner"
+    ],
+    "name": "Mine Spawner"
+  },
+  "mine_trapped_chest": {
+    "category": "mine",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:mine_trapped_chest"
+    ],
+    "name": "Mine Trapped Chest"
+  },
+  "mine_turtle_egg": {
+    "category": "mine",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:mine_turtle_egg"
+    ],
+    "name": "Mine Turtle Egg",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "mine_wet_sponge": {
+    "category": "mine",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:mine_wet_sponge"
+    ],
+    "name": "Mine Wet Sponge",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "obtain_1_banner_pattern": {
+    "category": "obtain",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:field_masoned_banner_pattern",
+      "minecraft:bordure_indented_banner_pattern",
+      "minecraft:flower_banner_pattern",
+      "minecraft:creeper_banner_pattern",
+      "minecraft:skull_banner_pattern",
+      "minecraft:mojang_banner_pattern",
+      "minecraft:globe_banner_pattern",
+      "minecraft:piglin_banner_pattern",
+      "minecraft:flow_banner_pattern",
+      "minecraft:guster_banner_pattern"
+    ],
+    "name": "Obtain 1 Banner Pattern"
+  },
+  "obtain_1_froglight": {
+    "category": "obtain",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:ochre_froglight",
+      "minecraft:verdant_froglight",
+      "minecraft:pearlescent_froglight"
+    ],
+    "name": "Obtain 1 Froglight",
+    "tags": {
+      "or": [
+        "locate_mangrove_swamp",
+        "locate_swamp"
+      ]
+    }
+  },
+  "obtain_1_music_disc": {
+    "category": "obtain",
+    "difficulty": 14,
+    "icons": [
+      "minecraft:music_disc_13",
+      "minecraft:music_disc_cat",
+      "minecraft:music_disc_blocks",
+      "minecraft:music_disc_chirp",
+      "minecraft:music_disc_far",
+      "minecraft:music_disc_mall",
+      "minecraft:music_disc_mellohi",
+      "minecraft:music_disc_stal",
+      "minecraft:music_disc_strad",
+      "minecraft:music_disc_ward",
+      "minecraft:music_disc_11",
+      "minecraft:music_disc_creator_music_box",
+      "minecraft:music_disc_wait",
+      "minecraft:music_disc_creator",
+      "minecraft:music_disc_precipice",
+      "minecraft:music_disc_otherside",
+      "minecraft:music_disc_relic",
+      "minecraft:music_disc_5",
+      "minecraft:music_disc_pigstep",
+      "minecraft:music_disc_tears",
+      "minecraft:music_disc_lava_chicken",
+      "minecraft:music_disc_bounce"
+    ],
+    "name": "Obtain 1 Music Disc"
+  },
+  "obtain_1_ore_block": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:gold_ore",
+      "minecraft:redstone_ore",
+      "minecraft:emerald_ore",
+      "minecraft:lapis_ore",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore"
+    ],
+    "name": "Obtain 1 Ore Block",
+    "tags": {
+      "limit": [
+        "silktouch"
+      ]
+    }
+  },
+  "obtain_1_ore_storage_block": {
+    "category": "obtain",
+    "difficulty": 4,
+    "icons": [
+      "minecraft:coal_block",
+      "minecraft:iron_block",
+      "minecraft:copper_block",
+      "minecraft:gold_block",
+      "minecraft:redstone_block",
+      "minecraft:emerald_block",
+      "minecraft:lapis_block",
+      "minecraft:diamond_block"
+    ],
+    "name": "Obtain 1 Ore Storage Block"
+  },
+  "obtain_3_stone_types": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:stone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:sandstone",
+      "minecraft:deepslate",
+      "minecraft:blackstone",
+      "minecraft:end_stone"
+    ],
+    "name": "Obtain 3 Stone Types",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_3_unique_armor_trims": {
+    "category": "obtain",
+    "difficulty": 21,
+    "icons": [
+      "minecraft:sentry_armor_trim_smithing_template",
+      "minecraft:vex_armor_trim_smithing_template",
+      "minecraft:wild_armor_trim_smithing_template",
+      "minecraft:coast_armor_trim_smithing_template",
+      "minecraft:dune_armor_trim_smithing_template",
+      "minecraft:wayfinder_armor_trim_smithing_template",
+      "minecraft:raiser_armor_trim_smithing_template",
+      "minecraft:shaper_armor_trim_smithing_template",
+      "minecraft:host_armor_trim_smithing_template",
+      "minecraft:ward_armor_trim_smithing_template",
+      "minecraft:silence_armor_trim_smithing_template",
+      "minecraft:tide_armor_trim_smithing_template",
+      "minecraft:snout_armor_trim_smithing_template",
+      "minecraft:rib_armor_trim_smithing_template",
+      "minecraft:eye_armor_trim_smithing_template",
+      "minecraft:spire_armor_trim_smithing_template",
+      "minecraft:flow_armor_trim_smithing_template",
+      "minecraft:bolt_armor_trim_smithing_template"
+    ],
+    "name": "Obtain 3 Unique Armor Trims",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_4_unique_pottery_sherds": {
+    "category": "obtain",
+    "difficulty": 15,
+    "icons": [
+      "minecraft:angler_pottery_sherd",
+      "minecraft:archer_pottery_sherd",
+      "minecraft:arms_up_pottery_sherd",
+      "minecraft:blade_pottery_sherd",
+      "minecraft:brewer_pottery_sherd",
+      "minecraft:burn_pottery_sherd",
+      "minecraft:danger_pottery_sherd",
+      "minecraft:explorer_pottery_sherd",
+      "minecraft:flow_pottery_sherd",
+      "minecraft:friend_pottery_sherd",
+      "minecraft:guster_pottery_sherd",
+      "minecraft:heart_pottery_sherd",
+      "minecraft:heartbreak_pottery_sherd",
+      "minecraft:howl_pottery_sherd",
+      "minecraft:miner_pottery_sherd",
+      "minecraft:mourner_pottery_sherd",
+      "minecraft:plenty_pottery_sherd",
+      "minecraft:prize_pottery_sherd",
+      "minecraft:sheaf_pottery_sherd",
+      "minecraft:shelter_pottery_sherd",
+      "minecraft:skull_pottery_sherd",
+      "minecraft:snort_pottery_sherd"
+    ],
+    "name": "Obtain 4 Unique Pottery Sherds",
+    "tags": {
+      "limit": [
+        "unique"
+      ],
+      "or": [
+        "locate_desert_pyramid",
+        "locate_ocean_ruin_cold",
+        "locate_ocean_ruin_warm",
+        "locate_trail_ruins"
+      ]
+    }
+  },
+  "obtain_5_unique_leaves": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:oak_leaves",
+      "minecraft:spruce_leaves",
+      "minecraft:birch_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:acacia_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:pale_oak_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:flowering_azalea_leaves"
+    ],
+    "name": "Obtain 5 Unique Leaves",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_5_unique_logs": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:oak_log",
+      "minecraft:spruce_log",
+      "minecraft:birch_log",
+      "minecraft:jungle_log",
+      "minecraft:acacia_log",
+      "minecraft:dark_oak_log",
+      "minecraft:mangrove_log",
+      "minecraft:cherry_log",
+      "minecraft:pale_oak_log",
+      "minecraft:crimson_stem",
+      "minecraft:warped_stem"
+    ],
+    "name": "Obtain 5 Unique Logs",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_5_unique_saplings": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:oak_sapling",
+      "minecraft:spruce_sapling",
+      "minecraft:birch_sapling",
+      "minecraft:jungle_sapling",
+      "minecraft:acacia_sapling",
+      "minecraft:dark_oak_sapling",
+      "minecraft:mangrove_propagule",
+      "minecraft:cherry_sapling",
+      "minecraft:pale_oak_sapling"
+    ],
+    "name": "Obtain 5 Unique Saplings",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_5_unique_wood": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:oak_wood",
+      "minecraft:spruce_wood",
+      "minecraft:birch_wood",
+      "minecraft:jungle_wood",
+      "minecraft:acacia_wood",
+      "minecraft:dark_oak_wood",
+      "minecraft:mangrove_wood",
+      "minecraft:cherry_wood",
+      "minecraft:pale_oak_wood",
+      "minecraft:crimson_hyphae",
+      "minecraft:warped_hyphae"
+    ],
+    "name": "Obtain 5 Unique Wood",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_64_glass": {
+    "category": "obtain64",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:glass"
+    ],
+    "name": "Obtain 64 Glass"
+  },
+  "obtain_64_of_anything": {
+    "category": "obtain64",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:obtain_64"
+    ],
+    "name": "Obtain 64 of Anything"
+  },
+  "obtain_64_white_carpet": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_carpet"
+    ],
+    "name": "Obtain 64 White Carpet"
+  },
+  "obtain_64_white_concrete": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_concrete"
+    ],
+    "name": "Obtain 64 White Concrete"
+  },
+  "obtain_64_white_concrete_powder": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_concrete_powder"
+    ],
+    "name": "Obtain 64 White Concrete Powder"
+  },
+  "obtain_64_white_glazed_terracotta": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_glazed_terracotta"
+    ],
+    "name": "Obtain 64 White Glazed Terracotta"
+  },
+  "obtain_64_white_stained_glass": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_stained_glass"
+    ],
+    "name": "Obtain 64 White Stained Glass"
+  },
+  "obtain_64_white_stained_glass_pane": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_stained_glass_pane"
+    ],
+    "name": "Obtain 64 White Stained Glass Pane"
+  },
+  "obtain_64_white_terracotta": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_terracotta"
+    ],
+    "name": "Obtain 64 White Terracotta"
+  },
+  "obtain_64_white_wool": {
+    "category": "obtain64",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:white_wool"
+    ],
+    "name": "Obtain 64 White Wool"
+  },
+  "obtain_6_unique_flowers": {
+    "category": "obtain",
+    "difficulty": 4,
+    "icons": [
+      "minecraft:dandelion",
+      "minecraft:poppy",
+      "minecraft:blue_orchid",
+      "minecraft:allium",
+      "minecraft:azure_bluet",
+      "minecraft:red_tulip",
+      "minecraft:orange_tulip",
+      "minecraft:white_tulip",
+      "minecraft:pink_tulip",
+      "minecraft:oxeye_daisy",
+      "minecraft:cornflower",
+      "minecraft:lily_of_the_valley",
+      "minecraft:torchflower",
+      "minecraft:cactus_flower",
+      "minecraft:closed_eyeblossom",
+      "minecraft:open_eyeblossom",
+      "minecraft:wither_rose",
+      "minecraft:pink_petals",
+      "minecraft:wildflowers",
+      "minecraft:spore_blossom",
+      "minecraft:sunflower",
+      "minecraft:lilac",
+      "minecraft:rose_bush",
+      "minecraft:peony",
+      "minecraft:pitcher_plant",
+      "minecraft:chorus_flower"
+    ],
+    "name": "Obtain 6 Unique Flowers",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_9_unique_dyes": {
+    "category": "obtain",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:white_dye",
+      "minecraft:orange_dye",
+      "minecraft:magenta_dye",
+      "minecraft:light_blue_dye",
+      "minecraft:yellow_dye",
+      "minecraft:lime_dye",
+      "minecraft:pink_dye",
+      "minecraft:gray_dye",
+      "minecraft:light_gray_dye",
+      "minecraft:cyan_dye",
+      "minecraft:purple_dye",
+      "minecraft:blue_dye",
+      "minecraft:brown_dye",
+      "minecraft:green_dye",
+      "minecraft:red_dye",
+      "minecraft:black_dye"
+    ],
+    "name": "Obtain 9 Unique Dyes",
+    "tags": {
+      "limit": [
+        "unique"
+      ]
+    }
+  },
+  "obtain_a_chest_boat": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:oak_chest_boat",
+      "minecraft:spruce_chest_boat",
+      "minecraft:birch_chest_boat",
+      "minecraft:jungle_chest_boat",
+      "minecraft:acacia_chest_boat",
+      "minecraft:dark_oak_chest_boat",
+      "minecraft:mangrove_chest_boat",
+      "minecraft:cherry_chest_boat",
+      "minecraft:pale_oak_chest_boat",
+      "minecraft:bamboo_chest_raft"
+    ],
+    "name": "Obtain a Chest Boat"
+  },
+  "obtain_a_cod_bucket": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:cod_bucket"
+    ],
+    "name": "Obtain a Cod Bucket",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "obtain_a_disc_fragment": {
+    "category": "obtain",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:disc_fragment_5"
+    ],
+    "name": "Obtain a Disc Fragment",
+    "tags": {
+      "or": [
+        "locate_ancient_city"
+      ]
+    }
+  },
+  "obtain_a_powder_snow_bucket": {
+    "category": "obtain",
+    "difficulty": 21,
+    "icons": [
+      "minecraft:powder_snow_bucket"
+    ],
+    "name": "Obtain a Powder Snow Bucket",
+    "tags": {
+      "or": [
+        "locate_powdered_snow"
+      ]
+    }
+  },
+  "obtain_a_pufferfish_bucket": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:pufferfish_bucket"
+    ],
+    "name": "Obtain a Pufferfish Bucket",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_ocean_ruin_warm_biomes"
+      ]
+    }
+  },
+  "obtain_a_rabbit_foot": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:rabbit_foot"
+    ],
+    "name": "Obtain a Rabbit Foot",
+    "tags": {
+      "or": [
+        "locate_rabbit"
+      ]
+    }
+  },
+  "obtain_a_salmon_bucket": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:salmon_bucket"
+    ],
+    "name": "Obtain a Salmon Bucket",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "obtain_a_tipped_arrow": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:tipped_arrow"
+    ],
+    "name": "Obtain a Tipped Arrow",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_a_tropical_fish_bucket": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:tropical_fish_bucket"
+    ],
+    "name": "Obtain a Tropical Fish Bucket",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_lush_cave",
+        "locate_mangrove_swamp",
+        "locate_ocean_ruin_warm_biomes"
+      ]
+    }
+  },
+  "obtain_activator_rail": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:activator_rail"
+    ],
+    "name": "Obtain Activator Rail"
+  },
+  "obtain_all_chicken_eggs": {
+    "category": "obtain",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:egg",
+      "minecraft:blue_egg",
+      "minecraft:brown_egg"
+    ],
+    "name": "Obtain All Chicken Eggs",
+    "tags": {
+      "and": [
+        "locate_cold_farm_animals",
+        "locate_warm_farm_animals"
+      ],
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_copper_tools": {
+    "category": "obtain",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:copper_sword",
+      "minecraft:copper_spear",
+      "minecraft:copper_shovel",
+      "minecraft:copper_pickaxe",
+      "minecraft:copper_axe",
+      "minecraft:copper_hoe"
+    ],
+    "name": "Obtain All Copper Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_diamond_tools": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:diamond_sword",
+      "minecraft:diamond_spear",
+      "minecraft:diamond_shovel",
+      "minecraft:diamond_pickaxe",
+      "minecraft:diamond_axe",
+      "minecraft:diamond_hoe"
+    ],
+    "name": "Obtain All Diamond Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_dyed_bundles": {
+    "category": "obtain",
+    "difficulty": 15,
+    "icons": [
+      "minecraft:white_bundle",
+      "minecraft:orange_bundle",
+      "minecraft:magenta_bundle",
+      "minecraft:light_blue_bundle",
+      "minecraft:yellow_bundle",
+      "minecraft:lime_bundle",
+      "minecraft:pink_bundle",
+      "minecraft:gray_bundle",
+      "minecraft:light_gray_bundle",
+      "minecraft:cyan_bundle",
+      "minecraft:purple_bundle",
+      "minecraft:blue_bundle",
+      "minecraft:brown_bundle",
+      "minecraft:green_bundle",
+      "minecraft:red_bundle",
+      "minecraft:black_bundle"
+    ],
+    "name": "Obtain All Dyed Bundles",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_gold_tools": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:golden_sword",
+      "minecraft:golden_spear",
+      "minecraft:golden_shovel",
+      "minecraft:golden_pickaxe",
+      "minecraft:golden_axe",
+      "minecraft:golden_hoe"
+    ],
+    "name": "Obtain All Gold Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_iron_tools": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:iron_sword",
+      "minecraft:iron_spear",
+      "minecraft:iron_shovel",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_axe",
+      "minecraft:iron_hoe"
+    ],
+    "name": "Obtain All Iron Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_nuggets": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:copper_nugget",
+      "minecraft:iron_nugget",
+      "minecraft:gold_nugget"
+    ],
+    "name": "Obtain All Nuggets",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_ore_blocks": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:coal_ore",
+      "minecraft:iron_ore",
+      "minecraft:copper_ore",
+      "minecraft:gold_ore",
+      "minecraft:redstone_ore",
+      "minecraft:emerald_ore",
+      "minecraft:lapis_ore",
+      "minecraft:diamond_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore"
+    ],
+    "name": "Obtain All Ore Blocks",
+    "tags": {
+      "limit": [
+        "collect_all",
+        "silktouch"
+      ]
+    }
+  },
+  "obtain_all_ore_storage_blocks": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:coal_block",
+      "minecraft:iron_block",
+      "minecraft:copper_block",
+      "minecraft:gold_block",
+      "minecraft:redstone_block",
+      "minecraft:emerald_block",
+      "minecraft:lapis_block",
+      "minecraft:diamond_block"
+    ],
+    "name": "Obtain All Ore Storage Blocks",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_raw_blocks": {
+    "category": "obtain",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:raw_iron_block",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block"
+    ],
+    "name": "Obtain All Raw Blocks",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_soups": {
+    "category": "obtain",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:mushroom_stew",
+      "minecraft:beetroot_soup",
+      "minecraft:rabbit_stew",
+      "minecraft:suspicious_stew"
+    ],
+    "name": "Obtain All Soups",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ],
+      "or": [
+        "locate_rabbit"
+      ]
+    }
+  },
+  "obtain_all_stone_tools": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:stone_sword",
+      "minecraft:stone_spear",
+      "minecraft:stone_shovel",
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_axe",
+      "minecraft:stone_hoe"
+    ],
+    "name": "Obtain All Stone Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_all_wooden_tools": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:wooden_sword",
+      "minecraft:wooden_spear",
+      "minecraft:wooden_shovel",
+      "minecraft:wooden_pickaxe",
+      "minecraft:wooden_axe",
+      "minecraft:wooden_hoe"
+    ],
+    "name": "Obtain All Wooden Tools",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_amethyst_block": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:amethyst_block"
+    ],
+    "name": "Obtain Amethyst Block"
+  },
+  "obtain_ancient_debris": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:ancient_debris"
+    ],
+    "name": "Obtain Ancient Debris",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_armadillo_scute": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:armadillo_scute"
+    ],
+    "name": "Obtain Armadillo Scute",
+    "tags": {
+      "or": [
+        "locate_armadillo"
+      ]
+    }
+  },
+  "obtain_azalea": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:azalea"
+    ],
+    "name": "Obtain Azalea",
+    "tags": {
+      "or": [
+        "locate_lush_cave"
+      ]
+    }
+  },
+  "obtain_bamboo_raft": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:bamboo_raft"
+    ],
+    "name": "Obtain Bamboo Raft",
+    "tags": {
+      "or": [
+        "locate_bamboo_jungle",
+        "locate_jungle"
+      ]
+    }
+  },
+  "obtain_beacon": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:beacon"
+    ],
+    "name": "Obtain Beacon",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_bell": {
+    "category": "obtain",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:bell"
+    ],
+    "name": "Obtain Bell",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "obtain_blue_ice": {
+    "category": "obtain",
+    "difficulty": 21,
+    "icons": [
+      "minecraft:blue_ice"
+    ],
+    "name": "Obtain Blue Ice",
+    "tags": {
+      "limit": [
+        "silktouch"
+      ],
+      "or": [
+        "locate_icy_biome"
+      ]
+    }
+  },
+  "obtain_bricks": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:bricks"
+    ],
+    "name": "Obtain Bricks"
+  },
+  "obtain_bucket_of_sulfur_cube": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:sulfur_cube_bucket"
+    ],
+    "name": "Obtain Bucket of Sulfur Cube",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "obtain_bundle": {
+    "category": "obtain",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:bundle"
+    ],
+    "name": "Obtain Bundle"
+  },
+  "obtain_bush": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:bush"
+    ],
+    "name": "Obtain Bush"
+  },
+  "obtain_cactus": {
+    "category": "obtain",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:cactus"
+    ],
+    "name": "Obtain Cactus",
+    "tags": {
+      "or": [
+        "locate_desert"
+      ]
+    }
+  },
+  "obtain_cake": {
+    "category": "obtain",
+    "difficulty": 7,
+    "icons": [
+      "minecraft:cake"
+    ],
+    "name": "Obtain Cake"
+  },
+  "obtain_calcite": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:calcite"
+    ],
+    "name": "Obtain Calcite"
+  },
+  "obtain_candle": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:candle"
+    ],
+    "name": "Obtain Candle"
+  },
+  "obtain_cauldron": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:cauldron"
+    ],
+    "name": "Obtain Cauldron"
+  },
+  "obtain_chest_minecart": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:chest_minecart"
+    ],
+    "name": "Obtain Chest Minecart"
+  },
+  "obtain_chiseled_cinnabar": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:chiseled_cinnabar"
+    ],
+    "name": "Obtain Chiseled Cinnabar",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "obtain_chiseled_deepslate": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:chiseled_deepslate"
+    ],
+    "name": "Obtain Chiseled Deepslate"
+  },
+  "obtain_chiseled_quartz_block": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:chiseled_quartz_block"
+    ],
+    "name": "Obtain Chiseled Quartz Block",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_chiseled_resin_bricks": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:chiseled_resin_bricks"
+    ],
+    "name": "Obtain Chiseled Resin Bricks",
+    "tags": {
+      "or": [
+        "locate_pale_garden"
+      ]
+    }
+  },
+  "obtain_chiseled_tuff": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:chiseled_tuff"
+    ],
+    "name": "Obtain Chiseled Tuff"
+  },
+  "obtain_clock": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:clock"
+    ],
+    "name": "Obtain Clock"
+  },
+  "obtain_cobweb": {
+    "category": "obtain",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:cobweb"
+    ],
+    "name": "Obtain Cobweb"
+  },
+  "obtain_copper_bars": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:copper_bars"
+    ],
+    "name": "Obtain Copper Bars"
+  },
+  "obtain_copper_bulb": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:copper_bulb"
+    ],
+    "name": "Obtain Copper Bulb"
+  },
+  "obtain_copper_chain": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:copper_chain"
+    ],
+    "name": "Obtain Copper Chain"
+  },
+  "obtain_copper_chest": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:copper_chest"
+    ],
+    "name": "Obtain Copper Chest"
+  },
+  "obtain_copper_door": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:copper_door"
+    ],
+    "name": "Obtain Copper Door"
+  },
+  "obtain_crafter": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:crafter"
+    ],
+    "name": "Obtain Crafter"
+  },
+  "obtain_creaking_heart": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:creaking_heart"
+    ],
+    "name": "Obtain Creaking Heart",
+    "tags": {
+      "or": [
+        "locate_pale_garden"
+      ]
+    }
+  },
+  "obtain_crimson_door": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:crimson_door"
+    ],
+    "name": "Obtain Crimson Door",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_crimson_nylium": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:crimson_nylium"
+    ],
+    "name": "Obtain Crimson Nylium",
+    "tags": {
+      "limit": [
+        "nether",
+        "silktouch"
+      ]
+    }
+  },
+  "obtain_daylight_detector": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:daylight_detector"
+    ],
+    "name": "Obtain Daylight Detector"
+  },
+  "obtain_decorated_pot": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:decorated_pot"
+    ],
+    "name": "Obtain Decorated Pot"
+  },
+  "obtain_deepslate_brick_wall": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:deepslate_brick_wall"
+    ],
+    "name": "Obtain Deepslate Brick Wall"
+  },
+  "obtain_detector_rail": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:detector_rail"
+    ],
+    "name": "Obtain Detector Rail"
+  },
+  "obtain_dispenser": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:dispenser"
+    ],
+    "name": "Obtain Dispenser"
+  },
+  "obtain_dragon's_breath": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:dragon_breath"
+    ],
+    "name": "Obtain Dragon's Breath",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_dragon_egg": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:dragon_egg"
+    ],
+    "name": "Obtain Dragon Egg",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_dragon_head": {
+    "category": "obtain",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:dragon_head"
+    ],
+    "name": "Obtain Dragon Head",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_dried_ghast": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:dried_ghast"
+    ],
+    "name": "Obtain Dried Ghast",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_dried_kelp_block": {
+    "category": "obtain",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:dried_kelp_block"
+    ],
+    "name": "Obtain Dried Kelp Block",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "obtain_dripstone_block": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:dripstone_block"
+    ],
+    "name": "Obtain Dripstone Block",
+    "tags": {
+      "or": [
+        "locate_dripstone_cave"
+      ]
+    }
+  },
+  "obtain_end_crystal": {
+    "category": "obtain",
+    "difficulty": 18,
+    "icons": [
+      "minecraft:end_crystal"
+    ],
+    "name": "Obtain End Crystal",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_end_rod": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:end_rod"
+    ],
+    "name": "Obtain End Rod",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_end_stone_bricks": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:end_stone_bricks"
+    ],
+    "name": "Obtain End Stone Bricks",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_every_seed": {
+    "category": "obtain",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:wheat_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:melon_seeds",
+      "minecraft:beetroot_seeds"
+    ],
+    "name": "Obtain Every Seed"
+  },
+  "obtain_every_type_of_axe": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_axe",
+      "minecraft:stone_axe",
+      "minecraft:copper_axe",
+      "minecraft:iron_axe",
+      "minecraft:golden_axe",
+      "minecraft:diamond_axe",
+      "minecraft:netherite_axe"
+    ],
+    "name": "Obtain Every Type of Axe",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_hoe": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:copper_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "name": "Obtain Every Type of Hoe",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_horse_armor": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:leather_horse_armor",
+      "minecraft:copper_horse_armor",
+      "minecraft:iron_horse_armor",
+      "minecraft:golden_horse_armor",
+      "minecraft:diamond_horse_armor",
+      "minecraft:netherite_horse_armor"
+    ],
+    "name": "Obtain Every Type of Horse Armor",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_nautilus_armor": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:copper_nautilus_armor",
+      "minecraft:iron_nautilus_armor",
+      "minecraft:golden_nautilus_armor",
+      "minecraft:diamond_nautilus_armor",
+      "minecraft:netherite_nautilus_armor"
+    ],
+    "name": "Obtain Every Type of Nautilus Armor",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_pickaxe": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_pickaxe",
+      "minecraft:stone_pickaxe",
+      "minecraft:copper_pickaxe",
+      "minecraft:iron_pickaxe",
+      "minecraft:golden_pickaxe",
+      "minecraft:diamond_pickaxe",
+      "minecraft:netherite_pickaxe"
+    ],
+    "name": "Obtain Every Type of Pickaxe",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_shovel": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_shovel",
+      "minecraft:stone_shovel",
+      "minecraft:copper_shovel",
+      "minecraft:iron_shovel",
+      "minecraft:golden_shovel",
+      "minecraft:diamond_shovel",
+      "minecraft:netherite_shovel"
+    ],
+    "name": "Obtain Every Type of Shovel",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_spear": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_spear",
+      "minecraft:stone_spear",
+      "minecraft:copper_spear",
+      "minecraft:iron_spear",
+      "minecraft:golden_spear",
+      "minecraft:diamond_spear",
+      "minecraft:netherite_spear"
+    ],
+    "name": "Obtain Every Type of Spear",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_every_type_of_sword": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:wooden_sword",
+      "minecraft:stone_sword",
+      "minecraft:copper_sword",
+      "minecraft:iron_sword",
+      "minecraft:golden_sword",
+      "minecraft:diamond_sword",
+      "minecraft:netherite_sword"
+    ],
+    "name": "Obtain Every Type of Sword",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "obtain_experience_bottle": {
+    "category": "obtain",
+    "difficulty": 15,
+    "icons": [
+      "minecraft:experience_bottle"
+    ],
+    "name": "Obtain Experience Bottle"
+  },
+  "obtain_fermented_spider_eye": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:fermented_spider_eye"
+    ],
+    "name": "Obtain Fermented Spider Eye"
+  },
+  "obtain_fire_charge": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:fire_charge"
+    ],
+    "name": "Obtain Fire Charge"
+  },
+  "obtain_firework_star": {
+    "category": "obtain",
+    "difficulty": 6,
+    "icons": [
+      "minecraft:firework_star"
+    ],
+    "name": "Obtain Firework Star"
+  },
+  "obtain_flowering_azalea": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:flowering_azalea"
+    ],
+    "name": "Obtain Flowering Azalea",
+    "tags": {
+      "or": [
+        "locate_lush_cave"
+      ]
+    }
+  },
+  "obtain_gilded_blackstone": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:gilded_blackstone"
+    ],
+    "name": "Obtain Gilded Blackstone",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_glistering_melon_slice": {
+    "category": "obtain",
+    "difficulty": 18,
+    "icons": [
+      "minecraft:glistering_melon_slice"
+    ],
+    "name": "Obtain Glistering Melon Slice"
+  },
+  "obtain_goat_horn": {
+    "category": "obtain",
+    "difficulty": 21,
+    "icons": [
+      "minecraft:goat_horn"
+    ],
+    "name": "Obtain Goat Horn",
+    "tags": {
+      "or": [
+        "locate_goat",
+        "locate_pillager_outpost"
+      ]
+    }
+  },
+  "obtain_golden_dandelion": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:golden_dandelion"
+    ],
+    "name": "Obtain Golden Dandelion"
+  },
+  "obtain_grass_block": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:grass_block"
+    ],
+    "name": "Obtain Grass Block",
+    "tags": {
+      "limit": [
+        "silktouch"
+      ]
+    }
+  },
+  "obtain_grindstone": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:grindstone"
+    ],
+    "name": "Obtain Grindstone"
+  },
+  "obtain_harness": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:white_harness",
+      "minecraft:orange_harness",
+      "minecraft:magenta_harness",
+      "minecraft:light_blue_harness",
+      "minecraft:yellow_harness",
+      "minecraft:lime_harness",
+      "minecraft:pink_harness",
+      "minecraft:gray_harness",
+      "minecraft:light_gray_harness",
+      "minecraft:cyan_harness",
+      "minecraft:purple_harness",
+      "minecraft:blue_harness",
+      "minecraft:brown_harness",
+      "minecraft:green_harness",
+      "minecraft:red_harness",
+      "minecraft:black_harness"
+    ],
+    "name": "Obtain Harness"
+  },
+  "obtain_heart_of_the_sea": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:heart_of_the_sea"
+    ],
+    "name": "Obtain Heart of the Sea",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "obtain_honeycomb_block": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:honeycomb_block"
+    ],
+    "name": "Obtain Honeycomb Block"
+  },
+  "obtain_hopper": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:hopper"
+    ],
+    "name": "Obtain Hopper"
+  },
+  "obtain_hopper_minecart": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:hopper_minecart"
+    ],
+    "name": "Obtain Hopper Minecart"
+  },
+  "obtain_inc_sac": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:ink_sac"
+    ],
+    "name": "Obtain Inc Sac"
+  },
+  "obtain_iron_bars": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:iron_bars"
+    ],
+    "name": "Obtain Iron Bars"
+  },
+  "obtain_iron_chain": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:iron_chain"
+    ],
+    "name": "Obtain Iron Chain"
+  },
+  "obtain_jukebox": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:jukebox"
+    ],
+    "name": "Obtain Jukebox"
+  },
+  "obtain_light_weighted_pressure_plate": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:light_weighted_pressure_plate"
+    ],
+    "name": "Obtain Light Weighted Pressure Plate"
+  },
+  "obtain_lightning_rod": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:lightning_rod"
+    ],
+    "name": "Obtain Lightning Rod"
+  },
+  "obtain_lodestone": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:lodestone"
+    ],
+    "name": "Obtain Lodestone",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_mace": {
+    "category": "obtain",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:mace"
+    ],
+    "name": "Obtain Mace",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "obtain_melon_block": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:melon"
+    ],
+    "name": "Obtain Melon Block",
+    "tags": {
+      "or": [
+        "locate_jungle"
+      ]
+    }
+  },
+  "obtain_more_chiseled_stone_bricks_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 5,
+    "icons": [
+      "lockoutbingo:more_chiseled_stone_bricks"
+    ],
+    "name": "Obtain More Chiseled Stone Bricks Than Opponent"
+  },
+  "obtain_more_dried_kelp_blocks_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:more_dried_kelp_blocks"
+    ],
+    "name": "Obtain More Dried Kelp Blocks Than Opponent"
+  },
+  "obtain_more_eggs_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 7,
+    "icons": [
+      "lockoutbingo:more_eggs",
+      "lockoutbingo:more_blue_eggs",
+      "lockoutbingo:more_brown_eggs"
+    ],
+    "name": "Obtain More Eggs Than Opponent"
+  },
+  "obtain_more_feathers_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:more_feathers"
+    ],
+    "name": "Obtain More Feathers Than Opponent"
+  },
+  "obtain_more_iron_trapdoors_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:more_iron_trapdoors"
+    ],
+    "name": "Obtain More Iron Trapdoors Than Opponent"
+  },
+  "obtain_more_magma_blocks_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:more_magma_blocks"
+    ],
+    "name": "Obtain More Magma Blocks Than Opponent",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_more_paper_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:more_paper"
+    ],
+    "name": "Obtain More Paper Than Opponent"
+  },
+  "obtain_more_soul_torches_than_opponent": {
+    "category": "obtainMore",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:more_soul_torches"
+    ],
+    "name": "Obtain More Soul Torches Than Opponent",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_mossy_stone_brick_stairs": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:mossy_stone_brick_stairs"
+    ],
+    "name": "Obtain Mossy Stone Brick Stairs"
+  },
+  "obtain_mud": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:mud"
+    ],
+    "name": "Obtain Mud"
+  },
+  "obtain_mycelium": {
+    "category": "obtain",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:mycelium"
+    ],
+    "name": "Obtain Mycelium",
+    "tags": {
+      "limit": [
+        "silktouch"
+      ],
+      "or": [
+        "locate_mushroom_fields"
+      ]
+    }
+  },
+  "obtain_name_tag": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:name_tag"
+    ],
+    "name": "Obtain Name Tag"
+  },
+  "obtain_nautilus_armor": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:copper_nautilus_armor",
+      "minecraft:iron_nautilus_armor",
+      "minecraft:golden_nautilus_armor",
+      "minecraft:diamond_nautilus_armor",
+      "minecraft:netherite_nautilus_armor"
+    ],
+    "name": "Obtain Nautilus Armor"
+  },
+  "obtain_nautilus_shell": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:nautilus_shell"
+    ],
+    "name": "Obtain Nautilus Shell",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "obtain_nether_star": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:nether_star"
+    ],
+    "name": "Obtain Nether Star",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_nether_wart_block": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:nether_wart_block"
+    ],
+    "name": "Obtain Nether Wart Block",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_note_block": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:note_block"
+    ],
+    "name": "Obtain Note Block"
+  },
+  "obtain_observer": {
+    "category": "obtain",
+    "difficulty": 14,
+    "icons": [
+      "minecraft:observer"
+    ],
+    "name": "Obtain Observer"
+  },
+  "obtain_oxidized_copper": {
+    "category": "obtain",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:oxidized_copper"
+    ],
+    "name": "Obtain Oxidized Copper"
+  },
+  "obtain_packed_mud": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:packed_mud"
+    ],
+    "name": "Obtain Packed Mud"
+  },
+  "obtain_piston": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:piston"
+    ],
+    "name": "Obtain Piston"
+  },
+  "obtain_podzol": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:podzol"
+    ],
+    "name": "Obtain Podzol",
+    "tags": {
+      "limit": [
+        "silktouch"
+      ],
+      "or": [
+        "locate_podzol"
+      ]
+    }
+  },
+  "obtain_polished_basalt": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:polished_basalt"
+    ],
+    "name": "Obtain Polished Basalt",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_popped_chorus_fruit": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:popped_chorus_fruit"
+    ],
+    "name": "Obtain Popped Chorus Fruit",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_potent_sulfur": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:potent_sulfur"
+    ],
+    "name": "Obtain Potent Sulfur",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "obtain_powered_rail": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:powered_rail"
+    ],
+    "name": "Obtain Powered Rail"
+  },
+  "obtain_pumpkin": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:pumpkin"
+    ],
+    "name": "Obtain Pumpkin"
+  },
+  "obtain_purpur_stairs": {
+    "category": "obtain",
+    "difficulty": 24,
+    "icons": [
+      "minecraft:purpur_stairs"
+    ],
+    "name": "Obtain Purpur Stairs",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "obtain_rail": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:rail"
+    ],
+    "name": "Obtain Rail"
+  },
+  "obtain_recovery_compass": {
+    "category": "obtain",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:recovery_compass"
+    ],
+    "name": "Obtain Recovery Compass",
+    "tags": {
+      "or": [
+        "locate_ancient_city"
+      ]
+    }
+  },
+  "obtain_red_nether_bricks": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:red_nether_bricks"
+    ],
+    "name": "Obtain Red Nether Bricks",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_red_sandstone": {
+    "category": "obtain",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:red_sandstone"
+    ],
+    "name": "Obtain Red Sandstone",
+    "tags": {
+      "or": [
+        "locate_badlands"
+      ]
+    }
+  },
+  "obtain_redstone_lamp": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:redstone_lamp"
+    ],
+    "name": "Obtain Redstone Lamp"
+  },
+  "obtain_rooted_dirt": {
+    "category": "obtain",
+    "difficulty": 9,
+    "icons": [
+      "minecraft:rooted_dirt"
+    ],
+    "name": "Obtain Rooted Dirt",
+    "tags": {
+      "or": [
+        "locate_lush_cave"
+      ]
+    }
+  },
+  "obtain_sandstone": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:sandstone"
+    ],
+    "name": "Obtain Sandstone"
+  },
+  "obtain_scaffolding": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:scaffolding"
+    ],
+    "name": "Obtain Scaffolding",
+    "tags": {
+      "or": [
+        "locate_bamboo_jungle",
+        "locate_jungle"
+      ]
+    }
+  },
+  "obtain_sea_lantern": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:sea_lantern"
+    ],
+    "name": "Obtain Sea Lantern",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "obtain_sea_pickle": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:sea_pickle"
+    ],
+    "name": "Obtain Sea Pickle",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_warm_ocean"
+      ]
+    }
+  },
+  "obtain_shelf": {
+    "category": "obtain",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:oak_shelf",
+      "minecraft:spruce_shelf",
+      "minecraft:birch_shelf",
+      "minecraft:jungle_shelf",
+      "minecraft:acacia_shelf",
+      "minecraft:dark_oak_shelf",
+      "minecraft:mangrove_shelf",
+      "minecraft:cherry_shelf",
+      "minecraft:pale_oak_shelf",
+      "minecraft:crimson_shelf",
+      "minecraft:warped_shelf"
+    ],
+    "name": "Obtain Shelf"
+  },
+  "obtain_shroomlight": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:shroomlight"
+    ],
+    "name": "Obtain Shroomlight",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_slime_block": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:slime_block"
+    ],
+    "name": "Obtain Slime Block",
+    "tags": {
+      "or": [
+        "locate_mangrove_swamp",
+        "locate_swamp"
+      ]
+    }
+  },
+  "obtain_sniffer_egg": {
+    "category": "obtain",
+    "difficulty": 15,
+    "icons": [
+      "minecraft:sniffer_egg"
+    ],
+    "name": "Obtain Sniffer Egg",
+    "tags": {
+      "or": [
+        "locate_ocean_ruin_warm"
+      ]
+    }
+  },
+  "obtain_snow_block": {
+    "category": "obtain",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:snow_block"
+    ],
+    "name": "Obtain Snow Block",
+    "tags": {
+      "or": [
+        "locate_snowy_biome"
+      ]
+    }
+  },
+  "obtain_snowballs": {
+    "category": "obtain",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:snowball"
+    ],
+    "name": "Obtain Snowballs",
+    "tags": {
+      "or": [
+        "locate_snowy_biome"
+      ]
+    }
+  },
+  "obtain_soul_campfire": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:soul_campfire"
+    ],
+    "name": "Obtain Soul Campfire",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_sponge": {
+    "category": "obtain",
+    "difficulty": 12,
+    "icons": [
+      "minecraft:sponge"
+    ],
+    "name": "Obtain Sponge",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "obtain_sticky_piston": {
+    "category": "obtain",
+    "difficulty": 17,
+    "icons": [
+      "minecraft:sticky_piston"
+    ],
+    "name": "Obtain Sticky Piston",
+    "tags": {
+      "or": [
+        "locate_mangrove_swamp",
+        "locate_swamp"
+      ]
+    }
+  },
+  "obtain_sulfur_brick_slab": {
+    "category": "obtain",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:sulfur_brick_slab"
+    ],
+    "name": "Obtain Sulfur Brick Slab",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "obtain_tinted_glass": {
+    "category": "obtain",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:tinted_glass"
+    ],
+    "name": "Obtain Tinted Glass"
+  },
+  "obtain_tnt": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:tnt"
+    ],
+    "name": "Obtain TNT"
+  },
+  "obtain_tuff": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:tuff"
+    ],
+    "name": "Obtain Tuff"
+  },
+  "obtain_tuff_brick_stairs": {
+    "category": "obtain",
+    "difficulty": 5,
+    "icons": [
+      "minecraft:tuff_brick_stairs"
+    ],
+    "name": "Obtain Tuff Brick Stairs"
+  },
+  "obtain_warped_door": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:warped_door"
+    ],
+    "name": "Obtain Warped Door",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_warped_nylium": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:warped_nylium"
+    ],
+    "name": "Obtain Warped Nylium",
+    "tags": {
+      "limit": [
+        "nether",
+        "silktouch"
+      ]
+    }
+  },
+  "obtain_warped_wart_block": {
+    "category": "obtain",
+    "difficulty": 16,
+    "icons": [
+      "minecraft:warped_wart_block"
+    ],
+    "name": "Obtain Warped Wart Block",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "obtain_wind_charge": {
+    "category": "obtain",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:wind_charge"
+    ],
+    "name": "Obtain Wind Charge",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "obtain_wither_skeleton_skull": {
+    "category": "obtain",
+    "difficulty": 22,
+    "icons": [
+      "minecraft:wither_skeleton_skull"
+    ],
+    "name": "Obtain Wither Skeleton Skull",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "open_a_vault": {
+    "category": "miscellaneous",
+    "difficulty": 20,
+    "icons": [
+      "lockoutbingo:vault"
+    ],
+    "name": "Open a Vault",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "open_an_ominous_vault": {
+    "category": "miscellaneous",
+    "difficulty": 21,
+    "icons": [
+      "lockoutbingo:ominous_vault"
+    ],
+    "name": "Open an Ominous Vault",
+    "tags": {
+      "or": [
+        "locate_trail_chambers"
+      ]
+    }
+  },
+  "opponent_catches_on_fire": {
+    "category": "opponent",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:opponent_fire"
+    ],
+    "name": "Opponent Catches on Fire",
+    "opponent": true
+  },
+  "opponent_dies": {
+    "category": "statistic",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:opponent_die"
+    ],
+    "name": "Opponent Dies",
+    "opponent": true
+  },
+  "opponent_dies_4_times": {
+    "category": "statistic",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:opponent_die"
+    ],
+    "name": "Opponent Dies 4 Times",
+    "opponent": true
+  },
+  "opponent_earns_an_advancement": {
+    "category": "advancement",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_advancement"
+    ],
+    "name": "Opponent Earns an Advancement",
+    "opponent": true
+  },
+  "opponent_eats_food": {
+    "category": "eat",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_eat"
+    ],
+    "name": "Opponent Eats Food",
+    "opponent": true
+  },
+  "opponent_gains_an_effect": {
+    "category": "effect",
+    "difficulty": 13,
+    "icons": [
+      "lockoutbingo:opponent_effect"
+    ],
+    "name": "Opponent Gains an Effect",
+    "opponent": true
+  },
+  "opponent_hurts_a_mob": {
+    "category": "opponent",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_attack"
+    ],
+    "name": "Opponent Hurts a Mob",
+    "opponent": true
+  },
+  "opponent_jumps": {
+    "category": "statistic",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_jump"
+    ],
+    "name": "Opponent Jumps",
+    "opponent": true
+  },
+  "opponent_mines_dirt": {
+    "category": "mine",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_dirt"
+    ],
+    "name": "Opponent Mines Dirt",
+    "opponent": true
+  },
+  "opponent_mines_iron_ore": {
+    "category": "mine",
+    "difficulty": 3,
+    "icons": [
+      "lockoutbingo:opponent_iron_ore"
+    ],
+    "name": "Opponent Mines Iron Ore",
+    "opponent": true
+  },
+  "opponent_obtains_crafting_table": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_crafting_table"
+    ],
+    "name": "Opponent Obtains Crafting Table",
+    "opponent": true
+  },
+  "opponent_obtains_seeds": {
+    "category": "obtain",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_wheat_seeds",
+      "lockoutbingo:opponent_pumpkin_seeds",
+      "lockoutbingo:opponent_melon_seeds",
+      "lockoutbingo:opponent_beetroot_seeds"
+    ],
+    "name": "Opponent Obtains Seeds",
+    "opponent": true
+  },
+  "opponent_stands_on_diorite": {
+    "category": "standOn",
+    "difficulty": 3,
+    "icons": [
+      "lockoutbingo:opponent_diorite"
+    ],
+    "name": "Opponent Stands on Diorite",
+    "opponent": true
+  },
+  "opponent_stands_on_netherrack": {
+    "category": "standOn",
+    "difficulty": 14,
+    "icons": [
+      "lockoutbingo:opponent_netherrack"
+    ],
+    "name": "Opponent Stands on Netherrack",
+    "opponent": true,
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "opponent_takes_100_damage": {
+    "category": "statistic",
+    "difficulty": 3,
+    "icons": [
+      "lockoutbingo:opponent_take_x_damage"
+    ],
+    "name": "Opponent Takes 100 Damage",
+    "opponent": true
+  },
+  "opponent_takes_200_damage": {
+    "category": "statistic",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:opponent_take_x_damage"
+    ],
+    "name": "Opponent Takes 200 Damage",
+    "opponent": true
+  },
+  "opponent_takes_damage": {
+    "category": "statistic",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_take_damage"
+    ],
+    "name": "Opponent Takes Damage",
+    "opponent": true
+  },
+  "opponent_takes_fall_damage": {
+    "category": "opponent",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_fall"
+    ],
+    "name": "Opponent Takes Fall Damage",
+    "opponent": true
+  },
+  "opponent_touches_water": {
+    "category": "opponent",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:opponent_water"
+    ],
+    "name": "Opponent Touches Water",
+    "opponent": true
+  },
+  "opponent_wears_armor": {
+    "category": "wear",
+    "difficulty": 5,
+    "icons": [
+      "lockoutbingo:opponent_equip"
+    ],
+    "name": "Opponent Wears Armor",
+    "opponent": true
+  },
+  "place_a_bed_on_bedrock": {
+    "category": "miscellaneous",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:white_bed_on_bedrock",
+      "lockoutbingo:light_gray_bed_on_bedrock",
+      "lockoutbingo:gray_bed_on_bedrock",
+      "lockoutbingo:black_bed_on_bedrock",
+      "lockoutbingo:brown_bed_on_bedrock",
+      "lockoutbingo:red_bed_on_bedrock",
+      "lockoutbingo:orange_bed_on_bedrock",
+      "lockoutbingo:yellow_bed_on_bedrock",
+      "lockoutbingo:lime_bed_on_bedrock",
+      "lockoutbingo:green_bed_on_bedrock",
+      "lockoutbingo:cyan_bed_on_bedrock",
+      "lockoutbingo:light_blue_bed_on_bedrock",
+      "lockoutbingo:blue_bed_on_bedrock",
+      "lockoutbingo:purple_bed_on_bedrock",
+      "lockoutbingo:magenta_bed_on_bedrock",
+      "lockoutbingo:pink_bed_on_bedrock"
+    ],
+    "name": "Place a Bed on Bedrock"
+  },
+  "place_a_book_in_a_chiseled_bookshelf": {
+    "category": "miscellaneous",
+    "difficulty": 1,
+    "icons": [
+      "lockoutbingo:book_in_bookshelf"
+    ],
+    "name": "Place a Book in a Chiseled Bookshelf"
+  },
+  "place_candle_on_a_cake": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:cake"
+    ],
+    "name": "Place Candle on a Cake"
+  },
+  "place_dirt_on_bedrock": {
+    "category": "miscellaneous",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:dirt_on_bedrock"
+    ],
+    "name": "Place Dirt on Bedrock"
+  },
+  "place_end_stone_on_bedrock": {
+    "category": "miscellaneous",
+    "difficulty": 24,
+    "icons": [
+      "lockoutbingo:end_stone_on_bedrock"
+    ],
+    "name": "Place End Stone on Bedrock",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "play_music_in_a_jukebox": {
+    "category": "statistic",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:jukebox"
+    ],
+    "name": "Play Music in a Jukebox"
+  },
+  "play_note_block": {
+    "category": "statistic",
+    "difficulty": 5,
+    "icons": [
+      "lockoutbingo:play_note_block"
+    ],
+    "name": "Play Note Block"
+  },
+  "put_a_bundle_in_a_bundle": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:bundle_in_bundle"
+    ],
+    "name": "Put a Bundle in a Bundle"
+  },
+  "put_out_a_campfire": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:put_out_campfire"
+    ],
+    "name": "Put Out a Campfire"
+  },
+  "reach_level_15": {
+    "category": "miscellaneous",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:reach_level_15"
+    ],
+    "name": "Reach Level 15",
+    "tags": {
+      "limit": [
+        "xp"
+      ]
+    }
+  },
+  "reach_level_30": {
+    "category": "miscellaneous",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:reach_level_30"
+    ],
+    "name": "Reach Level 30",
+    "tags": {
+      "limit": [
+        "xp"
+      ]
+    }
+  },
+  "reach_level_45": {
+    "category": "miscellaneous",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:reach_level_45"
+    ],
+    "name": "Reach Level 45",
+    "tags": {
+      "limit": [
+        "xp"
+      ]
+    }
+  },
+  "reach_sky_limit": {
+    "category": "miscellaneous",
+    "difficulty": 3,
+    "icons": [
+      "lockoutbingo:sky_limit"
+    ],
+    "name": "Reach Sky Limit"
+  },
+  "ride_a_happy_ghast": {
+    "category": "miscellaneous",
+    "difficulty": 18,
+    "icons": [
+      "lockoutbingo:ride_happy_ghast"
+    ],
+    "name": "Ride a Happy Ghast",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "ride_a_pig_with_a_carrot_on_a_stick": {
+    "category": "statistic",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:carrot_on_a_stick"
+    ],
+    "name": "Ride a Pig with a Carrot on a Stick"
+  },
+  "ring_a_bell_30_times": {
+    "category": "statistic",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:bell"
+    ],
+    "name": "Ring a Bell 30 Times",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "scrape_oxidation_off_of_copper": {
+    "category": "interact",
+    "difficulty": 15,
+    "icons": [
+      "minecraft:exposed_copper"
+    ],
+    "name": "Scrape Oxidation Off of Copper"
+  },
+  "set_leaves_on_fire": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:light_leaves"
+    ],
+    "name": "Set Leaves on Fire"
+  },
+  "shoot_an_arrow": {
+    "category": "miscellaneous",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:bow",
+      "minecraft:crossbow"
+    ],
+    "name": "Shoot an Arrow"
+  },
+  "stand_on_bedrock": {
+    "category": "standOn",
+    "difficulty": 6,
+    "icons": [
+      "lockoutbingo:stand_bedrock"
+    ],
+    "name": "Stand on Bedrock"
+  },
+  "stand_on_chiseled_nether_bricks": {
+    "category": "standOn",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:stand_chiseled_nether_bricks"
+    ],
+    "name": "Stand on Chiseled Nether Bricks",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "stand_on_clay": {
+    "category": "standOn",
+    "difficulty": 0,
+    "icons": [
+      "lockoutbingo:stand_clay"
+    ],
+    "name": "Stand on Clay"
+  },
+  "stand_on_dark_prismarine": {
+    "category": "standOn",
+    "difficulty": 12,
+    "icons": [
+      "lockoutbingo:stand_dark_prismarine"
+    ],
+    "name": "Stand on Dark Prismarine",
+    "tags": {
+      "limit": [
+        "ocean"
+      ],
+      "or": [
+        "locate_monument"
+      ]
+    }
+  },
+  "stand_on_deepslate_lapis_ore": {
+    "category": "standOn",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:stand_deepslate_lapis_ore"
+    ],
+    "name": "Stand on Deepslate Lapis Ore"
+  },
+  "stand_on_exposed_cut_copper": {
+    "category": "standOn",
+    "difficulty": 15,
+    "icons": [
+      "lockoutbingo:stand_exposed_cut_copper"
+    ],
+    "name": "Stand on Exposed Cut Copper"
+  },
+  "stand_on_moss": {
+    "category": "standOn",
+    "difficulty": 9,
+    "icons": [
+      "lockoutbingo:stand_moss_block"
+    ],
+    "name": "Stand on Moss",
+    "tags": {
+      "or": [
+        "locate_lush_cave"
+      ]
+    }
+  },
+  "stand_on_reinforced_deepslate": {
+    "category": "standOn",
+    "difficulty": 25,
+    "icons": [
+      "lockoutbingo:stand_reinforced_deepslate"
+    ],
+    "name": "Stand on Reinforced Deepslate",
+    "tags": {
+      "or": [
+        "locate_ancient_city"
+      ]
+    }
+  },
+  "stand_on_sculk_catalyst": {
+    "category": "standOn",
+    "difficulty": 23,
+    "icons": [
+      "lockoutbingo:stand_sculk_catalyst"
+    ],
+    "name": "Stand on Sculk Catalyst",
+    "tags": {
+      "or": [
+        "locate_deep_dark"
+      ]
+    }
+  },
+  "stand_on_suspicious_sand": {
+    "category": "standOn",
+    "difficulty": 11,
+    "icons": [
+      "lockoutbingo:stand_suspicious_sand"
+    ],
+    "name": "Stand on Suspicious Sand",
+    "tags": {
+      "or": [
+        "locate_desert_pyramid",
+        "locate_ocean_ruin_warm"
+      ]
+    }
+  },
+  "strip_a_log": {
+    "category": "interact",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:stripped_oak_log"
+    ],
+    "name": "Strip a Log"
+  },
+  "summon_a_copper_golem": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:summon_copper_golem"
+    ],
+    "name": "Summon a Copper Golem"
+  },
+  "summon_an_iron_golem": {
+    "category": "advancement",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:summon_iron_golem"
+    ],
+    "name": "Summon an Iron Golem"
+  },
+  "take_200_damage": {
+    "category": "statistic",
+    "difficulty": 4,
+    "icons": [
+      "lockoutbingo:take_damage"
+    ],
+    "name": "Take 200 Damage"
+  },
+  "take_a_bath_in_a_sulfur_pool": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:sulfur_pool"
+    ],
+    "name": "Take a Bath in a Sulfur Pool",
+    "tags": {
+      "or": [
+        "locate_sulfur_caves"
+      ]
+    }
+  },
+  "tame_a_cat": {
+    "category": "tame",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:tame_cat"
+    ],
+    "name": "Tame a Cat",
+    "tags": {
+      "or": [
+        "locate_village"
+      ]
+    }
+  },
+  "tame_a_donkey": {
+    "category": "tame",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:tame_donkey"
+    ],
+    "name": "Tame a Donkey"
+  },
+  "tame_a_horse": {
+    "category": "tame",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:tame_horse"
+    ],
+    "name": "Tame a Horse"
+  },
+  "tame_a_parrot": {
+    "category": "tame",
+    "difficulty": 13,
+    "icons": [
+      "lockoutbingo:tame_parrot"
+    ],
+    "name": "Tame a Parrot",
+    "tags": {
+      "or": [
+        "locate_jungle"
+      ]
+    }
+  },
+  "tame_a_wolf": {
+    "category": "tame",
+    "difficulty": 2,
+    "icons": [
+      "lockoutbingo:tame_wolf"
+    ],
+    "name": "Tame a Wolf"
+  },
+  "tame_an_animal": {
+    "category": "advancement",
+    "difficulty": 2,
+    "icons": [
+      "minecraft:lead"
+    ],
+    "name": "Tame an Animal"
+  },
+  "till_dirt": {
+    "category": "interact",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:farmland"
+    ],
+    "name": "Till Dirt"
+  },
+  "trade_with_a_villager": {
+    "category": "advancement",
+    "difficulty": 8,
+    "icons": [
+      "lockoutbingo:trade_villager"
+    ],
+    "name": "Trade with a Villager"
+  },
+  "trample_farmland": {
+    "category": "miscellaneous",
+    "difficulty": 0,
+    "icons": [
+      "minecraft:farmland"
+    ],
+    "name": "Trample Farmland"
+  },
+  "travel_1km_in_a_vehicle": {
+    "category": "statistic",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:travel_vehicle"
+    ],
+    "name": "Travel 1km in a Vehicle"
+  },
+  "travel_1km_on_foot": {
+    "category": "statistic",
+    "difficulty": 10,
+    "icons": [
+      "lockoutbingo:travel_foot"
+    ],
+    "name": "Travel 1km on Foot"
+  },
+  "tune_note_block": {
+    "category": "statistic",
+    "difficulty": 5,
+    "icons": [
+      "lockoutbingo:tune_note_block"
+    ],
+    "name": "Tune Note Block"
+  },
+  "use_a_map": {
+    "category": "miscellaneous",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:filled_map"
+    ],
+    "name": "Use a Map"
+  },
+  "use_a_trim_on_any_armor": {
+    "category": "advancement",
+    "difficulty": 18,
+    "icons": [
+      "minecraft:dune_armor_trim_smithing_template"
+    ],
+    "name": "Use a Trim on any Armor"
+  },
+  "use_an_anvil": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:anvil"
+    ],
+    "name": "Use an Anvil"
+  },
+  "use_glow_ink_on_a_bamboo_sign": {
+    "category": "miscellaneous",
+    "difficulty": 13,
+    "icons": [
+      "lockoutbingo:glow_bamboo_sign"
+    ],
+    "name": "Use Glow Ink on a Bamboo Sign",
+    "tags": {
+      "or": [
+        "locate_bamboo_jungle",
+        "locate_jungle"
+      ]
+    }
+  },
+  "use_glow_ink_on_a_warped_sign": {
+    "category": "miscellaneous",
+    "difficulty": 16,
+    "icons": [
+      "lockoutbingo:glow_warped_sign"
+    ],
+    "name": "Use Glow Ink on a Warped Sign",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "use_grindstone": {
+    "category": "sound",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:grindstone"
+    ],
+    "name": "Use Grindstone"
+  },
+  "use_loom": {
+    "category": "sound",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:loom"
+    ],
+    "name": "Use Loom"
+  },
+  "use_smithing_table": {
+    "category": "sound",
+    "difficulty": 18,
+    "icons": [
+      "minecraft:smithing_table"
+    ],
+    "name": "Use Smithing Table"
+  },
+  "use_stonecutter": {
+    "category": "sound",
+    "difficulty": 3,
+    "icons": [
+      "minecraft:stonecutter"
+    ],
+    "name": "Use Stonecutter"
+  },
+  "visit_all_nether_biomes": {
+    "category": "advancement",
+    "difficulty": 17,
+    "icons": [
+      "lockoutbingo:visit_basalt_deltas",
+      "lockoutbingo:visit_crimson_forest",
+      "lockoutbingo:visit_nether_wastes",
+      "lockoutbingo:visit_soul_sand_valley",
+      "lockoutbingo:visit_warped_forest"
+    ],
+    "name": "Visit All Nether Biomes",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "visit_more_biomes_than_opponent": {
+    "category": "miscellaneous",
+    "difficulty": 19,
+    "icons": [
+      "lockoutbingo:visit_more_biomes"
+    ],
+    "name": "Visit More Biomes Than Opponent",
+    "tags": {
+      "limit": [
+        "more_than_opponent"
+      ]
+    }
+  },
+  "wear_1_piece_of_chainmail_armor": {
+    "category": "wear",
+    "difficulty": 13,
+    "icons": [
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots"
+    ],
+    "name": "Wear 1 Piece of Chainmail Armor"
+  },
+  "wear_1_piece_of_netherite_armor": {
+    "category": "wear",
+    "difficulty": 23,
+    "icons": [
+      "minecraft:netherite_helmet",
+      "minecraft:netherite_chestplate",
+      "minecraft:netherite_leggings",
+      "minecraft:netherite_boots"
+    ],
+    "name": "Wear 1 Piece of Netherite Armor",
+    "tags": {
+      "limit": [
+        "nether"
+      ]
+    }
+  },
+  "wear_a_dyed_leather_chestplate": {
+    "category": "miscellaneous",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:leather_chestplate"
+    ],
+    "name": "Wear a Dyed Leather Chestplate"
+  },
+  "wear_a_pumpkin_for_5_minutes": {
+    "category": "miscellaneous",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:carved_pumpkin"
+    ],
+    "name": "Wear a Pumpkin For 5 Minutes"
+  },
+  "wear_a_turtle_helmet": {
+    "category": "wear",
+    "difficulty": 20,
+    "icons": [
+      "minecraft:turtle_helmet"
+    ],
+    "name": "Wear a Turtle Helmet",
+    "tags": {
+      "limit": [
+        "ocean"
+      ]
+    }
+  },
+  "wear_an_elytra": {
+    "category": "wear",
+    "difficulty": 25,
+    "icons": [
+      "minecraft:elytra"
+    ],
+    "name": "Wear an Elytra",
+    "tags": {
+      "limit": [
+        "end"
+      ]
+    }
+  },
+  "wear_chainmail_armor_set": {
+    "category": "wear",
+    "difficulty": 19,
+    "icons": [
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots"
+    ],
+    "name": "Wear Chainmail Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_copper_armor_set": {
+    "category": "wear",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:copper_helmet",
+      "minecraft:copper_chestplate",
+      "minecraft:copper_leggings",
+      "minecraft:copper_boots"
+    ],
+    "name": "Wear Copper Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_diamond_armor_set": {
+    "category": "wear",
+    "difficulty": 21,
+    "icons": [
+      "minecraft:diamond_helmet",
+      "minecraft:diamond_chestplate",
+      "minecraft:diamond_leggings",
+      "minecraft:diamond_boots"
+    ],
+    "name": "Wear Diamond Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_golden_armor_set": {
+    "category": "wear",
+    "difficulty": 11,
+    "icons": [
+      "minecraft:golden_helmet",
+      "minecraft:golden_chestplate",
+      "minecraft:golden_leggings",
+      "minecraft:golden_boots"
+    ],
+    "name": "Wear Golden Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_iron_armor_set": {
+    "category": "wear",
+    "difficulty": 10,
+    "icons": [
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots"
+    ],
+    "name": "Wear Iron Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_leather_armor_set": {
+    "category": "wear",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ],
+    "name": "Wear Leather Armor Set",
+    "tags": {
+      "limit": [
+        "collect_all"
+      ]
+    }
+  },
+  "wear_pink_leather_boots": {
+    "category": "miscellaneous",
+    "difficulty": 8,
+    "icons": [
+      "minecraft:leather_boots"
+    ],
+    "name": "Wear Pink Leather Boots"
+  },
+  "write_a_book": {
+    "category": "obtain",
+    "difficulty": 1,
+    "icons": [
+      "minecraft:writable_book"
+    ],
+    "name": "Write a Book"
+  }
+}

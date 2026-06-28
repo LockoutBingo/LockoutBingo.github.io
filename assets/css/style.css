@@ -1,21 +1,31 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     background: linear-gradient(to bottom, #282c35 72px, #9c8c79);
     background-repeat: no-repeat;
     background-color: #9c8c79;
+
     color: #eee;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+
+    overflow: hidden;
 }
 
 header {
-    position: relative;
+    position: sticky;
+    top: 0;
     background: #1b1f28;
     display: flex;
+    flex-shrink: 0;
     justify-content: center;
     border-bottom: 4px solid #0e1117;
     padding: 0.6rem;
     transition: background 0.5s;
+    z-index: 100;
 }
 
 header:has(.nav-title:hover) {
@@ -121,9 +131,22 @@ header:has(.nav-title:hover) {
 }
 
 main {
-    max-width: 1000px;
-    margin: auto;
+    margin: 0;
     padding: 2rem;
+    box-sizing: border-box;
+
+    flex: 1;
+    min-height: 0;
+
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #3f4d6a #0e1117;
+    scrollbar-gutter: stable;
+}
+
+.main-content {
+    margin: auto;
+    max-width: 1280px;
 }
 
 h1 {
@@ -132,4 +155,66 @@ h1 {
 
 h2 {
     margin-top: 3rem;
+}
+
+.goals-page {
+    display: flex;
+    gap: 2rem;
+}
+
+.goals-sidebar {
+    position: sticky;
+    align-self: flex-start;
+    top: 0px;
+    width: 300px;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    background: #1b1f28;
+    border: 4px solid #0e1117;
+    border-radius: 8px;
+    padding: 1rem;
+
+    scrollbar-width: thin;
+    scrollbar-color: #3f4d6a #0e1117;
+}
+
+.goals-content {
+    flex: 1;
+}
+
+.goal-search input {
+    width: 100%;
+    box-sizing: border-box;
+    background: #111;
+    border: 2px solid #0e1117;
+    border-radius: 8px;
+    color: white;
+    padding: 0.4rem;
+}
+
+.goal-counts {
+    margin-top: 1rem;
+}
+
+.goal-filter {
+    margin-top: 1.5rem;
+}
+
+.goal-filter h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.goals-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.goal-card {
+    border: 4px solid #0e1117;
+    padding: 0.5rem;
 }
