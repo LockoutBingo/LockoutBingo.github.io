@@ -171,7 +171,7 @@ h2 {
     overflow-y: auto;
     box-sizing: border-box;
 
-    background: #1b1f28;
+    background: #14161d;
     border: 4px solid #0e1117;
     border-radius: 8px;
     padding: 1rem;
@@ -205,6 +205,29 @@ h2 {
 .goal-filter h3 {
     margin: 0;
     padding: 0;
+}
+
+.goal-filter div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+.filter-button {
+    background-color: var(--button-bg-base);
+
+    padding: 0.3rem;
+    border-radius: 8px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: var(--button-bg-hover);
+}
+
+.filter-button.active {
+    background-color: var(--button-bg-active) !important;
 }
 
 .goals-toolbar {
