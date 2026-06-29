@@ -60,7 +60,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 function loadFilters() {
     const categories = new Set();
     const tags = new Set();
-    const locateTags = new Set();
 
     goals.forEach(goal => {
         if(goal.category) {
@@ -68,26 +67,21 @@ function loadFilters() {
         }
         if(goal.tags) {
             Object.values(goal.tags).flat().forEach(tag => {
-                if(tag.startsWith("locate")) {
-                    locateTags.add(tag);
-                } else {
-                    tags.add(tag);
-                }
+                if(!tag.startsWith("locate")) tags.add(tag);
             });
         }
     });
 
     console.log("Loaded " + categories.size + " categories");
     console.log("Loaded " + tags.size + " tags");
-    console.log("Loaded " + locateTags.size + " locational Tags");
     renderFilterSelectors("category-filter", categories);
     renderFilterSelectors("tag-filter", tags);
-    renderFilterSelectors("locate-tag-filter", locateTags);
 }
 
 function renderFilterSelectors(containerId, values) {
     const container = document.getElementById(containerId);
 
+    values = [...values].sort((a, b) => a.localeCompare(b));
     values.forEach(value => {
         const button = document.createElement("button");
         button.className = "filter-button";
@@ -176,8 +170,13 @@ function hslToRgb(h, s, l) {
 }
 
 function setupEvents() {
-    document.getElementById("goal-search").addEventListener("input", e => {
-        state.search = e.target.value.toLowerCase();
+    document.getElementById("goal-search").addEventListener("input", event => {
+        state.search = event.target.value.toLowerCase();
+        update();
+    });
+    
+    document.getElementById("sort-select").addEventListener("change", event => {
+        state.sort = event.target.value;
         update();
     });
 }
@@ -196,9 +195,25 @@ function update() {
 }
 
 function sortGoals() {
-    filteredGoals.sort((a, b) => {
-        return a.name.localeCompare(b.name);
-    });
+    if(state.sort === "az") {
+        filteredGoals.sort((a, b) => {
+            return a.name.localeCompare(b.name);
+        });
+    } else if(state.sort === "za") {
+        filteredGoals.sort((a, b) => {
+            return b.name.localeCompare(a.name);
+        });
+    } else if(state.sort === "diff-inc") {
+        filteredGoals.sort((a, b) => {
+            if(a.difficulty === b.difficulty) return a.name.localeCompare(b.name);
+            return a.difficulty - b.difficulty;
+        });
+    } else if(state.sort === "diff-dec") {
+        filteredGoals.sort((a, b) => {
+            if(a.difficulty === b.difficulty) return a.name.localeCompare(b.name);
+            return b.difficulty - a.difficulty;
+        });
+    }
 }
 
 function render() {
