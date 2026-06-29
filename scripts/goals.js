@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     loadFilters();
     setupEvents();
-    render();
+    renderGoals();
 });
 
 function loadFilters() {
@@ -117,24 +117,13 @@ function loadFilters() {
 function renderFilterSelectors(containerId, values) {
     const container = document.getElementById(containerId);
 
-    values = [...values].sort((a, b) => a.localeCompare(b));
+    values = [...values].sort((a, b) => {
+        if(a === "miscellaneous") return 1;
+        if(b === "miscellaneous") return -1;
+        return a.localeCompare(b);
+    });
     values.forEach(value => {
-        const button = document.createElement("button");
-        button.className = "filter-button";
-        if(FILTER_FORMATTING[value]) {
-            button.textContent = FILTER_FORMATTING[value];
-        } else {
-            button.textContent = value.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-        }
-        
-        const color = stringToColor(value);
-        
-        button.style.setProperty("--button-bg-base", `rgb(${color.background} / 0.25)`);
-        button.style.setProperty("--button-bg-hover", `rgb(${color.background} / 0.45)`);
-        button.style.setProperty("--button-bg-active", `rgb(${color.background} / 1)`);
-        button.style.borderColor = `rgb(${color.background})`;
-        button.style.color = `rgb(${color.text})`;
-
+        const button = tagButton("filter-button", value);
         button.addEventListener("click", () => {
             button.classList.toggle("active");
             
@@ -183,7 +172,7 @@ function update() {
     });
 
     sortGoals();
-    render();
+    renderGoals();
 }
 
 function sortGoals() {
@@ -208,22 +197,77 @@ function sortGoals() {
     }
 }
 
-function render() {
+function renderGoals() {
     const container = document.getElementById("goal-list");
     container.innerHTML = "";
 
     filteredGoals.forEach(goal => {
         const card = document.createElement("div");
         card.className = "goal-card";
-        card.innerHTML = `
-            <h3>${goal.name}</h3>
-            <small>
-                Difficulty: ${goal.difficulty}
-            </small>
-        `;
+
+        const header = document.createElement("goal-header");
+        header.className = "goal-header";
+
+        const icon = document.createElement("img");
+        icon.className = "goal-icon";
+        icon.src = getIconPath(goal.icons[0]);
+        icon.alt = goal.name;
+
+        const content = document.createElement("div");
+        content.className = "goal-info";
+
+        const title = document.createElement("h3");
+        title.textContent = goal.name;
+
+        const difficulty = document.createElement("small");
+        difficulty.textContent = `Difficulty: ${goal.difficulty}`;
+
+        const tags = document.createElement("div");
+        tags.className = "goal-tags";
+        tags.appendChild(tagButton("goal-tag-display", goal.category));
+        if(goal.tags) {
+            Object.values(goal.tags).flat().forEach(tag => {
+                if(!tag.startsWith("locate")) {
+                    const button = tagButton("goal-tag-display", tag);
+                    tags.appendChild(button);
+                }
+            });
+        }
+
+        content.append(title, difficulty);
+        header.append(icon, content);
+        card.append(header, tags);
         container.appendChild(card);
     });
 
     document.getElementById("filtered-count").textContent = filteredGoals.length;
     document.getElementById("goal-result-count").textContent = filteredGoals.length;
+}
+
+function tagButton(name, tag) {
+    const button = document.createElement("button");
+    button.className = name;
+    if(FILTER_FORMATTING[tag]) button.textContent = FILTER_FORMATTING[tag];
+    else button.textContent = tag.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+    
+    const color = stringToColor(tag);
+    button.style.setProperty("--button-bg-base", `rgb(${color.background} / 0.25)`);
+    button.style.setProperty("--button-bg-hover", `rgb(${color.background} / 0.45)`);
+    button.style.setProperty("--button-bg-active", `rgb(${color.background} / 1)`);
+    button.style.borderColor = `rgb(${color.background})`;
+    button.style.color = `rgb(${color.text})`;
+
+    return button;
+}
+
+function getIconPath(icon) {
+    const [namespace, name] = icon.split(":")
+    switch(namespace) {
+        case "lockoutbingo":
+            return `assets/icons/lockoutbingo/${name}.png`;
+        case "minecraft":
+            return `assets/images/not_found.png`;
+        default:
+            return "assets/images/not_found.png";
+    }
 }
