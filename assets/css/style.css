@@ -216,7 +216,9 @@ h2 {
 .filter-button {
     background-color: var(--button-bg-base);
 
-    padding: 0.3rem;
+    font-weight: bold;
+    padding: 0.25rem 0.6rem;
+    
     border-radius: 8px;
     border: 2px solid;
     cursor: pointer;

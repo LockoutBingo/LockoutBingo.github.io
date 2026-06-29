@@ -17,31 +17,67 @@ const FILTER_FORMATTING = {
     "xp": "Experience"
 }
 const CATEGORY_COLORS = {
-    "obtain": {
-        background: "2, 36, 78",
-        text: "147, 197, 253"
-    },
-    "obtain64": {
-        background: "46, 6, 140",
-        text: "203, 181, 255"
+    "advancement": {
+        background: "237 182 38",
+        text: "255 232 171"
     },
     "biome": {
-        background: "43, 100, 10",
-        text: "186, 255, 82"
+        background: "106 153 78",
+        text: "218 255 196"
     },
-    "advancement": {
-        background: "115, 70, 3",
-        text: "255, 206, 133"
+    "breed": {
+        background: "214 96 139",
+        text: "255 175 204"
+    },
+    "brew": {
+        background: "114 61 70",
+        text: "255 148 182"
+    },
+    "kill": {
+        background: "230 50 71",
+        text: "255 163 179"
+    },
+    "obtain": {
+        background: "127 79 36",
+        text: "255 190 133"
+    },
+    "obtain64": {
+        background: "176 165 128",
+        text: "255 241 194"
+    },
+    "obtainMore": {
+        background: "101 109 74",
+        text: "232 255 156"
     }
 }
 const TAG_COLORS = {
-    "nether": {
-        background: "200, 68, 68",
-        text: "252, 165, 165"
+    "collect_all": {
+        background: "224 122 95",
+        text: "255 199 184"
     },
     "end": {
-        background: "44, 36, 115",
-        text: "161, 150, 255"
+        background: "201 173 167",
+        text: "242 233 228"
+    },
+    "nether": {
+        background: "200 68 68",
+        text: "252 165 165"
+    },
+    "ocean": {
+        background: "0 180 216",
+        text: "145 237 255"
+    },
+    "silktouch": {
+        background: "114 9 183",
+        text: "209 140 255"
+    },
+    "unique": {
+        background: "74 78 105",
+        text: "161 173 255"
+    },
+    "xp": {
+        background: "88 129 87",
+        text: "190 255 189"
     }
 }
 
@@ -90,12 +126,13 @@ function renderFilterSelectors(containerId, values) {
         } else {
             button.textContent = value.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
         }
-
+        
         const color = stringToColor(value);
-        button.style.setProperty("--button-bg-base", `rgba(${color.background}, 0.25)`);
-        button.style.setProperty("--button-bg-hover", `rgba(${color.background}, 0.45)`);
-        button.style.setProperty("--button-bg-active", `rgba(${color.background}, 1)`);
-        button.style.borderColor = `rgba(${color.background}, 0.6)`;
+        
+        button.style.setProperty("--button-bg-base", `rgb(${color.background} / 0.25)`);
+        button.style.setProperty("--button-bg-hover", `rgb(${color.background} / 0.45)`);
+        button.style.setProperty("--button-bg-active", `rgb(${color.background} / 1)`);
+        button.style.borderColor = `rgb(${color.background})`;
         button.style.color = `rgb(${color.text})`;
 
         button.addEventListener("click", () => {
@@ -116,57 +153,12 @@ function renderFilterSelectors(containerId, values) {
 }
 
 function stringToColor(str) {
-    if(CATEGORY_COLORS[str]) {
-        return CATEGORY_COLORS[str];
-    }
-    if(TAG_COLORS[str]) {
-        return TAG_COLORS[str];
-    }
-
-    let hash = 0;
-    for(let i = 0; i < str.length; i++) {
-        hash = ((hash << 5) - hash) + str.charCodeAt(i);
-        hash |= 0;
-    }
-    const hue = Math.abs(hash) % 360;
-    const background = hslToRgb(hue, 55, 20);
-    const text = hslToRgb(hue, 70, 75);
-
+    if(str in CATEGORY_COLORS) return CATEGORY_COLORS[str];
+    if(str in TAG_COLORS) return TAG_COLORS[str];
     return {
-        background: `${background.r}, ${background.g}, ${background.b}`,
-        text: `${text.r}, ${text.g}, ${text.b}`
-    };
-}
-
-function hslToRgb(h, s, l) {
-    s /= 100;
-    l /= 100;
-
-    const c = (1 - Math.abs(2 * l - 1)) * s;
-    const x = c * (1 - Math.abs((h / 60) % 2 - 1));
-    const m = l - c / 2;
-
-    let r = 0, g = 0, b = 0;
-
-    if (h < 60) {
-        r = c; g = x;
-    } else if (h < 120) {
-        r = x; g = c;
-    } else if (h < 180) {
-        g = c; b = x;
-    } else if (h < 240) {
-        g = x; b = c;
-    } else if (h < 300) {
-        r = x; b = c;
-    } else {
-        r = c; b = x;
+        background: "64 61 57",
+        text: "242 233 228"
     }
-
-    return {
-        r: Math.round((r + m) * 255),
-        g: Math.round((g + m) * 255),
-        b: Math.round((b + m) * 255)
-    };
 }
 
 function setupEvents() {
