@@ -1,4 +1,7 @@
-const VERSION_GROUPS = {
+export const VERSION_GROUPS = {
+    "1.0": [
+        "default"
+    ],
     "2.0": [
         "obtain_chiseled_tuff",
         "obtain_tuff_brick_stairs",

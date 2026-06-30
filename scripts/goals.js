@@ -1,5 +1,5 @@
 import { FILTER_FORMATTING, CATEGORY_COLORS, TAG_COLORS } from "./constants.js";
-import { VERSION_ADDED } from "./versions.js";
+import { VERSION_GROUPS, VERSION_ADDED } from "./versions.js";
 
 let goals = [];
 let filteredGoals = [];
@@ -9,6 +9,7 @@ const state = {
     maxDifficulty: 25,
     categoryFilter: new Set(),
     tagFilter: new Set(),
+    versionFilter: new Set(),
     sort: "AZ",
     view: "grid"
 };
@@ -43,6 +44,7 @@ function loadFilters() {
     console.log("Loaded " + tags.size + " tags");
     renderFilterSelectors("category-filter", categories);
     renderFilterSelectors("tag-filter", tags);
+    renderFilterSelectors("version-filter", Object.keys(VERSION_GROUPS));
 }
 
 function renderFilterSelectors(containerId, values) {
@@ -61,12 +63,9 @@ function renderFilterSelectors(containerId, values) {
         button.addEventListener("click", () => {
             button.classList.toggle("active");
             
-            const set = containerId === "category-filter" ? state.categoryFilter : state.tagFilter;
-            if(button.classList.contains("active")) {
-                set.add(value);
-            } else {
-                set.delete(value);
-            }
+            const set = containerId === "category-filter" ? state.categoryFilter : containerId === "tag-filter" ? state.tagFilter : state.versionFilter;
+            if(button.classList.contains("active")) set.add(value);
+            else set.delete(value);
 
             update();
         });
@@ -105,8 +104,9 @@ function update() {
         const matchesSearch = !state.search || goal.key.includes(state.search) || goal.name.toLowerCase().includes(state.search);
         const matchesCategory = state.categoryFilter.size === 0 || state.categoryFilter.has(goal.category) || (state.categoryFilter.has("opponent") && goal.opponent === true);
         const matchesTag = state.tagFilter.size === 0 || (goal.tags && goal.tags.some(tag => state.tagFilter.has(tag)));
+        const matchesVersion = state.versionFilter.size === 0 || state.versionFilter.has(VERSION_ADDED[goal.key] ?? "1.0");
 
-        return matchesSearch && matchesCategory && matchesTag;
+        return matchesSearch && matchesCategory && matchesTag && matchesVersion;
     });
 
     sortGoals();
