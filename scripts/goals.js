@@ -7,7 +7,8 @@ const state = {
     maxDifficulty: 25,
     categoryFilter: new Set(),
     tagFilter: new Set(),
-    sort: "AZ"
+    sort: "AZ",
+    view: "grid"
 };
 const FILTER_FORMATTING = {
     "obtain64": "Obtain 64",
@@ -141,15 +142,6 @@ function renderFilterSelectors(containerId, values) {
     });
 }
 
-function stringToColor(str) {
-    if(str in CATEGORY_COLORS) return CATEGORY_COLORS[str];
-    if(str in TAG_COLORS) return TAG_COLORS[str];
-    return {
-        background: "64 61 57",
-        text: "242 233 228"
-    }
-}
-
 function setupEvents() {
     document.getElementById("goal-search").addEventListener("input", event => {
         state.search = event.target.value.toLowerCase();
@@ -159,6 +151,19 @@ function setupEvents() {
     document.getElementById("sort-select").addEventListener("change", event => {
         state.sort = event.target.value;
         update();
+    });
+
+    document.querySelectorAll(".goal-view-buttons button").forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelectorAll(".goal-view-buttons button").forEach(b => b.classList.remove("active"));
+            button.classList.add("active");
+
+            state.view = button.dataset.view;
+            const container = document.getElementById("goal-list");
+            container.classList.toggle("list", state.view === "list");
+            container.classList.toggle("icon", state.view === "icon");
+            update();
+        });
     });
 }
 
@@ -172,7 +177,8 @@ function update() {
     });
 
     sortGoals();
-    renderGoals();
+    if(state.view === "icon") renderIconView();
+    else renderGoals();
 }
 
 function sortGoals() {
@@ -197,51 +203,102 @@ function sortGoals() {
     }
 }
 
-function renderGoals() {
+const preview = document.createElement("div");
+preview.className = "goal-preview";
+document.body.appendChild(preview);
+
+function renderIconView() {
     const container = document.getElementById("goal-list");
     container.innerHTML = "";
 
     filteredGoals.forEach(goal => {
-        const card = document.createElement("div");
-        card.className = "goal-card";
-
-        const header = document.createElement("goal-header");
-        header.className = "goal-header";
+        const header = document.createElement("div");
+        header.className = "goal-icon-card";
 
         const icon = document.createElement("img");
         icon.className = "goal-icon";
         icon.src = getIconPath(goal.icons[0]);
         icon.alt = goal.name;
 
-        const content = document.createElement("div");
-        content.className = "goal-info";
+        header.addEventListener("mouseenter", event => {
+            preview.innerHTML = "";
+            const card = createGoalCard(goal);
+            preview.appendChild(card);
+            preview.style.display = "block";
+            moveGoalPreview(event);
+        });
 
-        const title = document.createElement("h3");
-        title.textContent = goal.name;
+        header.addEventListener("mousemove", event => {
+            moveGoalPreview(event);
+        });
 
-        const difficulty = document.createElement("small");
-        difficulty.textContent = `Difficulty: ${goal.difficulty}`;
+        header.addEventListener("mouseleave", () => {
+            preview.style.display = "none";
+        });
 
-        const tags = document.createElement("div");
-        tags.className = "goal-tags";
-        tags.appendChild(tagButton("goal-tag-display", goal.category));
-        if(goal.tags) {
-            Object.values(goal.tags).flat().forEach(tag => {
-                if(!tag.startsWith("locate")) {
-                    const button = tagButton("goal-tag-display", tag);
-                    tags.appendChild(button);
-                }
-            });
-        }
-
-        content.append(title, difficulty);
-        header.append(icon, content);
-        card.append(header, tags);
-        container.appendChild(card);
+        header.appendChild(icon);
+        container.appendChild(header);
     });
+}
+
+function moveGoalPreview(event) {
+    const goalList = document.getElementById("goal-list");
+    const listRect = goalList.getBoundingClientRect();
+    const rightHalf = event.clientX > listRect.left + listRect.width / 2;
+
+    if(rightHalf) preview.style.left = `${event.clientX - preview.offsetWidth - 6}px`;
+    else preview.style.left = `${event.clientX + 16}px`;
+    preview.style.top = `${event.clientY + 10}px`;
+}
+
+function renderGoals() {
+    const container = document.getElementById("goal-list");
+    container.innerHTML = "";
+    filteredGoals.forEach(goal => {
+        container.appendChild(createGoalCard(goal));
+    })
 
     document.getElementById("filtered-count").textContent = filteredGoals.length;
     document.getElementById("goal-result-count").textContent = filteredGoals.length;
+}
+
+function createGoalCard(goal) {
+    const card = document.createElement("div");
+    card.className = "goal-card";
+
+    const header = document.createElement("div");
+    header.className = "goal-header";
+
+    const icon = document.createElement("img");
+    icon.className = "goal-icon";
+    icon.src = getIconPath(goal.icons[0]);
+    icon.alt = goal.name;
+
+    const content = document.createElement("div");
+    content.className = "goal-info";
+
+    const title = document.createElement("h3");
+    title.textContent = goal.name;
+
+    const difficulty = document.createElement("small");
+    difficulty.textContent = `Difficulty: ${goal.difficulty}`;
+
+    const tags = document.createElement("div");
+    tags.className = "goal-tags";
+    tags.appendChild(tagButton("goal-tag-display", goal.category));
+    if(goal.tags) {
+        Object.values(goal.tags).flat().forEach(tag => {
+            if(!tag.startsWith("locate")) {
+                const button = tagButton("goal-tag-display", tag);
+                tags.appendChild(button);
+            }
+        });
+    }
+
+    content.append(title, difficulty);
+    header.append(icon, content);
+    card.append(header, tags);
+    return card;
 }
 
 function tagButton(name, tag) {
@@ -258,6 +315,15 @@ function tagButton(name, tag) {
     button.style.color = `rgb(${color.text})`;
 
     return button;
+}
+
+function stringToColor(str) {
+    if(str in CATEGORY_COLORS) return CATEGORY_COLORS[str];
+    if(str in TAG_COLORS) return TAG_COLORS[str];
+    return {
+        background: "64 61 57",
+        text: "242 233 228"
+    }
 }
 
 function getIconPath(icon) {
