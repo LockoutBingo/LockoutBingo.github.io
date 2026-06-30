@@ -186,14 +186,20 @@ h2 {
 
 .goal-counts {
     margin-top: 1rem;
+    color: #777;
+}
+
+.goal-counts .filtered-count {
+    color: #ddd;
+    font-weight: bold;
 }
 
 .goal-filter {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .goal-filter h3 {
-    margin: 0;
+    margin: 0 0 0.3rem;
     padding: 0;
 }
 
@@ -227,15 +233,36 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
-.goal-view-buttons {
+.goals-toolbar select {
+    background-color: #14161d;
+    color: #adadad;
+    font-weight: bold;
+
+    padding: 0.23rem 1rem;
     border: 4px solid #0e1117;
+    cursor: pointer;
+}
+
+.goals-toolbar section:focus {
+    outline: none;
+    background-color: #1b1e27;
+}
+
+.goals-toolbar select:focus-visible {
+    outline: none;
+    background-color: #1b1e27;
+}
+
+.goal-view-buttons {
     background-color: #14161d;
     display: flex;
+    border: 4px solid #0e1117;
 }
 
 .goal-view-buttons button {
     background-color: #14161d;
-    color: #e4e9f2;
+    color: #adadad;
+    font-weight: bold;
 
     padding: 0.5rem 1rem;
     border: none;

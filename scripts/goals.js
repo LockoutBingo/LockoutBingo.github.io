@@ -144,6 +144,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     goals = Object.entries(data).map(([key, value]) => ({ key, ...value }));
     filteredGoals = goals;
     document.getElementById("total-count").textContent = goals.length;
+    document.getElementById("filtered-count").textContent = filteredGoals.length;
     console.log("Loaded " + goals.length + " goals");
 
     loadFilters();
@@ -239,6 +240,7 @@ function update() {
     sortGoals();
     if(state.view === "icon") renderIconView();
     else renderGoals();
+    document.getElementById("filtered-count").textContent = filteredGoals.length;
 }
 
 function sortGoals() {
@@ -317,9 +319,6 @@ function renderGoals() {
     filteredGoals.forEach(goal => {
         container.appendChild(createGoalCard(goal));
     })
-
-    document.getElementById("filtered-count").textContent = filteredGoals.length;
-    document.getElementById("goal-result-count").textContent = filteredGoals.length;
 }
 
 function createGoalCard(goal) {
