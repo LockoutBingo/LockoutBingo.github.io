@@ -14,6 +14,7 @@ const FILTER_FORMATTING = {
     "obtain64": "Obtain 64",
     "obtainMore": "Obtain More",
     "standOn": "Stand On",
+    "sound": "Use Block",
     "killedBy": "Killed By",
     "xp": "Experience"
 }
@@ -27,16 +28,44 @@ const CATEGORY_COLORS = {
         text: "218 255 196"
     },
     "breed": {
-        background: "214 96 139",
-        text: "255 175 204"
+        background: "204 51 66",
+        text: "255 163 179"
     },
     "brew": {
         background: "114 61 70",
         text: "255 148 182"
     },
+    "destroy": {
+        background: "2 44 80",
+        text: "127 204 235"
+    },
+    "die": {
+        background: "232 149 132",
+        text: "255 187 173"
+    },
+    "eat": {
+        background: "188 108 37",
+        text: "255 185 122"
+    },
+    "effect": {
+        background: "102 155 188",
+        text: "189 230 255"
+    },
+    "interact": {
+        background: "0 75 35",
+        text: "141 235 185"
+    },
     "kill": {
-        background: "230 50 71",
-        text: "255 163 179"
+        background: "79 0 11",
+        text: "207 122 134"
+    },
+    "killedBy": {
+        background: "116 103 97",
+        text: "255 208 186"
+    },
+    "mine": {
+        background: "164 170 222",
+        text: "235 236 255"
     },
     "obtain": {
         background: "127 79 36",
@@ -49,6 +78,34 @@ const CATEGORY_COLORS = {
     "obtainMore": {
         background: "101 109 74",
         text: "232 255 156"
+    },
+    "opponent": {
+        background: "214 34 34",
+        text: "255 115 115"
+    },
+    "sound": {
+        background: "34 51 59",
+        text: "167 211 232"
+    },
+    "standOn": {
+        background: "58 90 64",
+        text: "149 252 168"
+    },
+    "statistic": {
+        background: "54 38 56",
+        text: "214 151 222"
+    },
+    "structure": {
+        background: "60 110 113",
+        text: "140 239 245"
+    },
+    "tame": {
+        background: "178 98 44",
+        text: "255 173 117"
+    },
+    "wear": {
+        background: "214 96 139",
+        text: "255 175 204"
     }
 }
 const TAG_COLORS = {
