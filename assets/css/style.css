@@ -329,7 +329,7 @@ h2 {
 }
 
 .goal-info small {
-    opacity: 60%;
+    display: block;
 }
 
 .goal-tags {
