@@ -176,9 +176,12 @@ function renderFilterSelectors(containerId, values) {
     const container = document.getElementById(containerId);
 
     values = [...values].sort((a, b) => {
-        if(a === "miscellaneous") return 1;
-        if(b === "miscellaneous") return -1;
-        return a.localeCompare(b);
+        const nameA = FILTER_FORMATTING[a] ?? a.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+        const nameB = FILTER_FORMATTING[b] ?? b.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+
+        if(nameA === "Miscellaneous") return 1;
+        if(nameB === "Miscellaneous") return -1;
+        return nameA.localeCompare(nameB);
     });
     values.forEach(value => {
         const button = tagButton("filter-button", value);
