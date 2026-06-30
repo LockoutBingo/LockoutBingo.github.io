@@ -70,14 +70,15 @@
                         <h3>Difficulty</h3>
 
                         <div class="difficulty-range">
-                            <input type="range" id="difficulty-min" min="0" max="25" value="0">
-                            <input type="range" id="difficulty-max" min="0" max="25" value="25">
+                            <div class="difficulty-slider-track"></div>
+                            <input type="range" id="min-diff-slider" min="0" max="25" value="0">
+                            <input type="range" id="max-diff-slider" min="0" max="25" value="25">
                         </div>
 
                         <div>
-                            <span id="difficulty-label">
-                                0 - 25
-                            </span>
+                            <span id="min-diff-label">0</span>
+                             - 
+                            <span id="max-diff-label">25</span>
                         </div>
                     </section>
 

@@ -79,6 +79,31 @@ function setupEvents() {
         state.search = event.target.value.toLowerCase();
         update();
     });
+
+    const minDiff = document.getElementById("min-diff-slider");
+    const maxDiff = document.getElementById("max-diff-slider");
+    minDiff.addEventListener("input", event => {
+        const min = Number(minDiff.value);
+        const max = Number(maxDiff.value);
+        if(max - min <= 0) minDiff.value = max;
+
+        document.getElementById("min-diff-label").textContent = minDiff.value;
+        minDiff.style.zIndex = 2;
+        maxDiff.style.zIndex = 1;
+        state.minDifficulty = Number(minDiff.value);
+        update();
+    });
+    maxDiff.addEventListener("input", event => {
+        const min = Number(minDiff.value);
+        const max = Number(maxDiff.value);
+        if(max - min <= 0) maxDiff.value = min;
+
+        document.getElementById("max-diff-label").textContent = maxDiff.value;
+        maxDiff.style.zIndex = 2;
+        minDiff.style.zIndex = 1;
+        state.maxDifficulty = Number(maxDiff.value);
+        update();
+    });
     
     document.getElementById("sort-select").addEventListener("change", event => {
         state.sort = event.target.value;
@@ -102,11 +127,12 @@ function setupEvents() {
 function update() {
     filteredGoals = goals.filter(goal => {
         const matchesSearch = !state.search || goal.key.includes(state.search) || goal.name.toLowerCase().includes(state.search);
+        const withinDifficultyRange = goal.difficulty >= state.minDifficulty && goal.difficulty <= state.maxDifficulty;
         const matchesCategory = state.categoryFilter.size === 0 || state.categoryFilter.has(goal.category) || (state.categoryFilter.has("opponent") && goal.opponent === true);
         const matchesTag = state.tagFilter.size === 0 || (goal.tags && goal.tags.some(tag => state.tagFilter.has(tag)));
         const matchesVersion = state.versionFilter.size === 0 || state.versionFilter.has(VERSION_ADDED[goal.key] ?? "1.0");
 
-        return matchesSearch && matchesCategory && matchesTag && matchesVersion;
+        return matchesSearch && withinDifficultyRange && matchesCategory && matchesTag && matchesVersion;
     });
 
     sortGoals();
