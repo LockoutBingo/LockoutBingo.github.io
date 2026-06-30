@@ -5,12 +5,7 @@
     "icons": [
       "lockoutbingo:attack_creaking"
     ],
-    "name": "Attack a Creaking",
-    "tags": {
-      "or": [
-        "locate_pale_garden"
-      ]
-    }
+    "name": "Attack a Creaking"
   },
   "break_a_hoe": {
     "category": "destroy",
@@ -57,11 +52,9 @@
       "lockoutbingo:breed_animals"
     ],
     "name": "Breed 4 Unique Animals",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "breed_6_unique_animals": {
     "category": "breed",
@@ -70,11 +63,9 @@
       "lockoutbingo:breed_animals"
     ],
     "name": "Breed 6 Unique Animals",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "breed_8_unique_animals": {
     "category": "breed",
@@ -83,11 +74,9 @@
       "lockoutbingo:breed_animals"
     ],
     "name": "Breed 8 Unique Animals",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "breed_bees": {
     "category": "breed",
@@ -103,13 +92,7 @@
     "icons": [
       "lockoutbingo:breed_camel"
     ],
-    "name": "Breed Camels",
-    "tags": {
-      "or": [
-        "locate_desert",
-        "locate_village_desert"
-      ]
-    }
+    "name": "Breed Camels"
   },
   "breed_cats": {
     "category": "breed",
@@ -117,12 +100,7 @@
     "icons": [
       "lockoutbingo:breed_cat"
     ],
-    "name": "Breed Cats",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Breed Cats"
   },
   "breed_chickens": {
     "category": "breed",
@@ -146,12 +124,7 @@
     "icons": [
       "lockoutbingo:breed_fox"
     ],
-    "name": "Breed Foxes",
-    "tags": {
-      "or": [
-        "locate_fox"
-      ]
-    }
+    "name": "Breed Foxes"
   },
   "breed_goats": {
     "category": "breed",
@@ -159,12 +132,7 @@
     "icons": [
       "lockoutbingo:breed_goat"
     ],
-    "name": "Breed Goats",
-    "tags": {
-      "or": [
-        "locate_goat"
-      ]
-    }
+    "name": "Breed Goats"
   },
   "breed_hoglins": {
     "category": "breed",
@@ -173,11 +141,9 @@
       "lockoutbingo:breed_hoglin"
     ],
     "name": "Breed Hoglins",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "breed_horses": {
     "category": "breed",
@@ -194,11 +160,9 @@
       "lockoutbingo:breed_nautilus"
     ],
     "name": "Breed Nautilus",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "breed_pandas": {
     "category": "breed",
@@ -206,12 +170,7 @@
     "icons": [
       "lockoutbingo:breed_panda"
     ],
-    "name": "Breed Pandas",
-    "tags": {
-      "or": [
-        "locate_bamboo_jungle"
-      ]
-    }
+    "name": "Breed Pandas"
   },
   "breed_pigs": {
     "category": "breed",
@@ -227,12 +186,7 @@
     "icons": [
       "lockoutbingo:breed_rabbit"
     ],
-    "name": "Breed Rabbits",
-    "tags": {
-      "or": [
-        "locate_rabbit"
-      ]
-    }
+    "name": "Breed Rabbits"
   },
   "breed_sheep": {
     "category": "breed",
@@ -257,11 +211,9 @@
       "minecraft:potion"
     ],
     "name": "Brew Instant Damage",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "brew_instant_health": {
     "category": "brew",
@@ -270,11 +222,9 @@
       "minecraft:potion"
     ],
     "name": "Brew Instant Health",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "brew_invisibility": {
     "category": "brew",
@@ -283,11 +233,9 @@
       "minecraft:potion"
     ],
     "name": "Brew Invisibility",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "brew_slow_falling": {
     "category": "brew",
@@ -296,11 +244,9 @@
       "minecraft:potion"
     ],
     "name": "Brew Slow Falling",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "brew_slowness": {
     "category": "brew",
@@ -309,11 +255,9 @@
       "minecraft:potion"
     ],
     "name": "Brew Slowness",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "catch_10_fish": {
     "category": "statistic",
@@ -378,11 +322,9 @@
       "lockoutbingo:death_wither"
     ],
     "name": "Die by Withering Away",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "die_from_a_bee_sting": {
     "category": "die",
@@ -398,12 +340,7 @@
     "icons": [
       "lockoutbingo:death_sonic_boom"
     ],
-    "name": "Die from a Sonic Boom",
-    "tags": {
-      "or": [
-        "locate_deep_dark"
-      ]
-    }
+    "name": "Die from a Sonic Boom"
   },
   "die_to_a_berry_bush": {
     "category": "die",
@@ -411,12 +348,7 @@
     "icons": [
       "lockoutbingo:death_berry_bush"
     ],
-    "name": "Die to a Berry Bush",
-    "tags": {
-      "or": [
-        "locate_berry_bush"
-      ]
-    }
+    "name": "Die to a Berry Bush"
   },
   "die_to_a_cactus": {
     "category": "die",
@@ -424,12 +356,7 @@
     "icons": [
       "lockoutbingo:death_cactus"
     ],
-    "name": "Die to a Cactus",
-    "tags": {
-      "or": [
-        "locate_desert"
-      ]
-    }
+    "name": "Die to a Cactus"
   },
   "die_to_a_falling_anvil": {
     "category": "die",
@@ -453,12 +380,7 @@
     "icons": [
       "lockoutbingo:death_stalagmite"
     ],
-    "name": "Die to a Stalagmite",
-    "tags": {
-      "or": [
-        "locate_dripstone_cave"
-      ]
-    }
+    "name": "Die to a Stalagmite"
   },
   "die_to_intentional_game_design": {
     "category": "die",
@@ -492,11 +414,9 @@
       "lockoutbingo:eat_food"
     ],
     "name": "Eat 16 Unique Foods",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "eat_24_unique_foods": {
     "category": "eat",
@@ -505,11 +425,9 @@
       "lockoutbingo:eat_food"
     ],
     "name": "Eat 24 Unique Foods",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "eat_3_unique_foods": {
     "category": "eat",
@@ -518,11 +436,9 @@
       "lockoutbingo:eat_food"
     ],
     "name": "Eat 3 Unique Foods",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "eat_8_unique_foods": {
     "category": "eat",
@@ -531,11 +447,9 @@
       "lockoutbingo:eat_food"
     ],
     "name": "Eat 8 Unique Foods",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "eat_a_cookie": {
     "category": "eat",
@@ -543,13 +457,7 @@
     "icons": [
       "minecraft:cookie"
     ],
-    "name": "Eat a Cookie",
-    "tags": {
-      "or": [
-        "locate_bamboo_jungle",
-        "locate_jungle"
-      ]
-    }
+    "name": "Eat a Cookie"
   },
   "eat_a_poisonous_potato": {
     "category": "eat",
@@ -557,12 +465,7 @@
     "icons": [
       "minecraft:poisonous_potato"
     ],
-    "name": "Eat a Poisonous Potato",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Eat a Poisonous Potato"
   },
   "eat_a_pufferfish": {
     "category": "eat",
@@ -571,14 +474,9 @@
       "minecraft:pufferfish"
     ],
     "name": "Eat a Pufferfish",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_ocean_ruin_warm_biomes"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "eat_a_spider_eye": {
     "category": "eat",
@@ -595,16 +493,9 @@
       "minecraft:tropical_fish"
     ],
     "name": "Eat a Tropical Fish",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_lush_cave",
-        "locate_mangrove_swamp",
-        "locate_ocean_ruin_warm_biomes"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "eat_an_apple": {
     "category": "eat",
@@ -644,12 +535,7 @@
     "icons": [
       "minecraft:cooked_rabbit"
     ],
-    "name": "Eat Cooked Rabbit",
-    "tags": {
-      "or": [
-        "locate_rabbit"
-      ]
-    }
+    "name": "Eat Cooked Rabbit"
   },
   "eat_dried_kelp": {
     "category": "eat",
@@ -658,11 +544,9 @@
       "minecraft:dried_kelp"
     ],
     "name": "Eat Dried Kelp",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "eat_pumpkin_pie": {
     "category": "eat",
@@ -678,12 +562,7 @@
     "icons": [
       "minecraft:rabbit_stew"
     ],
-    "name": "Eat Rabbit Stew",
-    "tags": {
-      "or": [
-        "locate_rabbit"
-      ]
-    }
+    "name": "Eat Rabbit Stew"
   },
   "eat_raw_chicken": {
     "category": "eat",
@@ -716,11 +595,9 @@
       "lockoutbingo:enrage_piglin"
     ],
     "name": "Enrage a Zombified Piglin",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "enter_the_end": {
     "category": "advancement",
@@ -729,11 +606,9 @@
       "minecraft:end_portal_frame"
     ],
     "name": "Enter the End",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "enter_the_nether": {
     "category": "advancement",
@@ -742,11 +617,9 @@
       "lockoutbingo:enter_nether"
     ],
     "name": "Enter the Nether",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "equip_armor_on_a_wolf": {
     "category": "miscellaneous",
@@ -754,12 +627,7 @@
     "icons": [
       "minecraft:wolf_armor"
     ],
-    "name": "Equip Armor on a Wolf",
-    "tags": {
-      "or": [
-        "locate_armadillo"
-      ]
-    }
+    "name": "Equip Armor on a Wolf"
   },
   "fill_an_armor_stand_with_armor": {
     "category": "miscellaneous",
@@ -791,12 +659,7 @@
     "icons": [
       "lockoutbingo:death_freeze"
     ],
-    "name": "Freeze to Death",
-    "tags": {
-      "or": [
-        "locate_powdered_snow"
-      ]
-    }
+    "name": "Freeze to Death"
   },
   "fully_charge_a_respawn_anchor": {
     "category": "advancement",
@@ -813,11 +676,9 @@
       "lockoutbingo:advancements_10"
     ],
     "name": "Get 10 Advancements",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "get_20_advancements": {
     "category": "advancement",
@@ -826,11 +687,9 @@
       "lockoutbingo:advancements_20"
     ],
     "name": "Get 20 Advancements",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "get_30_advancements": {
     "category": "advancement",
@@ -839,11 +698,9 @@
       "lockoutbingo:advancements_30"
     ],
     "name": "Get 30 Advancements",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "get_40_advancements": {
     "category": "advancement",
@@ -852,11 +709,9 @@
       "lockoutbingo:advancements_40"
     ],
     "name": "Get 40 Advancements",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "get_a_spyglass_advancement": {
     "category": "advancement",
@@ -872,13 +727,7 @@
     "icons": [
       "lockoutbingo:bad_omen"
     ],
-    "name": "Get Bad Omen",
-    "tags": {
-      "or": [
-        "locate_pillager_outpost",
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Get Bad Omen"
   },
   "get_blindness_from_eating_suspicious_stew": {
     "category": "miscellaneous",
@@ -894,12 +743,7 @@
     "icons": [
       "minecraft:wind_charge"
     ],
-    "name": "Get \"Blowback\" Advancement",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Get \"Blowback\" Advancement"
   },
   "get_breath_of_the_nautilus": {
     "category": "effect",
@@ -958,12 +802,7 @@
     "icons": [
       "lockoutbingo:darkness"
     ],
-    "name": "Get Darkness",
-    "tags": {
-      "or": [
-        "locate_deep_dark"
-      ]
-    }
+    "name": "Get Darkness"
   },
   "get_glow_and_behold!_advancement": {
     "category": "advancement",
@@ -988,11 +827,9 @@
       "minecraft:shulker_shell"
     ],
     "name": "Get \"Great View From Up Here\" Advancement",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "get_hunger": {
     "category": "effect",
@@ -1017,14 +854,9 @@
       "lockoutbingo:death_guardian"
     ],
     "name": "Get Killed by a Guardian",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "get_killed_by_a_llama": {
     "category": "killedBy",
@@ -1032,12 +864,7 @@
     "icons": [
       "lockoutbingo:death_llama"
     ],
-    "name": "Get Killed by a Llama",
-    "tags": {
-      "or": [
-        "locate_llama"
-      ]
-    }
+    "name": "Get Killed by a Llama"
   },
   "get_killed_by_a_wolf": {
     "category": "killedBy",
@@ -1062,11 +889,9 @@
       "lockoutbingo:levitation"
     ],
     "name": "Get Levitation",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "get_night_vision_from_eating_suspicious_stew": {
     "category": "miscellaneous",
@@ -1090,12 +915,7 @@
     "icons": [
       "minecraft:mace"
     ],
-    "name": "Get \"Over-Overkill\" Advancement",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Get \"Over-Overkill\" Advancement"
   },
   "get_raid_omen": {
     "category": "effect",
@@ -1103,12 +923,7 @@
     "icons": [
       "lockoutbingo:raid_omen"
     ],
-    "name": "Get Raid Omen",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Get Raid Omen"
   },
   "get_remote_getaway_advancement": {
     "category": "advancement",
@@ -1117,11 +932,9 @@
       "minecraft:ender_pearl"
     ],
     "name": "Get \"Remote Getaway\" Advancement",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "get_sticky_situation_advancement": {
     "category": "advancement",
@@ -1146,11 +959,9 @@
       "minecraft:map"
     ],
     "name": "Get \"Subspace Bubble\" Advancement",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "get_sweet_dreams_advancement": {
     "category": "advancement",
@@ -1174,12 +985,7 @@
     "icons": [
       "lockoutbingo:trial_omen"
     ],
-    "name": "Get Trial Omen",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Get Trial Omen"
   },
   "get_weaving": {
     "category": "effect",
@@ -1204,11 +1010,9 @@
       "lockoutbingo:wither"
     ],
     "name": "Get Wither",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "give_soul_soil_to_a_sulfur_cube": {
     "category": "miscellaneous",
@@ -1216,12 +1020,7 @@
     "icons": [
       "lockoutbingo:soul_soil_sulfur_cube"
     ],
-    "name": "Give Soul Soil to a Sulfur Cube",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Give Soul Soil to a Sulfur Cube"
   },
   "give_tnt_to_a_sulfur_cube": {
     "category": "miscellaneous",
@@ -1229,12 +1028,7 @@
     "icons": [
       "lockoutbingo:tnt_sulfur_cube"
     ],
-    "name": "Give TNT to a Sulfur Cube",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Give TNT to a Sulfur Cube"
   },
   "have_3_active_effects": {
     "category": "effect",
@@ -1243,11 +1037,9 @@
       "lockoutbingo:effects_3"
     ],
     "name": "Have 3 Active Effects",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "have_6_active_effects": {
     "category": "effect",
@@ -1256,11 +1048,9 @@
       "lockoutbingo:effects_6"
     ],
     "name": "Have 6 Active Effects",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "have_9_active_effects": {
     "category": "effect",
@@ -1269,11 +1059,9 @@
       "lockoutbingo:effects_9"
     ],
     "name": "Have 9 Active Effects",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "have_more_experience_than_opponent": {
     "category": "miscellaneous",
@@ -1282,12 +1070,10 @@
       "lockoutbingo:more_experience"
     ],
     "name": "Have More Experience Than Opponent",
-    "tags": {
-      "limit": [
-        "more_than_opponent",
-        "xp"
-      ]
-    }
+    "tags": [
+      "more_than_opponent",
+      "xp"
+    ]
   },
   "hit_a_block_absorbed_sulfur_cube": {
     "category": "miscellaneous",
@@ -1295,12 +1081,7 @@
     "icons": [
       "lockoutbingo:absorbed_sulfur_cube"
     ],
-    "name": "Hit a Block Absorbed Sulfur Cube",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Hit a Block Absorbed Sulfur Cube"
   },
   "jump_200_times": {
     "category": "statistic",
@@ -1325,11 +1106,9 @@
       "lockoutbingo:kill_unique_hostile"
     ],
     "name": "Kill 10 Unique Hostile Mobs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "kill_10_unique_mobs": {
     "category": "kill",
@@ -1338,11 +1117,9 @@
       "lockoutbingo:kill_unique"
     ],
     "name": "Kill 10 Unique Mobs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "kill_15_arthropods": {
     "category": "kill",
@@ -1359,11 +1136,9 @@
       "lockoutbingo:kill_unique_hostile"
     ],
     "name": "Kill 15 Unique Hostile Mobs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "kill_25_undead_mobs": {
     "category": "kill",
@@ -1380,11 +1155,9 @@
       "lockoutbingo:kill_unique"
     ],
     "name": "Kill 25 Unique Mobs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "kill_30_mobs": {
     "category": "statistic",
@@ -1409,11 +1182,9 @@
       "lockoutbingo:kill_unique_hostile"
     ],
     "name": "Kill 5 Unique Hostile Mobs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "kill_bogged": {
     "category": "kill",
@@ -1421,12 +1192,7 @@
     "icons": [
       "lockoutbingo:kill_bogged"
     ],
-    "name": "Kill Bogged",
-    "tags": {
-      "or": [
-        "locate_swamp"
-      ]
-    }
+    "name": "Kill Bogged"
   },
   "kill_breeze": {
     "category": "kill",
@@ -1434,12 +1200,7 @@
     "icons": [
       "lockoutbingo:kill_breeze"
     ],
-    "name": "Kill Breeze",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Kill Breeze"
   },
   "kill_cave_spider": {
     "category": "kill",
@@ -1456,14 +1217,9 @@
       "lockoutbingo:kill_elder_guardian"
     ],
     "name": "Kill Elder Guardian",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "kill_endermite": {
     "category": "kill",
@@ -1472,11 +1228,9 @@
       "lockoutbingo:kill_endermite"
     ],
     "name": "Kill Endermite",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "kill_evoker": {
     "category": "kill",
@@ -1484,13 +1238,7 @@
     "icons": [
       "lockoutbingo:kill_evoker"
     ],
-    "name": "Kill Evoker",
-    "tags": {
-      "or": [
-        "locate_mansion",
-        "locate_pillager_outpost"
-      ]
-    }
+    "name": "Kill Evoker"
   },
   "kill_ghast": {
     "category": "kill",
@@ -1499,11 +1247,9 @@
       "lockoutbingo:kill_ghast"
     ],
     "name": "Kill Ghast",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "kill_piglin_brute": {
     "category": "kill",
@@ -1512,11 +1258,9 @@
       "lockoutbingo:kill_piglin_brute"
     ],
     "name": "Kill Piglin Brute",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "kill_ravager": {
     "category": "kill",
@@ -1524,12 +1268,7 @@
     "icons": [
       "lockoutbingo:kill_ravager"
     ],
-    "name": "Kill Ravager",
-    "tags": {
-      "or": [
-        "locate_pillager_outpost"
-      ]
-    }
+    "name": "Kill Ravager"
   },
   "kill_silverfish": {
     "category": "kill",
@@ -1545,12 +1284,7 @@
     "icons": [
       "lockoutbingo:kill_snow_golem"
     ],
-    "name": "Kill Snow Golem",
-    "tags": {
-      "or": [
-        "locate_snowy_biome"
-      ]
-    }
+    "name": "Kill Snow Golem"
   },
   "kill_stray": {
     "category": "kill",
@@ -1558,12 +1292,7 @@
     "icons": [
       "lockoutbingo:kill_stray"
     ],
-    "name": "Kill Stray",
-    "tags": {
-      "or": [
-        "locate_snowy_biome"
-      ]
-    }
+    "name": "Kill Stray"
   },
   "kill_the_ender_dragon": {
     "category": "kill",
@@ -1572,11 +1301,9 @@
       "minecraft:dragon_head"
     ],
     "name": "Kill the Ender Dragon",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "kill_vex": {
     "category": "kill",
@@ -1584,12 +1311,7 @@
     "icons": [
       "lockoutbingo:kill_vex"
     ],
-    "name": "Kill Vex",
-    "tags": {
-      "or": [
-        "locate_mansion"
-      ]
-    }
+    "name": "Kill Vex"
   },
   "kill_witch": {
     "category": "kill",
@@ -1597,12 +1319,7 @@
     "icons": [
       "lockoutbingo:kill_witch"
     ],
-    "name": "Kill Witch",
-    "tags": {
-      "or": [
-        "locate_swamp_hut"
-      ]
-    }
+    "name": "Kill Witch"
   },
   "kill_zoglin": {
     "category": "kill",
@@ -1611,11 +1328,9 @@
       "lockoutbingo:kill_zoglin"
     ],
     "name": "Kill Zoglin",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "kill_zombie_villager": {
     "category": "kill",
@@ -1656,11 +1371,9 @@
       "lockoutbingo:bastion"
     ],
     "name": "Locate a Bastion",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "locate_a_cherry_grove_biome": {
     "category": "biome",
@@ -1709,11 +1422,9 @@
       "lockoutbingo:fortress"
     ],
     "name": "Locate a Fortress",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "locate_a_grove_biome": {
     "category": "biome",
@@ -1754,11 +1465,9 @@
       "lockoutbingo:stronghold"
     ],
     "name": "Locate a Stronghold",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "locate_a_sulfur_cave": {
     "category": "biome",
@@ -1791,11 +1500,9 @@
       "lockoutbingo:end_city"
     ],
     "name": "Locate an End City",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "locate_an_ice_spikes_biome": {
     "category": "biome",
@@ -1851,12 +1558,7 @@
     "icons": [
       "lockoutbingo:mine_brown_mushroom_block"
     ],
-    "name": "Mine Brown Mushroom Block",
-    "tags": {
-      "or": [
-        "locate_dark_forest"
-      ]
-    }
+    "name": "Mine Brown Mushroom Block"
   },
   "mine_budding_amethyst": {
     "category": "mine",
@@ -1888,12 +1590,7 @@
     "icons": [
       "lockoutbingo:mine_ice"
     ],
-    "name": "Mine Ice",
-    "tags": {
-      "or": [
-        "locate_icy_biome"
-      ]
-    }
+    "name": "Mine Ice"
   },
   "mine_large_amethyst_bud": {
     "category": "mine",
@@ -1909,13 +1606,7 @@
     "icons": [
       "lockoutbingo:mine_lily_pad"
     ],
-    "name": "Mine Lily Pad",
-    "tags": {
-      "or": [
-        "locate_mangrove_swamp",
-        "locate_swamp"
-      ]
-    }
+    "name": "Mine Lily Pad"
   },
   "mine_muddy_mangrove_roots": {
     "category": "mine",
@@ -1923,12 +1614,7 @@
     "icons": [
       "lockoutbingo:mine_muddy_mangrove_roots"
     ],
-    "name": "Mine Muddy Mangrove Roots",
-    "tags": {
-      "or": [
-        "locate_mangrove_swamp"
-      ]
-    }
+    "name": "Mine Muddy Mangrove Roots"
   },
   "mine_nether_brick_fence": {
     "category": "mine",
@@ -1937,11 +1623,9 @@
       "lockoutbingo:mine_nether_brick_fence"
     ],
     "name": "Mine Nether Brick Fence",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "mine_nether_gold_ore": {
     "category": "mine",
@@ -1950,11 +1634,9 @@
       "lockoutbingo:mine_nether_gold_ore"
     ],
     "name": "Mine Nether Gold Ore",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "mine_obsidian": {
     "category": "mine",
@@ -1970,12 +1652,7 @@
     "icons": [
       "lockoutbingo:mine_red_mushroom_block"
     ],
-    "name": "Mine Red Mushroom Block",
-    "tags": {
-      "or": [
-        "locate_dark_forest"
-      ]
-    }
+    "name": "Mine Red Mushroom Block"
   },
   "mine_sculk_sensor": {
     "category": "mine",
@@ -1983,12 +1660,7 @@
     "icons": [
       "lockoutbingo:mine_sculk_sensor"
     ],
-    "name": "Mine Sculk Sensor",
-    "tags": {
-      "or": [
-        "locate_deep_dark"
-      ]
-    }
+    "name": "Mine Sculk Sensor"
   },
   "mine_spawner": {
     "category": "mine",
@@ -2013,11 +1685,9 @@
       "lockoutbingo:mine_turtle_egg"
     ],
     "name": "Mine Turtle Egg",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "mine_wet_sponge": {
     "category": "mine",
@@ -2026,14 +1696,9 @@
       "lockoutbingo:mine_wet_sponge"
     ],
     "name": "Mine Wet Sponge",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_1_banner_pattern": {
     "category": "obtain",
@@ -2060,13 +1725,7 @@
       "minecraft:verdant_froglight",
       "minecraft:pearlescent_froglight"
     ],
-    "name": "Obtain 1 Froglight",
-    "tags": {
-      "or": [
-        "locate_mangrove_swamp",
-        "locate_swamp"
-      ]
-    }
+    "name": "Obtain 1 Froglight"
   },
   "obtain_1_music_disc": {
     "category": "obtain",
@@ -2121,11 +1780,9 @@
       "minecraft:nether_quartz_ore"
     ],
     "name": "Obtain 1 Ore Block",
-    "tags": {
-      "limit": [
-        "silktouch"
-      ]
-    }
+    "tags": [
+      "silktouch"
+    ]
   },
   "obtain_1_ore_storage_block": {
     "category": "obtain",
@@ -2156,11 +1813,9 @@
       "minecraft:end_stone"
     ],
     "name": "Obtain 3 Stone Types",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_3_unique_armor_trims": {
     "category": "obtain",
@@ -2186,11 +1841,9 @@
       "minecraft:bolt_armor_trim_smithing_template"
     ],
     "name": "Obtain 3 Unique Armor Trims",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_4_unique_pottery_sherds": {
     "category": "obtain",
@@ -2220,17 +1873,9 @@
       "minecraft:snort_pottery_sherd"
     ],
     "name": "Obtain 4 Unique Pottery Sherds",
-    "tags": {
-      "limit": [
-        "unique"
-      ],
-      "or": [
-        "locate_desert_pyramid",
-        "locate_ocean_ruin_cold",
-        "locate_ocean_ruin_warm",
-        "locate_trail_ruins"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_5_unique_leaves": {
     "category": "obtain",
@@ -2249,11 +1894,9 @@
       "minecraft:flowering_azalea_leaves"
     ],
     "name": "Obtain 5 Unique Leaves",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_5_unique_logs": {
     "category": "obtain",
@@ -2272,11 +1915,9 @@
       "minecraft:warped_stem"
     ],
     "name": "Obtain 5 Unique Logs",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_5_unique_saplings": {
     "category": "obtain",
@@ -2293,11 +1934,9 @@
       "minecraft:pale_oak_sapling"
     ],
     "name": "Obtain 5 Unique Saplings",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_5_unique_wood": {
     "category": "obtain",
@@ -2316,11 +1955,9 @@
       "minecraft:warped_hyphae"
     ],
     "name": "Obtain 5 Unique Wood",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_64_glass": {
     "category": "obtain64",
@@ -2434,11 +2071,9 @@
       "minecraft:chorus_flower"
     ],
     "name": "Obtain 6 Unique Flowers",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_9_unique_dyes": {
     "category": "obtain",
@@ -2462,11 +2097,9 @@
       "minecraft:black_dye"
     ],
     "name": "Obtain 9 Unique Dyes",
-    "tags": {
-      "limit": [
-        "unique"
-      ]
-    }
+    "tags": [
+      "unique"
+    ]
   },
   "obtain_a_chest_boat": {
     "category": "obtain",
@@ -2492,11 +2125,9 @@
       "minecraft:cod_bucket"
     ],
     "name": "Obtain a Cod Bucket",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_a_disc_fragment": {
     "category": "obtain",
@@ -2504,12 +2135,7 @@
     "icons": [
       "minecraft:disc_fragment_5"
     ],
-    "name": "Obtain a Disc Fragment",
-    "tags": {
-      "or": [
-        "locate_ancient_city"
-      ]
-    }
+    "name": "Obtain a Disc Fragment"
   },
   "obtain_a_powder_snow_bucket": {
     "category": "obtain",
@@ -2517,12 +2143,7 @@
     "icons": [
       "minecraft:powder_snow_bucket"
     ],
-    "name": "Obtain a Powder Snow Bucket",
-    "tags": {
-      "or": [
-        "locate_powdered_snow"
-      ]
-    }
+    "name": "Obtain a Powder Snow Bucket"
   },
   "obtain_a_pufferfish_bucket": {
     "category": "obtain",
@@ -2531,14 +2152,9 @@
       "minecraft:pufferfish_bucket"
     ],
     "name": "Obtain a Pufferfish Bucket",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_ocean_ruin_warm_biomes"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_a_rabbit_foot": {
     "category": "obtain",
@@ -2546,12 +2162,7 @@
     "icons": [
       "minecraft:rabbit_foot"
     ],
-    "name": "Obtain a Rabbit Foot",
-    "tags": {
-      "or": [
-        "locate_rabbit"
-      ]
-    }
+    "name": "Obtain a Rabbit Foot"
   },
   "obtain_a_salmon_bucket": {
     "category": "obtain",
@@ -2560,11 +2171,9 @@
       "minecraft:salmon_bucket"
     ],
     "name": "Obtain a Salmon Bucket",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_a_tipped_arrow": {
     "category": "obtain",
@@ -2573,11 +2182,9 @@
       "minecraft:tipped_arrow"
     ],
     "name": "Obtain a Tipped Arrow",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_a_tropical_fish_bucket": {
     "category": "obtain",
@@ -2586,16 +2193,9 @@
       "minecraft:tropical_fish_bucket"
     ],
     "name": "Obtain a Tropical Fish Bucket",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_lush_cave",
-        "locate_mangrove_swamp",
-        "locate_ocean_ruin_warm_biomes"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_activator_rail": {
     "category": "obtain",
@@ -2614,15 +2214,9 @@
       "minecraft:brown_egg"
     ],
     "name": "Obtain All Chicken Eggs",
-    "tags": {
-      "and": [
-        "locate_cold_farm_animals",
-        "locate_warm_farm_animals"
-      ],
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_copper_tools": {
     "category": "obtain",
@@ -2636,11 +2230,9 @@
       "minecraft:copper_hoe"
     ],
     "name": "Obtain All Copper Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_diamond_tools": {
     "category": "obtain",
@@ -2654,11 +2246,9 @@
       "minecraft:diamond_hoe"
     ],
     "name": "Obtain All Diamond Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_dyed_bundles": {
     "category": "obtain",
@@ -2682,11 +2272,9 @@
       "minecraft:black_bundle"
     ],
     "name": "Obtain All Dyed Bundles",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_gold_tools": {
     "category": "obtain",
@@ -2700,11 +2288,9 @@
       "minecraft:golden_hoe"
     ],
     "name": "Obtain All Gold Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_iron_tools": {
     "category": "obtain",
@@ -2718,11 +2304,9 @@
       "minecraft:iron_hoe"
     ],
     "name": "Obtain All Iron Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_nuggets": {
     "category": "obtain",
@@ -2733,11 +2317,9 @@
       "minecraft:gold_nugget"
     ],
     "name": "Obtain All Nuggets",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_ore_blocks": {
     "category": "obtain",
@@ -2755,12 +2337,10 @@
       "minecraft:nether_quartz_ore"
     ],
     "name": "Obtain All Ore Blocks",
-    "tags": {
-      "limit": [
-        "collect_all",
-        "silktouch"
-      ]
-    }
+    "tags": [
+      "collect_all",
+      "silktouch"
+    ]
   },
   "obtain_all_ore_storage_blocks": {
     "category": "obtain",
@@ -2776,11 +2356,9 @@
       "minecraft:diamond_block"
     ],
     "name": "Obtain All Ore Storage Blocks",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_raw_blocks": {
     "category": "obtain",
@@ -2791,11 +2369,9 @@
       "minecraft:raw_gold_block"
     ],
     "name": "Obtain All Raw Blocks",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_soups": {
     "category": "obtain",
@@ -2807,14 +2383,9 @@
       "minecraft:suspicious_stew"
     ],
     "name": "Obtain All Soups",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ],
-      "or": [
-        "locate_rabbit"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_stone_tools": {
     "category": "obtain",
@@ -2828,11 +2399,9 @@
       "minecraft:stone_hoe"
     ],
     "name": "Obtain All Stone Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_all_wooden_tools": {
     "category": "obtain",
@@ -2846,11 +2415,9 @@
       "minecraft:wooden_hoe"
     ],
     "name": "Obtain All Wooden Tools",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_amethyst_block": {
     "category": "obtain",
@@ -2867,11 +2434,9 @@
       "minecraft:ancient_debris"
     ],
     "name": "Obtain Ancient Debris",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_armadillo_scute": {
     "category": "obtain",
@@ -2879,12 +2444,7 @@
     "icons": [
       "minecraft:armadillo_scute"
     ],
-    "name": "Obtain Armadillo Scute",
-    "tags": {
-      "or": [
-        "locate_armadillo"
-      ]
-    }
+    "name": "Obtain Armadillo Scute"
   },
   "obtain_azalea": {
     "category": "obtain",
@@ -2892,12 +2452,7 @@
     "icons": [
       "minecraft:azalea"
     ],
-    "name": "Obtain Azalea",
-    "tags": {
-      "or": [
-        "locate_lush_cave"
-      ]
-    }
+    "name": "Obtain Azalea"
   },
   "obtain_bamboo_raft": {
     "category": "obtain",
@@ -2905,13 +2460,7 @@
     "icons": [
       "minecraft:bamboo_raft"
     ],
-    "name": "Obtain Bamboo Raft",
-    "tags": {
-      "or": [
-        "locate_bamboo_jungle",
-        "locate_jungle"
-      ]
-    }
+    "name": "Obtain Bamboo Raft"
   },
   "obtain_beacon": {
     "category": "obtain",
@@ -2920,11 +2469,9 @@
       "minecraft:beacon"
     ],
     "name": "Obtain Beacon",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_bell": {
     "category": "obtain",
@@ -2932,12 +2479,7 @@
     "icons": [
       "minecraft:bell"
     ],
-    "name": "Obtain Bell",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Obtain Bell"
   },
   "obtain_blue_ice": {
     "category": "obtain",
@@ -2946,14 +2488,9 @@
       "minecraft:blue_ice"
     ],
     "name": "Obtain Blue Ice",
-    "tags": {
-      "limit": [
-        "silktouch"
-      ],
-      "or": [
-        "locate_icy_biome"
-      ]
-    }
+    "tags": [
+      "silktouch"
+    ]
   },
   "obtain_bricks": {
     "category": "obtain",
@@ -2969,12 +2506,7 @@
     "icons": [
       "minecraft:sulfur_cube_bucket"
     ],
-    "name": "Obtain Bucket of Sulfur Cube",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Obtain Bucket of Sulfur Cube"
   },
   "obtain_bundle": {
     "category": "obtain",
@@ -2998,12 +2530,7 @@
     "icons": [
       "minecraft:cactus"
     ],
-    "name": "Obtain Cactus",
-    "tags": {
-      "or": [
-        "locate_desert"
-      ]
-    }
+    "name": "Obtain Cactus"
   },
   "obtain_cake": {
     "category": "obtain",
@@ -3051,12 +2578,7 @@
     "icons": [
       "minecraft:chiseled_cinnabar"
     ],
-    "name": "Obtain Chiseled Cinnabar",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Obtain Chiseled Cinnabar"
   },
   "obtain_chiseled_deepslate": {
     "category": "obtain",
@@ -3073,11 +2595,9 @@
       "minecraft:chiseled_quartz_block"
     ],
     "name": "Obtain Chiseled Quartz Block",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_chiseled_resin_bricks": {
     "category": "obtain",
@@ -3085,12 +2605,7 @@
     "icons": [
       "minecraft:chiseled_resin_bricks"
     ],
-    "name": "Obtain Chiseled Resin Bricks",
-    "tags": {
-      "or": [
-        "locate_pale_garden"
-      ]
-    }
+    "name": "Obtain Chiseled Resin Bricks"
   },
   "obtain_chiseled_tuff": {
     "category": "obtain",
@@ -3170,12 +2685,7 @@
     "icons": [
       "minecraft:creaking_heart"
     ],
-    "name": "Obtain Creaking Heart",
-    "tags": {
-      "or": [
-        "locate_pale_garden"
-      ]
-    }
+    "name": "Obtain Creaking Heart"
   },
   "obtain_crimson_door": {
     "category": "obtain",
@@ -3184,11 +2694,9 @@
       "minecraft:crimson_door"
     ],
     "name": "Obtain Crimson Door",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_crimson_nylium": {
     "category": "obtain",
@@ -3197,12 +2705,10 @@
       "minecraft:crimson_nylium"
     ],
     "name": "Obtain Crimson Nylium",
-    "tags": {
-      "limit": [
-        "nether",
-        "silktouch"
-      ]
-    }
+    "tags": [
+      "nether",
+      "silktouch"
+    ]
   },
   "obtain_daylight_detector": {
     "category": "obtain",
@@ -3251,11 +2757,9 @@
       "minecraft:dragon_breath"
     ],
     "name": "Obtain Dragon's Breath",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_dragon_egg": {
     "category": "obtain",
@@ -3264,11 +2768,9 @@
       "minecraft:dragon_egg"
     ],
     "name": "Obtain Dragon Egg",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_dragon_head": {
     "category": "obtain",
@@ -3277,11 +2779,9 @@
       "minecraft:dragon_head"
     ],
     "name": "Obtain Dragon Head",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_dried_ghast": {
     "category": "obtain",
@@ -3290,11 +2790,9 @@
       "minecraft:dried_ghast"
     ],
     "name": "Obtain Dried Ghast",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_dried_kelp_block": {
     "category": "obtain",
@@ -3303,11 +2801,9 @@
       "minecraft:dried_kelp_block"
     ],
     "name": "Obtain Dried Kelp Block",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_dripstone_block": {
     "category": "obtain",
@@ -3315,12 +2811,7 @@
     "icons": [
       "minecraft:dripstone_block"
     ],
-    "name": "Obtain Dripstone Block",
-    "tags": {
-      "or": [
-        "locate_dripstone_cave"
-      ]
-    }
+    "name": "Obtain Dripstone Block"
   },
   "obtain_end_crystal": {
     "category": "obtain",
@@ -3329,11 +2820,9 @@
       "minecraft:end_crystal"
     ],
     "name": "Obtain End Crystal",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_end_rod": {
     "category": "obtain",
@@ -3342,11 +2831,9 @@
       "minecraft:end_rod"
     ],
     "name": "Obtain End Rod",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_end_stone_bricks": {
     "category": "obtain",
@@ -3355,11 +2842,9 @@
       "minecraft:end_stone_bricks"
     ],
     "name": "Obtain End Stone Bricks",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_every_seed": {
     "category": "obtain",
@@ -3385,11 +2870,9 @@
       "minecraft:netherite_axe"
     ],
     "name": "Obtain Every Type of Axe",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_hoe": {
     "category": "obtain",
@@ -3404,11 +2887,9 @@
       "minecraft:netherite_hoe"
     ],
     "name": "Obtain Every Type of Hoe",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_horse_armor": {
     "category": "obtain",
@@ -3422,11 +2903,9 @@
       "minecraft:netherite_horse_armor"
     ],
     "name": "Obtain Every Type of Horse Armor",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_nautilus_armor": {
     "category": "obtain",
@@ -3439,11 +2918,9 @@
       "minecraft:netherite_nautilus_armor"
     ],
     "name": "Obtain Every Type of Nautilus Armor",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_pickaxe": {
     "category": "obtain",
@@ -3458,11 +2935,9 @@
       "minecraft:netherite_pickaxe"
     ],
     "name": "Obtain Every Type of Pickaxe",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_shovel": {
     "category": "obtain",
@@ -3477,11 +2952,9 @@
       "minecraft:netherite_shovel"
     ],
     "name": "Obtain Every Type of Shovel",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_spear": {
     "category": "obtain",
@@ -3496,11 +2969,9 @@
       "minecraft:netherite_spear"
     ],
     "name": "Obtain Every Type of Spear",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_every_type_of_sword": {
     "category": "obtain",
@@ -3515,11 +2986,9 @@
       "minecraft:netherite_sword"
     ],
     "name": "Obtain Every Type of Sword",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "obtain_experience_bottle": {
     "category": "obtain",
@@ -3559,12 +3028,7 @@
     "icons": [
       "minecraft:flowering_azalea"
     ],
-    "name": "Obtain Flowering Azalea",
-    "tags": {
-      "or": [
-        "locate_lush_cave"
-      ]
-    }
+    "name": "Obtain Flowering Azalea"
   },
   "obtain_gilded_blackstone": {
     "category": "obtain",
@@ -3573,11 +3037,9 @@
       "minecraft:gilded_blackstone"
     ],
     "name": "Obtain Gilded Blackstone",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_glistering_melon_slice": {
     "category": "obtain",
@@ -3593,13 +3055,7 @@
     "icons": [
       "minecraft:goat_horn"
     ],
-    "name": "Obtain Goat Horn",
-    "tags": {
-      "or": [
-        "locate_goat",
-        "locate_pillager_outpost"
-      ]
-    }
+    "name": "Obtain Goat Horn"
   },
   "obtain_golden_dandelion": {
     "category": "obtain",
@@ -3616,11 +3072,9 @@
       "minecraft:grass_block"
     ],
     "name": "Obtain Grass Block",
-    "tags": {
-      "limit": [
-        "silktouch"
-      ]
-    }
+    "tags": [
+      "silktouch"
+    ]
   },
   "obtain_grindstone": {
     "category": "obtain",
@@ -3660,11 +3114,9 @@
       "minecraft:heart_of_the_sea"
     ],
     "name": "Obtain Heart of the Sea",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_honeycomb_block": {
     "category": "obtain",
@@ -3745,11 +3197,9 @@
       "minecraft:lodestone"
     ],
     "name": "Obtain Lodestone",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_mace": {
     "category": "obtain",
@@ -3757,12 +3207,7 @@
     "icons": [
       "minecraft:mace"
     ],
-    "name": "Obtain Mace",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Obtain Mace"
   },
   "obtain_melon_block": {
     "category": "obtain",
@@ -3770,12 +3215,7 @@
     "icons": [
       "minecraft:melon"
     ],
-    "name": "Obtain Melon Block",
-    "tags": {
-      "or": [
-        "locate_jungle"
-      ]
-    }
+    "name": "Obtain Melon Block"
   },
   "obtain_more_chiseled_stone_bricks_than_opponent": {
     "category": "obtainMore",
@@ -3826,11 +3266,9 @@
       "lockoutbingo:more_magma_blocks"
     ],
     "name": "Obtain More Magma Blocks Than Opponent",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_more_paper_than_opponent": {
     "category": "obtainMore",
@@ -3847,11 +3285,9 @@
       "lockoutbingo:more_soul_torches"
     ],
     "name": "Obtain More Soul Torches Than Opponent",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_mossy_stone_brick_stairs": {
     "category": "obtain",
@@ -3876,14 +3312,9 @@
       "minecraft:mycelium"
     ],
     "name": "Obtain Mycelium",
-    "tags": {
-      "limit": [
-        "silktouch"
-      ],
-      "or": [
-        "locate_mushroom_fields"
-      ]
-    }
+    "tags": [
+      "silktouch"
+    ]
   },
   "obtain_name_tag": {
     "category": "obtain",
@@ -3912,11 +3343,9 @@
       "minecraft:nautilus_shell"
     ],
     "name": "Obtain Nautilus Shell",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_nether_star": {
     "category": "obtain",
@@ -3925,11 +3354,9 @@
       "minecraft:nether_star"
     ],
     "name": "Obtain Nether Star",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_nether_wart_block": {
     "category": "obtain",
@@ -3938,11 +3365,9 @@
       "minecraft:nether_wart_block"
     ],
     "name": "Obtain Nether Wart Block",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_note_block": {
     "category": "obtain",
@@ -3991,14 +3416,9 @@
       "minecraft:podzol"
     ],
     "name": "Obtain Podzol",
-    "tags": {
-      "limit": [
-        "silktouch"
-      ],
-      "or": [
-        "locate_podzol"
-      ]
-    }
+    "tags": [
+      "silktouch"
+    ]
   },
   "obtain_polished_basalt": {
     "category": "obtain",
@@ -4007,11 +3427,9 @@
       "minecraft:polished_basalt"
     ],
     "name": "Obtain Polished Basalt",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_popped_chorus_fruit": {
     "category": "obtain",
@@ -4020,11 +3438,9 @@
       "minecraft:popped_chorus_fruit"
     ],
     "name": "Obtain Popped Chorus Fruit",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_potent_sulfur": {
     "category": "obtain",
@@ -4032,12 +3448,7 @@
     "icons": [
       "minecraft:potent_sulfur"
     ],
-    "name": "Obtain Potent Sulfur",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Obtain Potent Sulfur"
   },
   "obtain_powered_rail": {
     "category": "obtain",
@@ -4062,11 +3473,9 @@
       "minecraft:purpur_stairs"
     ],
     "name": "Obtain Purpur Stairs",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "obtain_rail": {
     "category": "obtain",
@@ -4082,12 +3491,7 @@
     "icons": [
       "minecraft:recovery_compass"
     ],
-    "name": "Obtain Recovery Compass",
-    "tags": {
-      "or": [
-        "locate_ancient_city"
-      ]
-    }
+    "name": "Obtain Recovery Compass"
   },
   "obtain_red_nether_bricks": {
     "category": "obtain",
@@ -4096,11 +3500,9 @@
       "minecraft:red_nether_bricks"
     ],
     "name": "Obtain Red Nether Bricks",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_red_sandstone": {
     "category": "obtain",
@@ -4108,12 +3510,7 @@
     "icons": [
       "minecraft:red_sandstone"
     ],
-    "name": "Obtain Red Sandstone",
-    "tags": {
-      "or": [
-        "locate_badlands"
-      ]
-    }
+    "name": "Obtain Red Sandstone"
   },
   "obtain_redstone_lamp": {
     "category": "obtain",
@@ -4129,12 +3526,7 @@
     "icons": [
       "minecraft:rooted_dirt"
     ],
-    "name": "Obtain Rooted Dirt",
-    "tags": {
-      "or": [
-        "locate_lush_cave"
-      ]
-    }
+    "name": "Obtain Rooted Dirt"
   },
   "obtain_sandstone": {
     "category": "obtain",
@@ -4150,13 +3542,7 @@
     "icons": [
       "minecraft:scaffolding"
     ],
-    "name": "Obtain Scaffolding",
-    "tags": {
-      "or": [
-        "locate_bamboo_jungle",
-        "locate_jungle"
-      ]
-    }
+    "name": "Obtain Scaffolding"
   },
   "obtain_sea_lantern": {
     "category": "obtain",
@@ -4165,14 +3551,9 @@
       "minecraft:sea_lantern"
     ],
     "name": "Obtain Sea Lantern",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_sea_pickle": {
     "category": "obtain",
@@ -4181,14 +3562,9 @@
       "minecraft:sea_pickle"
     ],
     "name": "Obtain Sea Pickle",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_warm_ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_shelf": {
     "category": "obtain",
@@ -4215,11 +3591,9 @@
       "minecraft:shroomlight"
     ],
     "name": "Obtain Shroomlight",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_slime_block": {
     "category": "obtain",
@@ -4227,13 +3601,7 @@
     "icons": [
       "minecraft:slime_block"
     ],
-    "name": "Obtain Slime Block",
-    "tags": {
-      "or": [
-        "locate_mangrove_swamp",
-        "locate_swamp"
-      ]
-    }
+    "name": "Obtain Slime Block"
   },
   "obtain_sniffer_egg": {
     "category": "obtain",
@@ -4241,12 +3609,7 @@
     "icons": [
       "minecraft:sniffer_egg"
     ],
-    "name": "Obtain Sniffer Egg",
-    "tags": {
-      "or": [
-        "locate_ocean_ruin_warm"
-      ]
-    }
+    "name": "Obtain Sniffer Egg"
   },
   "obtain_snow_block": {
     "category": "obtain",
@@ -4254,12 +3617,7 @@
     "icons": [
       "minecraft:snow_block"
     ],
-    "name": "Obtain Snow Block",
-    "tags": {
-      "or": [
-        "locate_snowy_biome"
-      ]
-    }
+    "name": "Obtain Snow Block"
   },
   "obtain_snowballs": {
     "category": "obtain",
@@ -4267,12 +3625,7 @@
     "icons": [
       "minecraft:snowball"
     ],
-    "name": "Obtain Snowballs",
-    "tags": {
-      "or": [
-        "locate_snowy_biome"
-      ]
-    }
+    "name": "Obtain Snowballs"
   },
   "obtain_soul_campfire": {
     "category": "obtain",
@@ -4281,11 +3634,9 @@
       "minecraft:soul_campfire"
     ],
     "name": "Obtain Soul Campfire",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_sponge": {
     "category": "obtain",
@@ -4294,14 +3645,9 @@
       "minecraft:sponge"
     ],
     "name": "Obtain Sponge",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "obtain_sticky_piston": {
     "category": "obtain",
@@ -4309,13 +3655,7 @@
     "icons": [
       "minecraft:sticky_piston"
     ],
-    "name": "Obtain Sticky Piston",
-    "tags": {
-      "or": [
-        "locate_mangrove_swamp",
-        "locate_swamp"
-      ]
-    }
+    "name": "Obtain Sticky Piston"
   },
   "obtain_sulfur_brick_slab": {
     "category": "obtain",
@@ -4323,12 +3663,7 @@
     "icons": [
       "minecraft:sulfur_brick_slab"
     ],
-    "name": "Obtain Sulfur Brick Slab",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Obtain Sulfur Brick Slab"
   },
   "obtain_tinted_glass": {
     "category": "obtain",
@@ -4369,11 +3704,9 @@
       "minecraft:warped_door"
     ],
     "name": "Obtain Warped Door",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_warped_nylium": {
     "category": "obtain",
@@ -4382,12 +3715,10 @@
       "minecraft:warped_nylium"
     ],
     "name": "Obtain Warped Nylium",
-    "tags": {
-      "limit": [
-        "nether",
-        "silktouch"
-      ]
-    }
+    "tags": [
+      "nether",
+      "silktouch"
+    ]
   },
   "obtain_warped_wart_block": {
     "category": "obtain",
@@ -4396,11 +3727,9 @@
       "minecraft:warped_wart_block"
     ],
     "name": "Obtain Warped Wart Block",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "obtain_wind_charge": {
     "category": "obtain",
@@ -4408,12 +3737,7 @@
     "icons": [
       "minecraft:wind_charge"
     ],
-    "name": "Obtain Wind Charge",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Obtain Wind Charge"
   },
   "obtain_wither_skeleton_skull": {
     "category": "obtain",
@@ -4422,11 +3746,9 @@
       "minecraft:wither_skeleton_skull"
     ],
     "name": "Obtain Wither Skeleton Skull",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "open_a_vault": {
     "category": "miscellaneous",
@@ -4434,12 +3756,7 @@
     "icons": [
       "lockoutbingo:vault"
     ],
-    "name": "Open a Vault",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Open a Vault"
   },
   "open_an_ominous_vault": {
     "category": "miscellaneous",
@@ -4447,12 +3764,7 @@
     "icons": [
       "lockoutbingo:ominous_vault"
     ],
-    "name": "Open an Ominous Vault",
-    "tags": {
-      "or": [
-        "locate_trail_chambers"
-      ]
-    }
+    "name": "Open an Ominous Vault"
   },
   "opponent_catches_on_fire": {
     "category": "opponent",
@@ -4582,11 +3894,9 @@
     ],
     "name": "Opponent Stands on Netherrack",
     "opponent": true,
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "opponent_takes_100_damage": {
     "category": "statistic",
@@ -4696,11 +4006,9 @@
       "lockoutbingo:end_stone_on_bedrock"
     ],
     "name": "Place End Stone on Bedrock",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "play_music_in_a_jukebox": {
     "category": "statistic",
@@ -4741,11 +4049,9 @@
       "lockoutbingo:reach_level_15"
     ],
     "name": "Reach Level 15",
-    "tags": {
-      "limit": [
-        "xp"
-      ]
-    }
+    "tags": [
+      "xp"
+    ]
   },
   "reach_level_30": {
     "category": "miscellaneous",
@@ -4754,11 +4060,9 @@
       "lockoutbingo:reach_level_30"
     ],
     "name": "Reach Level 30",
-    "tags": {
-      "limit": [
-        "xp"
-      ]
-    }
+    "tags": [
+      "xp"
+    ]
   },
   "reach_level_45": {
     "category": "miscellaneous",
@@ -4767,11 +4071,9 @@
       "lockoutbingo:reach_level_45"
     ],
     "name": "Reach Level 45",
-    "tags": {
-      "limit": [
-        "xp"
-      ]
-    }
+    "tags": [
+      "xp"
+    ]
   },
   "reach_sky_limit": {
     "category": "miscellaneous",
@@ -4788,11 +4090,9 @@
       "lockoutbingo:ride_happy_ghast"
     ],
     "name": "Ride a Happy Ghast",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "ride_a_pig_with_a_carrot_on_a_stick": {
     "category": "statistic",
@@ -4808,12 +4108,7 @@
     "icons": [
       "minecraft:bell"
     ],
-    "name": "Ring a Bell 30 Times",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Ring a Bell 30 Times"
   },
   "scrape_oxidation_off_of_copper": {
     "category": "interact",
@@ -4855,11 +4150,9 @@
       "lockoutbingo:stand_chiseled_nether_bricks"
     ],
     "name": "Stand on Chiseled Nether Bricks",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "stand_on_clay": {
     "category": "standOn",
@@ -4876,14 +4169,9 @@
       "lockoutbingo:stand_dark_prismarine"
     ],
     "name": "Stand on Dark Prismarine",
-    "tags": {
-      "limit": [
-        "ocean"
-      ],
-      "or": [
-        "locate_monument"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "stand_on_deepslate_lapis_ore": {
     "category": "standOn",
@@ -4907,12 +4195,7 @@
     "icons": [
       "lockoutbingo:stand_moss_block"
     ],
-    "name": "Stand on Moss",
-    "tags": {
-      "or": [
-        "locate_lush_cave"
-      ]
-    }
+    "name": "Stand on Moss"
   },
   "stand_on_reinforced_deepslate": {
     "category": "standOn",
@@ -4920,12 +4203,7 @@
     "icons": [
       "lockoutbingo:stand_reinforced_deepslate"
     ],
-    "name": "Stand on Reinforced Deepslate",
-    "tags": {
-      "or": [
-        "locate_ancient_city"
-      ]
-    }
+    "name": "Stand on Reinforced Deepslate"
   },
   "stand_on_sculk_catalyst": {
     "category": "standOn",
@@ -4933,12 +4211,7 @@
     "icons": [
       "lockoutbingo:stand_sculk_catalyst"
     ],
-    "name": "Stand on Sculk Catalyst",
-    "tags": {
-      "or": [
-        "locate_deep_dark"
-      ]
-    }
+    "name": "Stand on Sculk Catalyst"
   },
   "stand_on_suspicious_sand": {
     "category": "standOn",
@@ -4946,13 +4219,7 @@
     "icons": [
       "lockoutbingo:stand_suspicious_sand"
     ],
-    "name": "Stand on Suspicious Sand",
-    "tags": {
-      "or": [
-        "locate_desert_pyramid",
-        "locate_ocean_ruin_warm"
-      ]
-    }
+    "name": "Stand on Suspicious Sand"
   },
   "strip_a_log": {
     "category": "interact",
@@ -4992,12 +4259,7 @@
     "icons": [
       "lockoutbingo:sulfur_pool"
     ],
-    "name": "Take a Bath in a Sulfur Pool",
-    "tags": {
-      "or": [
-        "locate_sulfur_caves"
-      ]
-    }
+    "name": "Take a Bath in a Sulfur Pool"
   },
   "tame_a_cat": {
     "category": "tame",
@@ -5005,12 +4267,7 @@
     "icons": [
       "lockoutbingo:tame_cat"
     ],
-    "name": "Tame a Cat",
-    "tags": {
-      "or": [
-        "locate_village"
-      ]
-    }
+    "name": "Tame a Cat"
   },
   "tame_a_donkey": {
     "category": "tame",
@@ -5034,12 +4291,7 @@
     "icons": [
       "lockoutbingo:tame_parrot"
     ],
-    "name": "Tame a Parrot",
-    "tags": {
-      "or": [
-        "locate_jungle"
-      ]
-    }
+    "name": "Tame a Parrot"
   },
   "tame_a_wolf": {
     "category": "tame",
@@ -5135,13 +4387,7 @@
     "icons": [
       "lockoutbingo:glow_bamboo_sign"
     ],
-    "name": "Use Glow Ink on a Bamboo Sign",
-    "tags": {
-      "or": [
-        "locate_bamboo_jungle",
-        "locate_jungle"
-      ]
-    }
+    "name": "Use Glow Ink on a Bamboo Sign"
   },
   "use_glow_ink_on_a_warped_sign": {
     "category": "miscellaneous",
@@ -5150,11 +4396,9 @@
       "lockoutbingo:glow_warped_sign"
     ],
     "name": "Use Glow Ink on a Warped Sign",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "use_grindstone": {
     "category": "sound",
@@ -5199,11 +4443,9 @@
       "lockoutbingo:visit_warped_forest"
     ],
     "name": "Visit All Nether Biomes",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "visit_more_biomes_than_opponent": {
     "category": "miscellaneous",
@@ -5212,11 +4454,9 @@
       "lockoutbingo:visit_more_biomes"
     ],
     "name": "Visit More Biomes Than Opponent",
-    "tags": {
-      "limit": [
-        "more_than_opponent"
-      ]
-    }
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "wear_1_piece_of_chainmail_armor": {
     "category": "wear",
@@ -5239,11 +4479,9 @@
       "minecraft:netherite_boots"
     ],
     "name": "Wear 1 Piece of Netherite Armor",
-    "tags": {
-      "limit": [
-        "nether"
-      ]
-    }
+    "tags": [
+      "nether"
+    ]
   },
   "wear_a_dyed_leather_chestplate": {
     "category": "miscellaneous",
@@ -5268,11 +4506,9 @@
       "minecraft:turtle_helmet"
     ],
     "name": "Wear a Turtle Helmet",
-    "tags": {
-      "limit": [
-        "ocean"
-      ]
-    }
+    "tags": [
+      "ocean"
+    ]
   },
   "wear_an_elytra": {
     "category": "wear",
@@ -5281,11 +4517,9 @@
       "minecraft:elytra"
     ],
     "name": "Wear an Elytra",
-    "tags": {
-      "limit": [
-        "end"
-      ]
-    }
+    "tags": [
+      "end"
+    ]
   },
   "wear_chainmail_armor_set": {
     "category": "wear",
@@ -5297,11 +4531,9 @@
       "minecraft:chainmail_boots"
     ],
     "name": "Wear Chainmail Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_copper_armor_set": {
     "category": "wear",
@@ -5313,11 +4545,9 @@
       "minecraft:copper_boots"
     ],
     "name": "Wear Copper Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_diamond_armor_set": {
     "category": "wear",
@@ -5329,11 +4559,9 @@
       "minecraft:diamond_boots"
     ],
     "name": "Wear Diamond Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_golden_armor_set": {
     "category": "wear",
@@ -5345,11 +4573,9 @@
       "minecraft:golden_boots"
     ],
     "name": "Wear Golden Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_iron_armor_set": {
     "category": "wear",
@@ -5361,11 +4587,9 @@
       "minecraft:iron_boots"
     ],
     "name": "Wear Iron Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_leather_armor_set": {
     "category": "wear",
@@ -5377,11 +4601,9 @@
       "minecraft:leather_boots"
     ],
     "name": "Wear Leather Armor Set",
-    "tags": {
-      "limit": [
-        "collect_all"
-      ]
-    }
+    "tags": [
+      "collect_all"
+    ]
   },
   "wear_pink_leather_boots": {
     "category": "miscellaneous",
