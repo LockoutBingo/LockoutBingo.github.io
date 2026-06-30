@@ -170,7 +170,7 @@ function setupEvents() {
 function update() {
     filteredGoals = goals.filter(goal => {
         const matchesSearch = !state.search || goal.key.includes(state.search) || goal.name.toLowerCase().includes(state.search);
-        const matchesCategory = state.categoryFilter.size === 0 || state.categoryFilter.has(goal.category);
+        const matchesCategory = state.categoryFilter.size === 0 || state.categoryFilter.has(goal.category) || (state.categoryFilter.has("opponent") && goal.opponent === true);
         const matchesTag = state.tagFilter.size === 0 || (goal.tags && Object.values(goal.tags).flat().some(tag => state.tagFilter.has(tag)));
 
         return matchesSearch && matchesCategory && matchesTag;
@@ -286,6 +286,7 @@ function createGoalCard(goal) {
     const tags = document.createElement("div");
     tags.className = "goal-tags";
     tags.appendChild(tagButton("goal-tag-display", goal.category));
+    if(goal.category !== "opponent" && goal.opponent) tags.appendChild(tagButton("goal-tag-display", "opponent"));
     if(goal.tags) {
         Object.values(goal.tags).flat().forEach(tag => {
             if(!tag.startsWith("locate")) {
