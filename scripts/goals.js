@@ -188,10 +188,7 @@ function renderIconView() {
         const header = document.createElement("div");
         header.className = "goal-icon-card";
 
-        const icon = document.createElement("img");
-        icon.className = "goal-icon";
-        icon.src = getIconPath(goal.icons[0]);
-        icon.alt = goal.name;
+        const icon = createGoalIcon(goal);
 
         header.addEventListener("mouseenter", event => {
             preview.innerHTML = "";
@@ -239,11 +236,7 @@ function createGoalCard(goal) {
     const header = document.createElement("div");
     header.className = "goal-header";
 
-    const icon = document.createElement("img");
-    icon.className = "goal-icon";
-    icon.src = getIconPath(goal.icons[0]);
-    icon.alt = goal.name;
-
+    const icon = createGoalIcon(goal);
     const content = document.createElement("div");
     content.className = "goal-info";
 
@@ -308,16 +301,19 @@ function stringToColor(str) {
     }
 }
 
-function getIconPath(icon) {
-    const [namespace, name] = icon.split(":")
-    switch(namespace) {
-        case "lockoutbingo":
-            return `assets/icons/lockoutbingo/${name}.png`;
-        case "minecraft":
-            return `assets/images/not_found.png`;
-        default:
-            return "assets/images/not_found.png";
+function createGoalIcon(goal) {
+    const icon = document.createElement("img");
+    icon.className = "goal-icon";
+
+    const [namespace, name] = goal.icons[0].split(":")
+    icon.src = `assets/icons/${namespace}/${name}.png`
+    icon.alt = goal.name;
+    icon.onerror = () => {
+        icon.src = "assets/images/not_found.png";
+        icon.onerror = null;
     }
+    
+    return icon;
 }
 
 function loadURLFilters() {
