@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     loadFilters();
     setupEvents();
+    loadURLFilters();
     renderGoals();
 });
 
@@ -51,8 +52,8 @@ function renderFilterSelectors(containerId, values) {
     const container = document.getElementById(containerId);
 
     values = [...values].sort((a, b) => {
-        const nameA = FILTER_FORMATTING[a] ?? a.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-        const nameB = FILTER_FORMATTING[b] ?? b.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+        const nameA = formatFilterName(a);
+        const nameB = formatFilterName(b);
 
         if(nameA === "Miscellaneous") return 1;
         if(nameB === "Miscellaneous") return -1;
@@ -124,7 +125,7 @@ function setupEvents() {
     });
 }
 
-function update() {
+function update(url = true) {
     filteredGoals = goals.filter(goal => {
         const matchesSearch = !state.search || goal.key.includes(state.search) || goal.name.toLowerCase().includes(state.search);
         const withinDifficultyRange = goal.difficulty >= state.minDifficulty && goal.difficulty <= state.maxDifficulty;
@@ -139,6 +140,8 @@ function update() {
     if(state.view === "icon") renderIconView();
     else renderGoals();
     document.getElementById("filtered-count").textContent = filteredGoals.length;
+
+    if(url) updateURL();
 }
 
 function sortGoals() {
@@ -266,13 +269,13 @@ function createGoalCard(goal) {
     return card;
 }
 
-function tagButton(name, tag) {
+function tagButton(className, text) {
     const button = document.createElement("button");
-    button.className = name;
-    if(FILTER_FORMATTING[tag]) button.textContent = FILTER_FORMATTING[tag];
-    else button.textContent = tag.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
-    
-    const color = stringToColor(tag);
+    button.className = className;
+    button.id = text;
+    button.textContent = formatFilterName(text);
+
+    const color = stringToColor(text);
     button.style.setProperty("--button-bg-base", `rgb(${color.background} / 0.25)`);
     button.style.setProperty("--button-bg-hover", `rgb(${color.background} / 0.45)`);
     button.style.setProperty("--button-bg-active", `rgb(${color.background} / 1)`);
@@ -280,6 +283,10 @@ function tagButton(name, tag) {
     button.style.color = `rgb(${color.text})`;
 
     return button;
+}
+
+function formatFilterName(name) {
+    return FILTER_FORMATTING[name] ?? name.split("_").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
 }
 
 function stringToColor(str) {
@@ -301,4 +308,72 @@ function getIconPath(icon) {
         default:
             return "assets/images/not_found.png";
     }
+}
+
+function loadURLFilters() {
+    const params = new URLSearchParams(window.location.search);
+    if(params.has("d")) {
+        const diff = params.get("d");
+        if(diff.includes("-")) {
+            const [min, max] = diff.split("-");
+            state.minDifficulty = min === "" ? 0 : Number(min);
+            state.maxDifficulty = max === "" ? 25 : Number(max);
+        } else {
+            const d = Number(diff);
+            state.minDifficulty = d;
+            state.maxDifficulty = d;
+        }
+
+        const minDiff = document.getElementById("min-diff-slider");
+        const maxDiff = document.getElementById("max-diff-slider");
+
+        minDiff.value = state.minDifficulty;
+        maxDiff.value = state.maxDifficulty;
+        if(state.minDifficulty === 25) minDiff.style.zIndex = 2;
+        if(state.maxDifficulty === 0) maxDiff.style.zIndex = 2;
+        document.getElementById("min-diff-label").textContent = state.minDifficulty;
+        document.getElementById("max-diff-label").textContent = state.maxDifficulty;
+    }
+    if(params.has("c")) {
+        state.categoryFilter = new Set(params.get("c").split(","));
+        document.getElementById("category-filter").querySelectorAll(".filter-button").forEach(button => {
+            if(state.categoryFilter.has(button.id)) {
+                button.classList.add("active");
+            }
+        });
+    }
+    if(params.has("t")) {
+        state.tagFilter = new Set(params.get("t").split(","));
+        document.getElementById("tag-filter").querySelectorAll(".filter-button").forEach(button => {
+            if(state.tagFilter.has(button.id)) {
+                button.classList.add("active");
+            }
+        });
+    }
+    if(params.has("v")) {
+        state.versionFilter = new Set(params.get("v").split(","));
+        document.getElementById("version-filter").querySelectorAll(".filter-button").forEach(button => {
+            if(state.versionFilter.has(button.id)) {
+                button.classList.add("active");
+            }
+        });
+    }
+
+    update(false);
+}
+
+function updateURL() {
+    const params = new URLSearchParams();
+
+    let diff = "";
+    if(state.minDifficulty > 0) diff = `${state.minDifficulty}-`;
+    if(state.maxDifficulty < 25) diff += (diff ? "" : "-") + state.maxDifficulty;
+    if(state.minDifficulty === state.maxDifficulty) diff = state.minDifficulty;
+    if(diff) params.set("d", diff);
+
+    if(state.categoryFilter.size > 0) params.set("c", [...state.categoryFilter].join(","));
+    if(state.tagFilter.size > 0) params.set("t", [...state.tagFilter].join(","));
+    if(state.versionFilter.size > 0) params.set("v", [...state.versionFilter].join(","));
+
+    history.replaceState({}, "", params.size ? `?${params.toString()}` : window.location.pathname);
 }
