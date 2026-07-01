@@ -81,6 +81,16 @@ function setupEvents() {
         update();
     });
 
+    document.getElementById("reset-filters").addEventListener("click", () => {
+        state.minDifficulty = 0;
+        state.maxDifficulty = 25;
+        state.categoryFilter.clear();
+        state.tagFilter.clear();
+        state.versionFilter.clear();
+        updateFilterFromStates(true);
+        update();
+    });
+
     const minDiff = document.getElementById("min-diff-slider");
     const maxDiff = document.getElementById("max-diff-slider");
     minDiff.addEventListener("input", event => {
@@ -323,43 +333,55 @@ function loadURLFilters() {
             state.minDifficulty = d;
             state.maxDifficulty = d;
         }
-
-        const minDiff = document.getElementById("min-diff-slider");
-        const maxDiff = document.getElementById("max-diff-slider");
-
-        minDiff.value = state.minDifficulty;
-        maxDiff.value = state.maxDifficulty;
-        if(state.minDifficulty === 25) minDiff.style.zIndex = 2;
-        if(state.maxDifficulty === 0) maxDiff.style.zIndex = 2;
-        document.getElementById("min-diff-label").textContent = state.minDifficulty;
-        document.getElementById("max-diff-label").textContent = state.maxDifficulty;
     }
     if(params.has("c")) {
         state.categoryFilter = new Set(params.get("c").split(","));
-        document.getElementById("category-filter").querySelectorAll(".filter-button").forEach(button => {
-            if(state.categoryFilter.has(button.id)) {
-                button.classList.add("active");
-            }
-        });
     }
     if(params.has("t")) {
         state.tagFilter = new Set(params.get("t").split(","));
-        document.getElementById("tag-filter").querySelectorAll(".filter-button").forEach(button => {
-            if(state.tagFilter.has(button.id)) {
-                button.classList.add("active");
-            }
-        });
     }
     if(params.has("v")) {
         state.versionFilter = new Set(params.get("v").split(","));
-        document.getElementById("version-filter").querySelectorAll(".filter-button").forEach(button => {
-            if(state.versionFilter.has(button.id)) {
-                button.classList.add("active");
-            }
-        });
     }
 
+    updateFilterFromStates();
     update(false);
+}
+
+function updateFilterFromStates(reset = false) {
+    const minDiff = document.getElementById("min-diff-slider");
+    const maxDiff = document.getElementById("max-diff-slider");
+
+    minDiff.value = state.minDifficulty;
+    maxDiff.value = state.maxDifficulty;
+    if(state.minDifficulty === 25) minDiff.style.zIndex = 2;
+    else if(state.maxDifficulty === 0) maxDiff.style.zIndex = 2;
+    document.getElementById("min-diff-label").textContent = state.minDifficulty;
+    document.getElementById("max-diff-label").textContent = state.maxDifficulty;
+    
+    document.getElementById("category-filter").querySelectorAll(".filter-button").forEach(button => {
+        if(state.categoryFilter.has(button.id)) {
+            button.classList.add("active");
+        } else if(reset) {
+            button.classList.remove("active");
+        }
+    });
+    
+    document.getElementById("tag-filter").querySelectorAll(".filter-button").forEach(button => {
+        if(state.tagFilter.has(button.id)) {
+            button.classList.add("active");
+        } else if(reset) {
+            button.classList.remove("active");
+        }
+    });
+    
+    document.getElementById("version-filter").querySelectorAll(".filter-button").forEach(button => {
+        if(state.versionFilter.has(button.id)) {
+            button.classList.add("active");
+        } else if(reset) {
+            button.classList.remove("active");
+        }
+    });
 }
 
 function updateURL() {
