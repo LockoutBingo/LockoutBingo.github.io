@@ -3,6 +3,8 @@ import { VERSION_GROUPS, VERSION_ADDED } from "./constants/versions.js";
 
 let goals = [];
 let filteredGoals = [];
+const cyclingIcons = [];
+let iconCycleInterval = null;
 const state = {
     search: "",
     minDifficulty: 0,
@@ -14,7 +16,7 @@ const state = {
     view: "grid"
 };
 
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener("DOMContentLoaded", async () => {
     const data = await fetch("assets/goals.json").then(r => r.json());
     goals = Object.entries(data).map(([key, value]) => ({ key, ...value }));
     filteredGoals = goals;
@@ -26,6 +28,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupEvents();
     loadURLFilters();
     renderGoals();
+});
+
+document.addEventListener("visibilitychange", () => {
+    if(document.hidden) {
+        clearInterval(iconCycleInterval);
+        iconCycleInterval = null;
+    } else {
+        iconCycleInterval = setInterval(cycleGoalIcons, 1200);
+    }
 });
 
 function loadFilters() {
@@ -224,9 +235,22 @@ function moveGoalPreview(event) {
 function renderGoals() {
     const container = document.getElementById("goal-list");
     container.innerHTML = "";
+
+    cyclingIcons.length = 0;
+
     filteredGoals.forEach(goal => {
         container.appendChild(createGoalCard(goal));
     })
+
+    if(!iconCycleInterval) iconCycleInterval = setInterval(cycleGoalIcons, 1200);
+}
+
+function cycleGoalIcons() {
+    if(cyclingIcons.length === 0) return;
+    for(const entry of cyclingIcons) {
+        entry.index = (entry.index + 1) % entry.icons.length;
+        entry.img.src = getIconPath(entry.icons[entry.index], entry.goalKey);
+    }
 }
 
 function createGoalCard(goal) {
@@ -309,15 +333,16 @@ function createGoalIcon(goal) {
     icon.className = "goal-icon";
 
     const icons = goal.icons;
-    let index = 0;
     if(icons.length > 1) {
-        setInterval(() => {
-            index = (index + 1) % icons.length;
-            icon.src = getIconPath(icons[index], goal.key);
-        }, 1200);
+        cyclingIcons.push({
+            goalKey: goal.key,
+            index: 0,
+            img: icon,
+            icons
+        });
     }
 
-    icon.src = getIconPath(icons[index], goal.key);
+    icon.src = getIconPath(icons[0], goal.key);
     icon.alt = goal.name;
     icon.onerror = () => {
         icon.src = "assets/images/not_found.png";
