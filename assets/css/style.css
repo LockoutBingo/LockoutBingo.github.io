@@ -464,14 +464,4 @@ h2 {
     .nav-left, .nav-right {
         display: none;
     }
-
-    .goals-page {
-        flex-direction: column;
-    }
-
-    .goals-sidebar {
-        position: relative;
-        width: 100%;
-        max-height: none;
-    }
 }
