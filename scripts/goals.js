@@ -304,7 +304,17 @@ function stringToColor(str) {
 function createGoalIcon(goal) {
     const icon = document.createElement("img");
     icon.className = "goal-icon";
-    icon.src = getIconPath(goal);
+
+    const icons = goal.icons;
+    let index = 0;
+    if(icons.length > 1) {
+        setInterval(() => {
+            index = (index + 1) % icons.length;
+            icon.src = getIconPath(icons[index], goal.key);
+        }, 1200);
+    }
+
+    icon.src = getIconPath(icons[index], goal.key);
     icon.alt = goal.name;
     icon.onerror = () => {
         icon.src = "assets/images/not_found.png";
@@ -314,10 +324,10 @@ function createGoalIcon(goal) {
     return icon;
 }
 
-function getIconPath(goal) {
-    let [namespace, name] = goal.icons[0].split(":");
+function getIconPath(iconKey, goalKey) {
+    let [namespace, name] = iconKey.split(":");
     if(name === "potion") {
-        name = goal.key;
+        name = goalKey;
     } else if(name === "enchanted_golden_apple"
         || name === "clock"
         || name === "experience_bottle"
@@ -329,7 +339,7 @@ function getIconPath(goal) {
         || name === "warped_hyphae"
         || name === "warped_stem") {
         return `assets/icons/${namespace}/${name}.gif`;
-    } else if(goal.key === "wear_pink_leather_boots") {
+    } else if(goalKey === "wear_pink_leather_boots") {
         return `assets/icons/${namespace}/pink_leather_boots.png`;
     }
 
