@@ -5,7 +5,7 @@ export const FILTER_FORMATTING = {
     "sound": "Use Block",
     "killedBy": "Killed By",
     "xp": "Experience"
-}
+};
 
 export const CATEGORY_COLORS = {
     "advancement": {
@@ -96,7 +96,7 @@ export const CATEGORY_COLORS = {
         background: "214 96 139",
         text: "255 175 204"
     }
-}
+};
 
 export const TAG_COLORS = {
     "collect_all": {
@@ -127,4 +127,4 @@ export const TAG_COLORS = {
         background: "88 129 87",
         text: "190 255 189"
     }
-}
+};

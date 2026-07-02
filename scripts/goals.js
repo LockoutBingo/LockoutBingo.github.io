@@ -1,5 +1,5 @@
-import { FILTER_FORMATTING, CATEGORY_COLORS, TAG_COLORS } from "./formatting.js";
-import { VERSION_GROUPS, VERSION_ADDED } from "./versions.js";
+import { FILTER_FORMATTING, CATEGORY_COLORS, TAG_COLORS } from "./constants/formatting.js";
+import { VERSION_GROUPS, VERSION_ADDED } from "./constants/versions.js";
 
 let goals = [];
 let filteredGoals = [];
@@ -302,6 +302,9 @@ function stringToColor(str) {
 }
 
 function createGoalIcon(goal) {
+    const iconWrapper = document.createElement("div");
+    iconWrapper.className = "goal-icon-wrapper";
+
     const icon = document.createElement("img");
     icon.className = "goal-icon";
 
@@ -320,8 +323,19 @@ function createGoalIcon(goal) {
         icon.src = "assets/images/not_found.png";
         icon.onerror = null;
     }
+
+    iconWrapper.appendChild(icon);
+
+    let count = getGoalCount(goal.key);
+    if(count > 1) {
+        if(count === 1000) count = "1km";
+        const countBadge = document.createElement("span");
+        countBadge.className = "goal-icon-count";
+        countBadge.textContent = count;
+        iconWrapper.appendChild(countBadge);
+    }
     
-    return icon;
+    return iconWrapper;
 }
 
 function getIconPath(iconKey, goalKey) {
@@ -344,6 +358,31 @@ function getIconPath(iconKey, goalKey) {
     }
 
     return `assets/icons/${namespace}/${name}.png`;
+}
+
+function getGoalCount(key) {
+    if(key.includes("unique") && !key.includes("fill_inventory")) return Number(key.substring(key.indexOf("_") + 1, key.indexOf("_unique")));
+    if(key.includes("stone_types")) return 3;
+    if(key.includes("obtain_64") && !key.endsWith("anything")) return 64;
+    if((key.endsWith("mobs") || key.endsWith("arthropods")) && !key.includes("unique")) return Number(key.substring(5, key.indexOf("_", 5)));
+    if(key.startsWith("deal")) return Number(key.substring(key.indexOf("_") + 1, key.indexOf("_damage")));
+    if(key.startsWith("travel")) return 1000;
+    
+    switch(key) {
+        case "ring_a_bell_30_times":
+            return 30;
+        case "catch_10_fish":
+            return 10;
+        case "take_200_damage":
+        case "opponent_takes_200_damage":
+            return 200;
+        case "opponent_takes_100_damage":
+            return 100;
+        case "opponent_dies_4_times":
+            return 4;
+        default:
+            return 1;
+    };
 }
 
 function loadURLFilters() {

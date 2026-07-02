@@ -379,6 +379,12 @@ h2 {
     gap: 1rem;
 }
 
+.goal-icon-wrapper {
+    position: relative;
+    width: 72px;
+    height: 72px;
+}
+
 .goal-icon {
     background: #0e1117;
     border: 2px solid #111;
@@ -386,8 +392,21 @@ h2 {
     box-sizing: border-box;
 
     image-rendering: pixelated;
-    width: 72px;
-    height: 72px;
+    width: 100%;
+    height: 100%;
+}
+
+.goal-icon-count {
+    position: absolute;
+    pointer-events: none;
+    right: 3px;
+    bottom: -2px;
+
+    font-family: "Minecraft", monospace;
+    font-size: 28px;
+    text-align: right;
+    color: #fff;
+    text-shadow: 4px 4px #373737;
 }
 
 .goal-info h3 {
@@ -430,6 +449,11 @@ h2 {
     width: auto;
     z-index: 200;
     filter: drop-shadow(0 4px 8px #000);
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("../fonts/mojangles.woff2") format("woff2");
 }
 
 @media (max-width: 1000px) {

@@ -92,7 +92,7 @@ export const VERSION_GROUPS = {
         "light_a_candle",
         "set_leaves_on_fire"
     ]
-}
+};
 
 export const VERSION_ADDED = {};
 
