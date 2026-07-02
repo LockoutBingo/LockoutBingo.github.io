@@ -331,6 +331,7 @@ function createGoalIcon(goal) {
 
     const icon = document.createElement("img");
     icon.className = "goal-icon";
+    icon.loading = "lazy";
 
     const icons = goal.icons;
     if(icons.length > 1) {
