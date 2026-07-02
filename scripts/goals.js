@@ -1,4 +1,4 @@
-import { FILTER_FORMATTING, CATEGORY_COLORS, TAG_COLORS } from "./constants.js";
+import { FILTER_FORMATTING, CATEGORY_COLORS, TAG_COLORS } from "./formatting.js";
 import { VERSION_GROUPS, VERSION_ADDED } from "./versions.js";
 
 let goals = [];
@@ -304,9 +304,7 @@ function stringToColor(str) {
 function createGoalIcon(goal) {
     const icon = document.createElement("img");
     icon.className = "goal-icon";
-
-    const [namespace, name] = goal.icons[0].split(":")
-    icon.src = `assets/icons/${namespace}/${name}.png`
+    icon.src = getIconPath(goal);
     icon.alt = goal.name;
     icon.onerror = () => {
         icon.src = "assets/images/not_found.png";
@@ -314,6 +312,28 @@ function createGoalIcon(goal) {
     }
     
     return icon;
+}
+
+function getIconPath(goal) {
+    let [namespace, name] = goal.icons[0].split(":");
+    if(name === "potion") {
+        name = goal.key;
+    } else if(name === "enchanted_golden_apple"
+        || name === "clock"
+        || name === "experience_bottle"
+        || name === "recovery_compass"
+        || name === "sea_lantern"
+        || name === "stonecutter"
+        || name === "crimson_hyphae"
+        || name === "crimson_stem"
+        || name === "warped_hyphae"
+        || name === "warped_stem") {
+        return `assets/icons/${namespace}/${name}.gif`;
+    } else if(goal.key === "wear_pink_leather_boots") {
+        return `assets/icons/${namespace}/pink_leather_boots.png`;
+    }
+
+    return `assets/icons/${namespace}/${name}.png`;
 }
 
 function loadURLFilters() {
