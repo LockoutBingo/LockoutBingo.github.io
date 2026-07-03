@@ -643,7 +643,10 @@
     "icons": [
       "minecraft:chest"
     ],
-    "name": "Fill Inventory with Unique Items"
+    "name": "Fill Inventory with Unique Items",
+    "tags": [
+      "unique"
+    ]
   },
   "flatten_dirt": {
     "category": "interact",
@@ -1298,7 +1301,7 @@
     "category": "kill",
     "difficulty": 24,
     "icons": [
-      "minecraft:dragon_head"
+      "lockoutbingo:kill_ender_dragon"
     ],
     "name": "Kill the Ender Dragon",
     "tags": [
@@ -1526,7 +1529,10 @@
     "icons": [
       "lockoutbingo:ocean_monument"
     ],
-    "name": "Locate an Ocean Monument"
+    "name": "Locate an Ocean Monument",
+    "tags": [
+      "ocean"
+    ]
   },
   "locate_the_deep_dark": {
     "category": "biome",
@@ -1867,6 +1873,7 @@
       "minecraft:mourner_pottery_sherd",
       "minecraft:plenty_pottery_sherd",
       "minecraft:prize_pottery_sherd",
+      "minecraft:scrape_pottery_sherd",
       "minecraft:sheaf_pottery_sherd",
       "minecraft:shelter_pottery_sherd",
       "minecraft:skull_pottery_sherd",
@@ -3223,7 +3230,10 @@
     "icons": [
       "lockoutbingo:more_chiseled_stone_bricks"
     ],
-    "name": "Obtain More Chiseled Stone Bricks Than Opponent"
+    "name": "Obtain More Chiseled Stone Bricks Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_dried_kelp_blocks_than_opponent": {
     "category": "obtainMore",
@@ -3231,7 +3241,10 @@
     "icons": [
       "lockoutbingo:more_dried_kelp_blocks"
     ],
-    "name": "Obtain More Dried Kelp Blocks Than Opponent"
+    "name": "Obtain More Dried Kelp Blocks Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_eggs_than_opponent": {
     "category": "obtainMore",
@@ -3241,7 +3254,10 @@
       "lockoutbingo:more_blue_eggs",
       "lockoutbingo:more_brown_eggs"
     ],
-    "name": "Obtain More Eggs Than Opponent"
+    "name": "Obtain More Eggs Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_feathers_than_opponent": {
     "category": "obtainMore",
@@ -3249,7 +3265,10 @@
     "icons": [
       "lockoutbingo:more_feathers"
     ],
-    "name": "Obtain More Feathers Than Opponent"
+    "name": "Obtain More Feathers Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_iron_trapdoors_than_opponent": {
     "category": "obtainMore",
@@ -3257,7 +3276,10 @@
     "icons": [
       "lockoutbingo:more_iron_trapdoors"
     ],
-    "name": "Obtain More Iron Trapdoors Than Opponent"
+    "name": "Obtain More Iron Trapdoors Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_magma_blocks_than_opponent": {
     "category": "obtainMore",
@@ -3267,6 +3289,7 @@
     ],
     "name": "Obtain More Magma Blocks Than Opponent",
     "tags": [
+      "more_than_opponent",
       "nether"
     ]
   },
@@ -3276,7 +3299,10 @@
     "icons": [
       "lockoutbingo:more_paper"
     ],
-    "name": "Obtain More Paper Than Opponent"
+    "name": "Obtain More Paper Than Opponent",
+    "tags": [
+      "more_than_opponent"
+    ]
   },
   "obtain_more_soul_torches_than_opponent": {
     "category": "obtainMore",
@@ -3286,6 +3312,7 @@
     ],
     "name": "Obtain More Soul Torches Than Opponent",
     "tags": [
+      "more_than_opponent",
       "nether"
     ]
   },
@@ -3579,6 +3606,7 @@
       "minecraft:mangrove_shelf",
       "minecraft:cherry_shelf",
       "minecraft:pale_oak_shelf",
+      "minecraft:bamboo_shelf",
       "minecraft:crimson_shelf",
       "minecraft:warped_shelf"
     ],
