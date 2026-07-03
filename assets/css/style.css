@@ -4,9 +4,9 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: linear-gradient(to bottom, #282c35 72px, #9c8c79);
+    /* background: linear-gradient(to bottom, #282c35 72px, #9c8c79); */
     background-repeat: no-repeat;
-    background-color: #9c8c79;
+    background-color: #282c35;
 
     color: #eee;
     font-family: Arial, sans-serif;
