@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Lockout Bingo</title>
+    <title>Updates - Lockout Bingo</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="scripts/menu.js" defer></script>
 </head>
@@ -51,9 +51,18 @@
     </header>
 
     <main>
-        <h1>Updates</h1>
+        <div class="main-content">
+            <div class="updates-page">
+                <aside class="release-sidebar">
+                    <h2>Releases</h2>
+                    <ul id="release-list"></ul>
+                </aside>
+                <div id="release-notes"></div>
+            </div>
 
-        Release notes and updates
+            <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+            <script type="module" src="scripts/updates.js"></script>
+        </div>
     </main>
 </body>
 </html>
