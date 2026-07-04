@@ -206,6 +206,10 @@ h2 {
     cursor: pointer;
 }
 
+.reset-filters button:hover {
+    background-color: #393c4090;
+}
+
 .difficulty-range {
     position: relative;
     height: 24px;
