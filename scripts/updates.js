@@ -49,10 +49,11 @@ async function generateReleaseNotes() {
         article.id = `v${version}`;
 
         if(first) {
-            const button = document.createElement("button");
-            button.className = "latest-release-tag";
-            button.textContent = "Latest";
-            article.append(title, releaseDate, button, content);
+            const badge = document.createElement("span");
+            badge.className = "latest-release-tag";
+            badge.textContent = "Latest";
+            badge.ariaLabel = "Latest"
+            article.append(title, releaseDate, badge, content);
             first = false;
         } else {
             article.append(title, releaseDate, content);

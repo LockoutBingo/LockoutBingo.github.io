@@ -541,8 +541,10 @@ h2 {
     background-color: #56c85640;
     border: 2px solid #56c856;
     border-radius: 8px;
-    padding: 0.1rem 0.5rem;
+
+    padding: 0.15rem 0.6rem;
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
 .release-content {
