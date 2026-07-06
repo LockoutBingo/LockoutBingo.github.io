@@ -7,6 +7,7 @@ const releases = {
     "2.0": "May 12, 2025",
     "1.0": "May 31, 2024"
 }
+const sidebarLinks = new Map();
 
 document.addEventListener("DOMContentLoaded", async () => {
     createSidebar();
@@ -16,16 +17,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 function createSidebar() {
     const sidebar = document.getElementById("release-list");
     for(const [version, date] of Object.entries(releases)) {
-        const link = document.createElement("li");
+        const list = document.createElement("li");
+        const link = document.createElement("a");
         link.href = `#v${version}`;
         link.textContent = version;
         link.addEventListener("click", event => {
             event.preventDefault();
             document.getElementById(`v${version}`).scrollIntoView({ behavior: "smooth" });
-            history.pushState(null, "", `#v${version}`);
+            history.replaceState(null, "", `#v${version}`);
         });
 
-        sidebar.appendChild(link);
+        list.appendChild(link);
+        sidebar.appendChild(list);
+        sidebarLinks.set(version, list);
     }
 }
 
@@ -63,8 +67,26 @@ async function generateReleaseNotes() {
 
     if(location.hash) {
         await waitForImages(container);
-        document.getElementById(location.hash.slice(1))?.scrollIntoView({ behavior: "smooth" });
+        document.getElementById(location.hash.slice(1))?.scrollIntoView({ behavior: "instant" });
     }
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const version = entry.target.id.substring(1);            
+            if(entry.isIntersecting) {
+                sidebarLinks.forEach(link => link.classList.remove("active"));
+                sidebarLinks.get(version)?.classList.add("active");
+            }
+        });
+    }, {
+        root: document.querySelector("main"),
+        threshold: 0,
+        rootMargin: "-100px 0px -80% 0px"
+    });
+
+    document.querySelectorAll(".release").forEach(article => {
+        observer.observe(article);
+    });
 }
 
 async function waitForImages(container) {
