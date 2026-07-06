@@ -50,7 +50,7 @@ async function generateReleaseNotes() {
 
         if(first) {
             const badge = document.createElement("span");
-            badge.className = "latest-release-tag";
+            badge.className = "latest-release-badge";
             badge.textContent = "Latest";
             badge.ariaLabel = "Latest"
             article.append(title, releaseDate, badge, content);

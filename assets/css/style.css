@@ -507,7 +507,7 @@ h2 {
 #release-notes {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .release {
@@ -532,7 +532,7 @@ h2 {
     font-weight: bold;
 }
 
-.latest-release-tag {
+.latest-release-badge {
     position: relative;
     left: 2rem;
     top: -0.5rem;
