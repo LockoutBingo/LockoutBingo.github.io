@@ -18,7 +18,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    background: #1b1f28;
+    background-color: #1b1f28;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -29,7 +29,7 @@ header {
 }
 
 header:has(.nav-title:hover) {
-    background: #20242e;
+    background-color: #20242e;
 }
 
 .header-content {
@@ -114,7 +114,7 @@ header:has(.nav-title:hover) {
 .nav-menu-dropdown.show {
     display: block;
     position: absolute;
-    background: #9c8c79;
+    background-color: #9c8c79;
     border: 3px solid #6a6055;
     padding: 0.5rem;
     z-index: 10;
@@ -161,14 +161,14 @@ h2 {
     overflow-y: auto;
     box-sizing: border-box;
 
-    background: #14161d;
-    /* background: #16181e; */
+    background-color: #1b1b1b;
+    /* background-color: #16181e; */
     border: 3px solid #111;
     border-radius: 8px;
     padding: 1rem;
 
     scrollbar-width: thin;
-    scrollbar-color: #3f4d6a #111;
+    scrollbar-color: #4b515d #111;
 }
 
 .goals-content {
@@ -201,8 +201,8 @@ h2 {
 }
 
 .reset-filters button {
-    background-color: #393c4040;
-    border: 2px solid #393c40;
+    background-color: #3b434d40;
+    border: 2px solid #3b434d;
     border-radius: 8px;
     color: #ddd;
     font-weight: bold;
@@ -228,8 +228,9 @@ h2 {
     top: 50%;
     transform: translateY(-50%);
     height: 8px;
-    border-radius: 4px;
     background: linear-gradient(to right, #264653, #2a9d8f, #e9c46a, #f4a261, #e76f51, #f34242);
+    border: 1px solid #111;
+    border-radius: 4px;
 }
 
 .difficulty-range input[type="range"] {
@@ -249,7 +250,7 @@ h2 {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: #3f4d6a;
+    background-color: #3b434d;
     border: 2px solid #000;
 
     appearance: none;
@@ -261,7 +262,7 @@ h2 {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background-color: #3f4d6a;
+    background-color: #3b434d;
     border: 2px solid #000;
 
     appearance: none;
@@ -310,34 +311,33 @@ h2 {
 
 .goals-toolbar select {
     background-color: #14161d;
-    color: #adadad;
+    color: #bbb;
     font-weight: bold;
 
     padding: 0.23rem 0.8rem;
     border: 3px solid #111;
-    border-radius: 0px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.goals-toolbar section:focus {
-    outline: none;
-    background-color: #1b1e27;
+.goals-toolbar select:focus {
+    background-color: #1c1e24;
 }
 
 .goals-toolbar select:focus-visible {
-    outline: none;
-    background-color: #1b1e27;
+    background-color: #1c1e24;
 }
 
 .goal-view-buttons {
     background-color: #14161d;
     display: flex;
     border: 3px solid #111;
+    border-radius: 4px;
 }
 
 .goal-view-buttons button {
     background-color: #14161d;
-    color: #adadad;
+    color: #bbb;
     font-weight: bold;
 
     padding: 0.5rem 1rem;
@@ -351,11 +351,11 @@ h2 {
 }
 
 .goal-view-buttons button:hover{
-    background-color: #1b1e27;
+    background-color: #1c1e24;
 }
 
 .goal-view-buttons button.active{
-    background-color: #1c233d;
+    background-color: #1f2434;
 }
 
 .goal-list {
@@ -373,9 +373,10 @@ h2 {
 }
 
 .goal-card {
-    background: #14161d;
-    border: 3px solid #0e1117;
-    border-radius: 2px;
+    /* background-color: #1b1b1b; */
+    background-color: #16181f;
+    border: 3px solid #111;
+    border-radius: 4px;
     padding: 4px;
 
     display: flex;
@@ -396,8 +397,7 @@ h2 {
 }
 
 .goal-icon {
-    background: #0e1117;
-    border: 2px solid #111;
+    background-color: #111;
     padding: 4px;
     box-sizing: border-box;
 
@@ -442,9 +442,9 @@ h2 {
 }
 
 .goal-icon-card {
-    background: #14161d;
-    border: 3px solid #0e1117;
-    border-radius: 2px;
+    background-color: #16181f;
+    border: 3px solid #111;
+    border-radius: 4px;
     padding: 4px;
     box-sizing: border-box;
 
@@ -474,7 +474,7 @@ h2 {
     top: 0px;
 
     background-color: #27282b;
-    border: 3px solid #111111;
+    border: 3px solid #111;
     border-radius: 8px;
     padding: 1rem;
 
@@ -518,17 +518,17 @@ h2 {
 
 #release-list li:hover {
     color: #fff;
-    background: #3b3c43;
+    background-color: #3b3c43;
 }
 
 #release-list li.active {
     color: #ccc;
-    background: #313238;
+    background-color: #313238;
 }
 
 #release-list li.active:hover {
     color: #fff;
-    background: #3b3c43;
+    background-color: #3b3c43;
 }
 
 #release-notes {
@@ -597,7 +597,7 @@ h2 {
 }
 
 .release-content code {
-    background: #1b1f28;
+    background-color: #1b1f28;
     border-radius: 8px;
     padding: 0.2rem 0.4rem;
     font-weight: bold;
@@ -738,7 +738,7 @@ h2 {
 }
 
 .installation-guide code {
-    background: #161820;
+    background-color: #161820;
     border-radius: 8px;
     padding: 0.2rem 0.4rem;
     font-weight: bold;
