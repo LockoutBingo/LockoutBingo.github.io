@@ -620,7 +620,7 @@ h2 {
 
 /* DOWNLOAD */
 .download-header {
-    margin: 0 80px;
+    margin: 0 40px;
     padding-bottom: 2rem;
 }
 
@@ -632,27 +632,31 @@ h2 {
 }
 
 .download-page {
-    margin: 0 80px;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.download-page section {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: var(--columns, 50% 50%);
     gap: 50px;
 }
 
-.download-info-left {
-    padding: 1rem;
+.download-page section > div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    gap: var(--gap, 1rem);
 }
 
-.download-info-left img {
+.download-links img {
     image-rendering: pixelated;
     display: block;
     width: 100%;
 }
 
-.download-info-left a {
+.download-links a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -671,7 +675,7 @@ h2 {
     transition: background 0.1s;
 }
 
-.download-info-left a img {
+.download-links a img {
     width: 1.4em;
     height: 1.4em;
 }
@@ -712,13 +716,7 @@ h2 {
     background-color: #5865f260;
 }
 
-.download-info-right {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.download-info-right div {
+.download-info-slab {
     padding: 1.4rem 2rem;
     background-color: #27282b;
     border: 3px solid #111111;
@@ -727,38 +725,101 @@ h2 {
     color: #ccc;
 }
 
-.installation-guide h3 {
+.download-info-slab h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     color: #fff;
 }
 
-.installation-guide ol {
+.download-info-slab ol {
     margin: 0;
 }
 
-.installation-guide code {
+.download-info-slab ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.download-info-slab code {
     background-color: #161820;
     border-radius: 8px;
     padding: 0.2rem 0.4rem;
     font-weight: bold;
 }
 
-.multiplayer-server img {
+.download-info-slab img {
     margin-top: 1rem;
     border-radius: 8px;
     width: 100%;
     filter: drop-shadow(0 0 8px #111);
+    transition: 0.2s;
 }
 
-.multiplayer-server a {
+.download-info-slab img:hover {
+    filter: drop-shadow(0 0 8px #666);
+}
+
+.download-info-slab a {
     color: #4f9cff;
     text-decoration: none;
 }
 
-.multiplayer-server a:hover {
+.download-info-slab a:hover {
     color: #7abaff;
     text-decoration: underline;
+}
+
+.modloaders-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5rem;
+    padding: 0.1rem 1rem;
+
+    color: #e2e9ff;
+    background-color: #5b617640;
+    border: 2px solid #5b6176;
+    border-radius: 8px;
+
+    font-size: large;
+    font-weight: bold;
+    filter: drop-shadow(0 0 8px #5b617660);
+}
+
+.neoforge-download {
+    color: #fff1e7;
+    background-color: #d4742e40;
+    border: 2px solid #d4742e;
+    filter: drop-shadow(0 0 8px #d4742e60);
+}
+
+.neoforge-download:hover {
+    color: #fff;
+    background-color: #d4742e60;
+}
+
+.fabric-download {
+    color: #fffefc;
+    background-color: #dbd0b440;
+    border: 2px solid #dbd0b4;
+    filter: drop-shadow(0 0 8px #dbd0b460);
+}
+
+.fabric-download:hover {
+    color: #fff;
+    background-color: #dbd0b460;
+}
+
+.fabricapi-download {
+    color: #fff0cb;
+    background-color: #604a3340;
+    border: 2px solid #604a33;
+    filter: drop-shadow(0 0 8px #604a3360);
+}
+
+.fabricapi-download:hover {
+    color: #fff;
+    background-color: #604a3360;
 }
 
 @font-face {
