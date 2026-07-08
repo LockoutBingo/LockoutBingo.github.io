@@ -52,9 +52,66 @@
 
     <main>
         <div class="main-content">
+            <div class="gameplay-header">
+                <h1>GAMEPLAY</h1>
+                It's Bingo in Minecraft!<br>
+                Lockout Bingo adds hundreds of goals ranging from obtaining items to locating a jungle temple, which can be completed in several gamemodes.
+            </div>
             <div class="gameplay-page">
-                <h1>Gameplay</h1>
-                Gamemodes
+                <section class="gameplay-gamemodes">
+                    <div class="blackout-gamemode">
+                        <h3>Blackout</h3>
+                        Race to complete all 25 goals on the board.
+                        <br>
+                        <small>Play solo or with friends</small>
+                    </div>
+                    <div class="goalrush-gamemode">
+                        <h3>Goal Rush</h3>
+                        Start a game initially with 25 goals, but upon completion of a goal, another goal will take its place. Race against a timer or be the first to reach a certain score.
+                        <br>
+                        <small>Play solo or with friends</small>
+                    </div>
+                    <div class="lockout-gamemode">
+                        <h3>Lockout</h3>
+                        Race to complete 13 of 25 goals against an opponent. Once a goal is completed, the other team cannot claim it.
+                    </div>
+                </section>
+                <section class="gamemode-pictures">
+                    
+                </section>
+                <section>
+                    <h1>GOAL FILTERING</h1>
+                    <div class="goal-filtering">
+                        <div>
+                            <h1>1.</h1>
+                            <h2>Difficulty Selection</h2>
+                        </div>
+                        <div class="filter-info">
+                            Based on the setting <code>goal_difficulty_filter</code>, the difficulty selection can be set to Easy, Normal, Hard, or Random. This setting determines which goals are most likely to be selected. The selection occurs by mapping each goal's difficulty (ranging from 0 to 25) to a weight using a normal distribution curve. At Easy, goals with difficulties between 0 and 9 are most likely to be selected; at Normal, goals with difficulties between 2 and 17 are most likely to be selected; at Hard, goals with difficulties between 12 and 25 are most likely to be selected; and at Random, all goals have an equal chance of being selected.
+                        </div>
+
+                        <div>
+                            <h1>2.</h1>
+                            <h2>Goal Limits</h2>
+                        </div>
+                        <div class="filter-info">
+                            As the 25 goals are being selected, there are certain limits that determines whether the goal is selected or not. Every goal falls under a goal category (Obtain, Wear Armor, Locate Biome, Kill Mod, etc.), and each category has a maximum number that can every appear on the board. If this maximum limit for a goal's category has been reach, the goal cannot be selected. The same applies for goals that require the Nether, the End, and other goals such as Obtain X Unique Items or Collect All Goals.
+                        </div>
+
+                        <div>
+                            <h1>3.</h1>
+                            <h2>Goal Tags</h2>
+                        </div>
+                        <div class="filter-info">
+                            Some goals require you to find a biome or a structure. Other goals require certain items or mobs from specific biomes. These goals will have certain Goal Tags attached to them, such as Locate Deep Dark, Locate Rabbit Spawning Biome, Locate Trail Ruins, etc. In order to select goals that are playable, they are only selected if their biome or structure is within a certain radius of blocks from 0, 0. The distance filtering depends on two settings: <code>filter_distance</code> and <code>filter_distance_type</code>.
+                            <br>
+                            <code>filter_distance</code> determines the radius that the filter will check for biomes and structures and <code>filter_distance_type</code> determines how the filter will calculate that distance. <code>filter_distance_type</code> has two options: circular and square. circular uses Euclidean distance to check for valid locations and square uses Chebyshev distance to check for valid locations (essentially a square around 0, 0). For example, with a setting radius of 1000 set to a square distance type, the "Locate Ocean Monument" goal will only be on the board if an ocean monument is within -1000, -1000 to 1000, 1000.
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h1>COMMANDS</h1>
+                </section>
             </div>
         </div>
     </main>

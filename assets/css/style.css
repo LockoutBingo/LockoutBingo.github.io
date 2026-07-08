@@ -822,6 +822,129 @@ h2 {
     background-color: #604a3360;
 }
 
+/* GAMEPLAY */
+.gameplay-header {
+    margin: 0 40px;
+    padding-bottom: 2rem;
+}
+
+.gameplay-header h1,
+.gameplay-page > section > h1 {
+    margin: 0;
+    font-family: "Minecraft";
+    text-shadow: 3px 3px #000;
+    filter: drop-shadow(0 0 8px #000);
+}
+
+.gameplay-page {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.gameplay-gamemodes {
+    display: flex;
+    flex-direction: row;
+    padding: 0 45px;
+    gap: 45px;
+    text-align: center;
+}
+
+.gameplay-gamemodes div {
+    padding: 1rem;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.gameplay-gamemodes h3 {
+    text-align: center;
+    margin: 0 2rem 1rem;
+    color: #fff;
+}
+
+.gameplay-gamemodes small {
+    color: #aaa
+}
+
+.blackout-gamemode {
+    color: #f1fdff;
+    background-color: #1b677040;
+    border: 3px solid #1b6770;
+}
+
+.blackout-gamemode h3 {
+    border-bottom: 1px solid #1b6770;
+}
+
+.goalrush-gamemode {
+    color: #fff0f2;
+    background-color: #9a2e3d40;
+    border: 3px solid #9a2e3d;
+}
+
+.goalrush-gamemode h3 {
+    border-bottom: 1px solid #9a2e3d;
+}
+
+.lockout-gamemode {
+    color: #fff9f1;
+    background-color: #bb894440;
+    border: 3px solid #bb8944;
+}
+
+.lockout-gamemode h3 {
+    border-bottom: 1px solid #bb8944;
+}
+
+.gamemode-pictures {
+    display: flex;
+    flex-direction: row;
+    padding: 0 45px;
+    gap: 45px;
+}
+
+.goal-filtering {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    row-gap: 1rem;
+}
+
+.goal-filtering h1 {
+    margin: 0 4rem 0.5rem;
+    border-bottom: 1px solid #777;
+
+    font-family: "Minecraft";
+    text-shadow: 3px 3px #000;
+    filter: drop-shadow(0 0 8px #000);
+    text-align: center;
+}
+
+.goal-filtering h2 {
+    margin: 0;
+
+    font-family: "Minecraft";
+    color: #ddd;
+    filter: drop-shadow(0 0 8px #000);
+    text-align: center;
+}
+
+.filter-info {
+    padding: 1.4rem 2rem;
+    background-color: #27282b;
+    border: 3px solid #111111;
+    border-radius: 8px;
+
+    color: #ccc;
+}
+
+.filter-info code {
+    background-color: #161820;
+    border-radius: 8px;
+    padding: 0.2rem 0.4rem;
+    font-weight: bold;
+}
+
 @font-face {
     font-family: "Minecraft";
     src: url("../fonts/MinecraftRegular.woff2") format("woff2");
@@ -850,7 +973,13 @@ h2 {
         display: none;
     }
 
-    .download-page {
+    .download-page section {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1280px) {
+    .gameplay-gamemodes {
+        flex-direction: column;
     }
 }
